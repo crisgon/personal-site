@@ -1,9 +1,11 @@
-import { Header } from "@/components/Header";
-import "./globals.css";
-import type { Metadata } from "next";
+import { Header } from "@/components/header";
 import { Roboto } from "next/font/google";
-import { Footer } from "@/components/Footer";
+import { Footer } from "@/components/footer";
+
 import Link from "next/link";
+import type { Metadata } from "next";
+
+import "./globals.css";
 
 const roboto = Roboto({ weight: "300", subsets: ["latin"] });
 
@@ -20,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${roboto.className}  max-w-7xl min-h-screen m-auto flex flex-col p-5`}
+        className={`${roboto.className}  max-w-4xl min-h-screen m-auto flex flex-col p-5 bg-[url('/bg.png')] bg-cover bg-center bg-no-repeat`}
       >
         <Header.Root>
           <Header.Logo />

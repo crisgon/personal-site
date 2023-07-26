@@ -6,7 +6,7 @@ interface RootHeaderProps {
 
 export function RootHeader({ children }: RootHeaderProps) {
   return (
-    <header className="flex items-center justify-between p-4 ">
+    <header className="flex items-center justify-between py-4">
       {children}
     </header>
   );
