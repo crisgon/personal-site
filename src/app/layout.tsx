@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${roboto.className}  max-w-4xl min-h-screen m-auto flex flex-col p-5 bg-[url('/bg.png')] bg-cover bg-center bg-no-repeat`}
+        className={`${roboto.className}  max-w-4xl min-h-screen m-auto flex flex-col p-5 bg-[url('/bg-2.png')] bg-cover bg-center bg-no-repeat`}
       >
         <Header.Root>
           <Header.Logo />
