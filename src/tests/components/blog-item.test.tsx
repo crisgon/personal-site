@@ -6,7 +6,7 @@ test("Should render the post component", async function () {
     <BlogItem
       title={"Titulo 1"}
       readingTimeInSeconds={60}
-      date={new Date("2023-07-25T22:00:00")}
+      formattedDate="06 abr 2023"
       link={"/titulo_1"}
     />,
   );
@@ -22,12 +22,12 @@ test("Should render the date formated correctly", async function () {
     <BlogItem
       title={"Titulo 1"}
       readingTimeInSeconds={60}
-      date={new Date("2023-07-25T22:00:00")}
+      formattedDate="06 abr 2023"
       link={"/titulo_1"}
     />,
   );
 
-  const date = await screen.findByText("25 de julho de 2023");
+  const date = await screen.findByText("06 abr 2023");
   expect(date).toBeInTheDocument();
 });
 
@@ -35,8 +35,8 @@ test("Should render the reading time formated correctly", async function () {
   render(
     <BlogItem
       title={"Titulo 1"}
-      readingTimeInSeconds={175}
-      date={new Date("2023-07-25T22:00:00")}
+      readingTimeInSeconds={3}
+      formattedDate="06 abr 2023"
       link={"/titulo_1"}
     />,
   );

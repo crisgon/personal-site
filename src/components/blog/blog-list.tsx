@@ -1,11 +1,10 @@
 import { BlogItem } from "./blog-item";
 
 interface Post {
-  id: string;
+  slug: string;
   title: string;
-  date: Date;
-  readingTimeInSeconds: number;
-  link: string;
+  formattedDate: string;
+  readingTime: number;
 }
 
 interface BlogListProps {
@@ -17,11 +16,11 @@ export function BlogList({ posts }: BlogListProps) {
     <div className="mt-8">
       {posts.map(post => (
         <BlogItem
-          key={post.id}
+          key={post.slug}
           title={post.title}
-          readingTimeInSeconds={post.readingTimeInSeconds}
-          date={post.date}
-          link={post.link}
+          readingTimeInSeconds={post.readingTime}
+          formattedDate={post.formattedDate}
+          link={`blog/${post.slug}`}
         />
       ))}
     </div>

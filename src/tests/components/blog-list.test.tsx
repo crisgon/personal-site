@@ -6,18 +6,16 @@ test("Should render the blog post list", async function () {
     <BlogList
       posts={[
         {
-          id: "1",
           title: "Titulo 1",
-          date: new Date(),
-          readingTimeInSeconds: 60,
-          link: "/titulo_1",
+          formattedDate: "21 abr 2023",
+          readingTime: 60,
+          slug: "/titulo_1",
         },
         {
-          id: "2",
           title: "Titulo 2",
-          date: new Date(),
-          readingTimeInSeconds: 120,
-          link: "/titulo_2",
+          formattedDate: "21 abr 2023",
+          readingTime: 120,
+          slug: "/titulo_2",
         },
       ]}
     />,
