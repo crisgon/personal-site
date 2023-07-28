@@ -5,7 +5,7 @@ resume: >-
   desistiu por não ter o que mostrar? E quantas vezes alegamos que não tivemos
   oportunidade de trabalhar com a tecnologia X ou Y?
 date: "2018-01-18 12:49:00"
-image: assets/img/30days30sites.png
+image: /assets/img/30days30sites.png
 category: HTML
 tagColor: "#e67e22"
 ---
@@ -16,7 +16,7 @@ Muitas vezes damos a desculpa de não ter um portfólio por nunca ter trabalhado
 
 Nesse post eu vou contar um pouco sobre minha jornada com o desafio [30 Days 30 Sites](https://www.subscribepage.com/30days30sites).
 
-![30 dias 30 sites](assets/img/30days30sites.png "30 dias 30 sites")
+![30 dias 30 sites](/assets/img/30days30sites.png "30 dias 30 sites")
 
 ### Aceitando o desafio
 
@@ -30,7 +30,7 @@ Na reta final eu ainda tive a oportunidade de usar o CSS Grid e consegui bons re
 
 ### [](https://crisgon.github.io/posts/Minha-jornada-criando-30-sites-em-30-dias/#Trabalhando-com-temas-que-gosto "Trabalhando com temas que gosto")Trabalhando com temas que gosto
 
-![Site 26: Jogo do Star Wars](assets/img/starwars.png "Site 26: Jogo do Star Wars")
+![Site 26: Jogo do Star Wars](/assets/img/starwars.png "Site 26: Jogo do Star Wars")
 
 Como havia dito anteriormente, o desafio nos possibilita liberdade para construir aquilo que desejamos. Graças a isso pude construir sites de temas que gosto e isso dá uma certa motivação para continuar.
 
@@ -45,7 +45,7 @@ Eu iniciei minha jornada no fim do semestre da faculdade, ou seja, fiz algo muit
 
 Os feedbacks em geral são dados no Twitter ou por meio do grupo do facebook, onde você simplesmente compartilha seu trabalho e recebe opiniões sobre ele.
 
-![Feedbacks no facebook](assets/img/feedbacks.png "Feedbacks no facebook")
+![Feedbacks no facebook](/assets/img/feedbacks.png "Feedbacks no facebook")
 
 Durante os feedbacks, provavelmente você vai precisar explicar como fez determinada parte do site ou como utilizar determinada tecnologia. Isso é muito bom, pois é explicando que se aprende!
 

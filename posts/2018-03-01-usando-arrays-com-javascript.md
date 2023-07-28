@@ -3,7 +3,7 @@ title: Usando Arrays com JavaScript
 resume: >-
   O uso de arrays no javascript é algo bastante comum devido a sua facilidade e a sua grande quantidade de métodos para diversas situações diferentes.
 date: "2018-02-03 18:41:00"
-image: assets/img/javascriptWallpaper.jpg
+image: /assets/img/javascriptWallpaper.jpg
 category: JS
 tagColor: "#f1c40f"
 ---
@@ -38,7 +38,7 @@ var nomes = [
   "Valentina",
   "Enzo",
   "Samanta",
-  "Suelen"
+  "Suelen",
 ];
 ```
 
@@ -91,7 +91,7 @@ O que aconteceu é que as outras posições carregam o valor undefined, isso ind
   undefined,
   undefined,
   undefined,
-  "Ka"
+  "Ka",
 ];
 ```
 
@@ -331,17 +331,18 @@ Esses são apenas alguns dos métodos presentes no objeto array, coloquei os que
 
       	novoArray = meuArray.concat(outroArray);
 
+  //Resultado do novoArray
+  [
+  {nome: 'Cristiano', idade: 22},
+  {nome: 'Marcia', idade: 27},
+  {nome: 'Alan', idade: 12},
+  {nome: 'Marta', idade: 45},
+  {nome: 'Ananda', idade: 17}
+  ];
 
-    //Resultado do novoArray
-     [
-    	{nome: 'Cristiano', idade: 22},
-    	{nome: 'Marcia', idade: 27},
-    	{nome: 'Alan', idade: 12},
-    	{nome: 'Marta', idade: 45},
-    	{nome: 'Ananda', idade: 17}
-    ];
+  ```
 
-    ```
+  ```
 
 Uma coisa interessante é que o array passado como argumento é sempre concatenado ao final.
 

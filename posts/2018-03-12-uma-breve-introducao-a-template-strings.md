@@ -3,7 +3,7 @@ title: Uma breve introdução à Template Strings
 resume: >-
   Utilizar + para concatenar strings não é algo mais tão moderno, pois atualmente podemos usar algo bem mais bacana chamado template literal.
 date: "2018-03-12 20:41:00"
-image: assets/img/javascriptWallpaper.jpg
+image: /assets/img/javascriptWallpaper.jpg
 category: JS
 tagColor: "#f1c40f"
 ---
@@ -71,8 +71,8 @@ Antes de finalizar vou deixar um exemplo muito interessante do uso do Template S
 card = `
     <div class="pokemon-picture">
       <img src="${pokemon.sprites.front_default}" alt="Sprite of ${
-  pokemon.name
-}">
+        pokemon.name
+      }">
     </div>
     <div class="pokemon-info">
         <h1 class="name">Name: ${pokemon.name}</h1>

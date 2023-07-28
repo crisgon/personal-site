@@ -8,7 +8,7 @@ resume: >-
   tornam toda configuração de um projeto bastante transparente e vemos apenas a
   mágica acontecer...
 date: "2020-08-02 10:28:25"
-image: assets/img/webpack.png
+image: /assets/img/webpack.png
 category: JS
 tagColor: "#f1c40f"
 ---
@@ -19,7 +19,7 @@ Ultimamente tem se tornado cada vez menos comum configurar o webpack do zero em 
 
 ### O que é?
 
-![Webpack](assets/img/webpack.png)
+![Webpack](/assets/img/webpack.png)
 
 De forma bem resumida, **o webpack é um empacotador de módulos**. Ele vai cuidar de pegar uma série de arquivos de entrada(com todas as suas dependências), trabalhar em cima desses arquivos(geralmente com ajudas de terceiros) e te oferecer um(ou vários) arquivo(s) de saída. Claro que essa ferramente não se resume apenas a isso, mas a imagem que você viu logo acima é um print do [webpack](https://webpack.js.org/) que ilustra bem o seu funcionamento base.
 
@@ -29,7 +29,7 @@ De forma bem resumida, **o webpack é um empacotador de módulos**. Ele vai cuid
 
 Nosso ponto de partida será essa a estrutura de pastas abaixo.
 
-![Estrutura inicial de pastas](assets/img/webpack-basic-folder.png "Estrutura inicial de pastas")
+![Estrutura inicial de pastas](/assets/img/webpack-basic-folder.png "Estrutura inicial de pastas")
 
 Todos os arquivos foram criados manualmente e vazios, com exceção dos `packages` que gerei utilizando o comando `npm init -y` .
 

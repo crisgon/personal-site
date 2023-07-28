@@ -3,15 +3,16 @@ title: Iniciando com React Hooks - useCallback
 resume: Ter uma aplicação performática é uma das grandes preocupações do mundo
   web e React nos ajuda a cuidar disso com alguns hooks.
 date: 2021-06-02 10:21:26
-image: assets/img/react.png
+image: /assets/img/react.png
 category: React
 tagColor: "#3498db"
 ---
+
 Hey, esse artigo faz parte de uma série sobre react hooks. Se você ainda não leu os artigos passados, da uma conferida nos links abaixo:
 
-* [Iniciando com React Hooks - useState](https://www.crisgon.dev/iniciando-com-react-hooks-usestate/)
-* [iniciando com React Hooks  - useEffect](https://www.crisgon.dev/iniciando-com-react-hooks-useeffect/)
-* [iniciando com React Hooks  - useMemo](https://www.crisgon.dev/iniciando-com-react-hooks-usememo/)
+- [Iniciando com React Hooks - useState](https://www.crisgon.dev/iniciando-com-react-hooks-usestate/)
+- [iniciando com React Hooks - useEffect](https://www.crisgon.dev/iniciando-com-react-hooks-useeffect/)
+- [iniciando com React Hooks - useMemo](https://www.crisgon.dev/iniciando-com-react-hooks-usememo/)
 
 Estamos sempre procurando alternativas para deixar nossas aplicações cada vez melhores e uma das formas de fazer isso é as tornando performáticas.
 
@@ -25,11 +26,11 @@ Antes de prosseguir é importante ressaltar que devemos sempre evitar [otimizaç
 
 Seu uso é bastante simples e bem fácil de entender!
 
- Basicamente, o hook useCallback memoiza(guarda) sua função e evita que ela seja redeclarada sempre que componentes filhos que utilizam essa função sejam renderizado. A função só vai ser redeclarada quando algum dos valores do array de dependência forem atualizados.
+Basicamente, o hook useCallback memoiza(guarda) sua função e evita que ela seja redeclarada sempre que componentes filhos que utilizam essa função sejam renderizado. A função só vai ser redeclarada quando algum dos valores do array de dependência forem atualizados.
 
-Ai você se questiona... "Mas qual o real objetivo do useCallback?" 
+Ai você se questiona... "Mas qual o real objetivo do useCallback?"
 
-![Will smith com dúvida](assets/img/will.gif "Will smith com dúvida")
+![Will smith com dúvida](/assets/img/will.gif "Will smith com dúvida")
 
 Para explicar isso é preciso entender um pouco sobre igualdade de funções no javascript.
 
@@ -37,14 +38,14 @@ Para explicar isso é preciso entender um pouco sobre igualdade de funções no 
 
 ```javascript
 function calc() {
- return (a, b) => a + b;
+  return (a, b) => a + b;
 }
 
 const soma = calc();
 const soma2 = calc();
 
-soma(2,2); // 4
-soma2(2,2); // 4
+soma(2, 2); // 4
+soma2(2, 2); // 4
 
 soma === soma2; // false
 soma2 === soma2; // false
@@ -78,13 +79,13 @@ function MyComponent() {
 
 Você deve ter notado que a estrutura do useCallback é como a de outros hooks, sempre recebendo uma função como primeiro parâmetro e um array de dependências como segundo argumento.
 
-> Importante!! A funcão declarada com useCallback só vai ser redeclarada quando um dos itens do array de dependencia forem modificados. Caso contrário a funcão vai se manter a mesma caso o componente seja rerenderizado. 
+> Importante!! A funcão declarada com useCallback só vai ser redeclarada quando um dos itens do array de dependencia forem modificados. Caso contrário a funcão vai se manter a mesma caso o componente seja rerenderizado.
 
 ### Quando useCallback é uma boa escolha
 
 Imagine que temos uma página com uma lista de filmes que são buscados em uma api com base em uma categoria. Nessa mesma página também podemos filtrar os filmes por status (lançado ou não).
 
-Você concorda que a função que trata categoria só deveria ser redeclarada quando a categoria mudar? E não quando a lista for atualizada por conta do status? 
+Você concorda que a função que trata categoria só deveria ser redeclarada quando a categoria mudar? E não quando a lista for atualizada por conta do status?
 
 É exatamente isso que o useCallback abaixo faz. A função onMovieClick só vai ser redeclarada quando a categoria altera, logo, não importa quantas vezes você alterar o filtro de status, essa função vai se manter a mesma.
 
@@ -98,26 +99,24 @@ function MovieList({ category, handleMovieClick }) {
 }
 
 export default function Container({ category }) {
-  const onMovieClick = useCallback(event => {
-    console.log('Clicou', event.currentTarget);
-  }, [category]);
-
-  return (
-    <MovieList
-      category={category}
-      handleItemClick={onMovieClick}
-    />
+  const onMovieClick = useCallback(
+    event => {
+      console.log("Clicou", event.currentTarget);
+    },
+    [category],
   );
+
+  return <MovieList category={category} handleItemClick={onMovieClick} />;
 }
 ```
 
 ### Muito cuidado!!
 
-É preciso tomar muito cuidado ao optar por usar useCallback pelos seguintes motivos: 
+É preciso tomar muito cuidado ao optar por usar useCallback pelos seguintes motivos:
 
-* você vai adicionar mais complexidade ao seu código e talvez o custo de manutenção seja maior que o ganho em desempenho.
-* algumas funções são simples e aceitáveis de serem rerenderizadas.
-* otimização prematura pode ser problemática
+- você vai adicionar mais complexidade ao seu código e talvez o custo de manutenção seja maior que o ganho em desempenho.
+- algumas funções são simples e aceitáveis de serem rerenderizadas.
+- otimização prematura pode ser problemática
 
 ### Isso é tudo pessoal!
 
@@ -129,7 +128,7 @@ Fique atento(a) aqui no blog e no meu [twitter](https://twitter.com/Gonkristiano
 
 ### Links importantes
 
-* [Documentação do react](https://pt-br.reactjs.org/docs/getting-started.html)
-* [Your Guide to React.useCallback()](https://dmitripavlutin.com/dont-overuse-react-usecallback/)
-* [When to useMemo and useCallback](https://kentcdodds.com/blog/usememo-and-usecallback)
-* [How to useCallback in React](https://www.robinwieruch.de/react-usecallback-hook)
+- [Documentação do react](https://pt-br.reactjs.org/docs/getting-started.html)
+- [Your Guide to React.useCallback()](https://dmitripavlutin.com/dont-overuse-react-usecallback/)
+- [When to useMemo and useCallback](https://kentcdodds.com/blog/usememo-and-usecallback)
+- [How to useCallback in React](https://www.robinwieruch.de/react-usecallback-hook)

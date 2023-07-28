@@ -3,7 +3,7 @@ title: Desenhando com box shadow
 resume: >-
   Sempre me deparei com uma ou outra pixel art com css e meus primeiros pensamentos eram que eu não conseguiria fazer, que era muito difícil... mas não é bem assim.
 date: "2018-02-02 11:41:00"
-image: assets/img/wallpaperblog.jpg
+image: /assets/img/wallpaperblog.jpg
 category: CSS
 tagColor: "#8e44ad"
 ---
@@ -36,7 +36,9 @@ box-shadow: 0 0 10px #000;
 Esse foi o uso básico de uma sombra, porém esse uso pode ir um pouco além com o uso de multiplas sombras.
 
 ```css
-box-shadow: 0 0 10px #000, 10px 10px 50px #ff0;
+box-shadow:
+  0 0 10px #000,
+  10px 10px 50px #ff0;
 /*Aqui temos duas sombras*/
 ```
 
@@ -56,7 +58,9 @@ Iremos criar 4 quadrados coloridos, um quadrado será o próprio elemento e os o
   width: 40px;
   height: 40px;
   box-shadow:
-  /*Linha 1 coluna 2*/ 40px 0 #55efc4, /*Linha 2 coluna 1*/ 0px 40px #00b894,
+  /*Linha 1 coluna 2*/
+    40px 0 #55efc4,
+    /*Linha 2 coluna 1*/ 0px 40px #00b894,
     /*Linha 2 coluna 2*/ 40px 40px #00cec9;
 }
 ```
@@ -84,9 +88,12 @@ Se quisermos criar um elemento 3x3 o código ficará assim:
   width: 40px;
   height: 40px;
   box-shadow:
-  /*Linha 1 coluna 2*/ 40px 0 #55efc4, /*Linha 1 coluna 3*/ 80px 0px #00cec9,
-    /*Linha 2 coluna 1*/ 0px 40px #00b894, /*Linha 2 coluna 2*/ 40px 40px
-      #00cec9, /*Linha 2 coluna 3*/ 80px 40px #00b894;
+  /*Linha 1 coluna 2*/
+    40px 0 #55efc4,
+    /*Linha 1 coluna 3*/ 80px 0px #00cec9,
+    /*Linha 2 coluna 1*/ 0px 40px #00b894,
+    /*Linha 2 coluna 2*/ 40px 40px #00cec9,
+    /*Linha 2 coluna 3*/ 80px 40px #00b894;
 }
 ```
 

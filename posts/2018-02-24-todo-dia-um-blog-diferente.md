@@ -4,14 +4,14 @@ resume: >-
   No momento em que vivemos, não é tão difícil encontrar artigos sobre
   tecnologia, em especial sobre desenvolvimento. Mas sempre tem espaço pra mais um...
 date: "2018-01-17 11:41:00"
-image: assets/img/wallpaperblog.jpg
+image: /assets/img/wallpaperblog.jpg
 category: Geral
 tagColor: "#e056fd"
 ---
 
 No momento em que vivemos, não é tão difícil encontrar artigos sobre tecnologia, em especial sobre desenvolvimento. Basta dar uma pesquisada no google~~(bing, yahoo, duck duck go ou seja lá qual buscador você use)~~que vamos nos deparar com artigos dos mais diversos assuntos, sejam escritos em blogs pessoais ou até mesmo em uma plataforma como o [medium](https://medium.com/).
 
-![Notebook ao lado de um bloco de notas](assets/img/wallpaperblog.jpg)
+![Notebook ao lado de um bloco de notas](/assets/img/wallpaperblog.jpg)
 
 ### Mas se já existe tantos blogs, por que criar mais um?
 
@@ -35,7 +35,7 @@ Provavelmente você já deve ter feito isso, de maneira involuntária, ao tentar
 
 Se você ficou interessado, existe uma técnica chamada[“Técnica de Feyman”](https://www.youtube.com/watch?v=CN_SCpGuJ_w) que aborda exatamente essa forma de estudo.
 
-![Técnica Feyman](assets/img/tecnicadefeyman.jpg "Técnica Feyman")
+![Técnica Feyman](/assets/img/tecnicadefeyman.jpg "Técnica Feyman")
 
 ### Documentar o aprendizado
 

@@ -3,14 +3,14 @@ title: Tipos de dados Javascript
 resume: >-
   Estive estudando sobre tipos primitivos do javascript e resolvi compartilhar o “pequeno” resumo que fiz durante meus estudos, é algo bem introdutório, mas pode ajudar quem está iniciando.
 date: "2018-01-25 10:09:00"
-image: assets/img/javascriptWallpaper.jpg
+image: /assets/img/javascriptWallpaper.jpg
 category: JS
 tagColor: "#f1c40f"
 ---
 
 Como já tinha comentado em outro [post](https://crisgon.github.io/posts/Todo-dia-um-blog-diferente/), esse blog foi criado para documentar e compartilhar meu estudo sobre tecnologias front end. Essa semana eu retomei os estudos sobre Javascript(JS) e decidi começar do básico, pois quero entender bem sobre os princípios da linguagem. Inicialmente eu estudei sobre os tipos primitivos da linguagem e resolvi compartilhar o “pequeno” resumo que fiz durante meus estudos, é algo bem introdutório, mas é um pouco do que entendi sobre o assunto.
 
-![Xícara com desenho do Javascript](assets/img/javascriptWallpaper.jpg "Xícara com desenho do Javascript")
+![Xícara com desenho do Javascript](/assets/img/javascriptWallpaper.jpg "Xícara com desenho do Javascript")
 
 Antes de falar sobre os tipos primitivos de dados é preciso comentar sobre algo de grande importância na linguagem Javascript. Ela não é uma linguagem fortemente tipada, isso quer dizer que não precisamos declarar o tipo da variável no ato da criação. Ou seja, não precisamos dizer se ela vai ser um inteiro, um caractere, simplismente declaramos um valor.
 
@@ -411,9 +411,9 @@ delete pessoa.idade;
 var meuObjeto = {
   numeros: [1, 2, 3, 4],
   outrosObjetos: { objetoUm: "Um", objetoDois: 2 },
-  funcao: function() {
+  funcao: function () {
     return "Item de um objeto";
-  }
+  },
 };
 ```
 
@@ -438,7 +438,7 @@ var soma = function soma(a, b) {
   return a + b;
 };
 // Ou
-var soma = function(a, b) {
+var soma = function (a, b) {
   return a + b;
 };
 ```
@@ -456,7 +456,7 @@ function soma(a, b) {
 // Isso não é possível
 soma();
 
-var soma = function(a, b) {
+var soma = function (a, b) {
   return a + b;
 };
 ```

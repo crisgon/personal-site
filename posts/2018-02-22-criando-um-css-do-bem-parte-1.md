@@ -3,7 +3,7 @@ title: Criando um CSS do BEM - Parte 1
 resume: >-
   Provavelmente você, assim como eu, deve passar por dificuldades ao nomear uma classe CSS e depois de muito esforço cria essa classe com um nome nada legal e com pouco significado.
 date: "2018-02-02 13:41:00"
-image: assets/img/frustrated_man.jpg
+image: /assets/img/frustrated_man.jpg
 category: CSS
 tagColor: "#8e44ad"
 ---
@@ -12,7 +12,7 @@ Provavelmente você, assim como eu, deve passar por dificuldades ao nomear uma c
 
 Que processo complicado, não? Se para quem escreveu o CSS essa situação já é confusa, imagine para um colega de trabalho ou para alguém da comunidade que quer contribuir com seu projeto e não consegue pois seu código não possui um padrão. E mesmo que alguém resolva contribuir com seu projeto, sem um padrão as coisas só tendem a piorar. É por isso que nesse artigo iremos ver um pouco sobre como padronizar o CSS utilizando a metodologia BEM.
 
-![Programador com as mãos na cabeça em frente ao computador](assets/img/frustrated_man.jpg)
+![Programador com as mãos na cabeça em frente ao computador](/assets/img/frustrated_man.jpg)
 
 ### BEM ( Block\_\_Element_Modifier)
 

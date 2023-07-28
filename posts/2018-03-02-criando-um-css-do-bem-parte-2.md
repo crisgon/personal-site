@@ -3,7 +3,7 @@ title: Criando um CSS do BEM - Parte 2
 resume: >-
   Dando continuiade aos estudos com BEM, hoje vamos ver alguns detalhes sobre organização de arquivos seguindo essa metodologia.
 date: "2018-03-02 13:41:00"
-image: assets/img/frustrated_man.jpg
+image: /assets/img/frustrated_man.jpg
 category: CSS
 tagColor: "#8e44ad"
 ---
@@ -12,7 +12,7 @@ tagColor: "#8e44ad"
 
 Na [parte 1](https://www.crisgon.dev/criando-um-css-do-bem-parte-1/) desse artigo falamos um pouco sobre como nomear uma classe significativa e reaproveitável utilizando BEM, porém existem mais alguns pontos importantes para escrever um CSS seguindo essa metodologia, como a organização de arquivos, um dos assuntos que iremos ver por aqui.
 
-![Logo do BEM](assets/img/bemlogo.png "Logo do BEM")
+![Logo do BEM](/assets/img/bemlogo.png "Logo do BEM")
 
 #### Algumas considerações importantes
 
@@ -47,7 +47,7 @@ Não basta simplemente criar uma classe separada por (\_\_) para ter um CSS no p
 
 ### Estrutura de arquivos
 
-![Uma mão deslizando sobre livros em uma prateleira](assets/img/books.jpg "Estante com muitos livros")
+![Uma mão deslizando sobre livros em uma prateleira](/assets/img/books.jpg "Estante com muitos livros")
 
 A estrutura de arquivos do BEM é tão peculiar quanto a forma em que suas classes são nomeadas, porém existe uma lógica por trás de tudo. Os arquivos são bem fragmentados, o que pode facilitar na manutenção, pois quando existir algum problema você pode ir direto no arquivo do bloco em questão.
 

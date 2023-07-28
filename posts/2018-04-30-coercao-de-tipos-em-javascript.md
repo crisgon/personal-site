@@ -97,7 +97,7 @@ a < b; // false
 a == b; // false
 ```
 
-![Furutama meme - Algo de errado não está certo](assets/img/deolho.jpg)
+![Furutama meme - Algo de errado não está certo](/assets/img/deolho.jpg)
 
 #### Não, não tem nada errado! Mas essa é uma grande pegadinha!!
 

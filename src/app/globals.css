@@ -27,6 +27,41 @@ body {
   background-color: #08070b;
 }
 
+.article {
+  @apply text-slate-300 leading-8;
+
+  a {
+    @apply  text-transparent bg-clip-text bg-gradient-to-r from-orange-600 to-pink-600 border-b border-orange-600;
+  }
+
+  p {
+    @apply pb-4;
+  }
+
+  h2 {
+    @apply text-white py-4 mt-4 text-3xl font-normal;
+  } 
+  h3 {
+    @apply text-white py-4 mt-4  text-2xl font-normal;
+  }
+
+  ul {
+    @apply list-disc pl-8 py-2;
+  }
+  
+  li {
+    @apply py-2;
+  }
+
+  img {
+    @apply rounded-lg block m-auto;
+  }
+
+  blockquote {
+    @apply pl-6 my-4 border-l-4 border-slate-500 text-white;
+  }
+}
+
 @font-face {
   font-family: "Bungee";
   src: url("../../public/fonts/Bungee-Regular.ttf");

@@ -1,6 +1,7 @@
 import { Header } from "@/components/header";
 import { Roboto } from "next/font/google";
 import { Footer } from "@/components/footer";
+import "../../public/css/highlightjs.css";
 
 import Link from "next/link";
 import type { Metadata } from "next";
