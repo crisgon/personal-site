@@ -1,11 +1,11 @@
 const career = [
-  {
-    imgUrl: "/aarin.jpeg",
-    title: "Front End Developer",
-    link: "https://aarin.com.br/",
-    date: "ago de 2023 - atual",
-    company: "Aarin Tech-fin",
-  },
+  // {
+  //   imgUrl: "/aarin.jpeg",
+  //   title: "Front End Developer",
+  //   link: "https://aarin.com.br/",
+  //   date: "ago de 2023 - atual",
+  //   company: "Aarin Tech-fin",
+  // },
   {
     imgUrl: "/zak.png",
     title: "Tech Lead & Front End Developer",

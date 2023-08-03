@@ -24,7 +24,11 @@ export function CareerItem({
       <div>
         <h4 className="text-white font-bold">{title}</h4>
         <p className="flex gap-2">
-          <a href={link} target="_blank" className="primary-gradient-text">
+          <a
+            href={link}
+            target="_blank"
+            className="primary-gradient-text border-b border-orange-600/0 hover:border-orange-600 transition-all"
+          >
             {company}
           </a>
           <span className="text-zinc-500">●</span>

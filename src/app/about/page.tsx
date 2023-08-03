@@ -24,15 +24,40 @@ export default function About() {
         </p>
       </header>
 
-      <section className="flex flex-col lg:flex-row gap-6">
-        <div className="w-full max-w-sm h-60 lg:h-80 flex justify-center items-center rounded overflow-hidden m-auto mt-8">
+      <section className="flex flex-col lg:flex-row-reverse gap-6">
+        <div>
           <Image
             src="/cristiano.jpg"
             alt="Foto do Cristiano, autor do site"
             width={350}
             height={252}
-            className="w-full"
+            className="rounded-lg mb-4 mt-8 object-cover max-h-96 min-h-96 bg-top bg-[#1d1d20]"
           />
+          <a
+            href="https://docs.google.com/document/d/1USHzCGO5R0VN6gcJDwJBtP1bitgmOO9xoHMzDynNwlo/edit?usp=sharing"
+            target="_blank"
+            className="flex items-center justify-center bg-zinc-700/50 bg-clip-padding backdrop-filter backdrop-blur-lg  rounded p-3 border border-white/0 hover:cursor-pointer  hover:border-white/50 transition-all"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="mr-4"
+            >
+              <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z" />
+              <polyline points="14 2 14 8 20 8" />
+              <line x1="16" x2="8" y1="13" y2="13" />
+              <line x1="16" x2="8" y1="17" y2="17" />
+              <line x1="10" x2="8" y1="9" y2="9" />
+            </svg>
+            Download Resumo
+          </a>
         </div>
 
         <div className="flex-1">
@@ -50,41 +75,42 @@ export default function About() {
               ocasionalmente me aventurar no mundo do Design.
             </p>
           </div>
-        </div>
-      </section>
 
-      <section>
-        <p className="leading-8 mt-4">
-          Sou bacharel em Sistemas de Informação pela Universidade do Estado da
-          Bahia e tenho me dedicado a aprimorar minhas habilidades como
-          desenvolvedor de software, além de estudar sobre liderança e gestão.
-          Também gosto de compartilhar minhas experiências e aprendizados no
-          mundo, pois acredito no poder da colaboração e no crescimento
-          coletivo.
-        </p>
+          <p className="leading-8 mt-4">
+            Sou bacharel em Sistemas de Informação pela Universidade do Estado
+            da Bahia e tenho me dedicado a aprimorar minhas habilidades como
+            desenvolvedor de software, além de estudar sobre liderança e gestão.
+            Também gosto de compartilhar minhas experiências e aprendizados,
+            pois acredito no poder da colaboração e no crescimento coletivo.
+          </p>
 
-        <h2 className="text-white py-4 mt-4 text-2xl font-normal">Carreira</h2>
+          <h2 className="text-white py-4 mt-4 text-2xl font-normal">
+            Carreira
+          </h2>
 
-        {career.map((c, index) => (
+          {career.map((c, index) => (
+            <CareerItem
+              key={c.title + index}
+              company={c.company}
+              date={c.date}
+              imgUrl={c.imgUrl}
+              link={c.link}
+              title={c.title}
+            />
+          ))}
+
+          <h2 className="text-white py-4 mt-4 text-2xl font-normal">
+            Formação
+          </h2>
+
           <CareerItem
-            key={c.title + index}
-            company={c.company}
-            date={c.date}
-            imgUrl={c.imgUrl}
-            link={c.link}
-            title={c.title}
+            company="UNEB"
+            date="2012 -  2018"
+            imgUrl="/uneb.png"
+            link="https://portal.uneb.br/campus-alagoinhas/"
+            title="Bacharel em  Sistemas de Informação"
           />
-        ))}
-
-        <h2 className="text-white py-4 mt-4 text-2xl font-normal">Formação</h2>
-
-        <CareerItem
-          company="UNEB"
-          date="2012 -  2018"
-          imgUrl="/uneb.png"
-          link="https://portal.uneb.br/campus-alagoinhas/"
-          title="Bacharel em  Sistemas de Informação"
-        />
+        </div>
       </section>
     </main>
   );

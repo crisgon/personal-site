@@ -6,7 +6,7 @@ const roboto = Roboto_Condensed({ weight: "400", subsets: ["latin"] });
 
 export function Profiler() {
   return (
-    <div className={`${roboto.className}`}>
+    <div className={`${roboto.className} `}>
       <div className="grid grid-cols-[1fr_auto] items-center lg:gap-4 w-full max-w-lg">
         <h1 className={"text-4xl lg:text-5xl lg:w-full"}>
           Cristiano Gonçalves

@@ -1,6 +1,7 @@
 import { Header } from "@/components/header";
 import { Roboto } from "next/font/google";
 import { Footer } from "@/components/footer";
+
 import "../../public/css/highlightjs.css";
 
 import Link from "next/link";
@@ -28,11 +29,14 @@ export default function RootLayout({
         <Header.Root>
           <Header.Logo />
           <Header.Nav>
-            <Header.NavItem>
+            <Header.NavItem name="blog">
               <Link href="/blog">Blog</Link>
             </Header.NavItem>
-            <Header.NavItem>
+            <Header.NavItem name="about">
               <Link href="/about">Sobre</Link>
+            </Header.NavItem>
+            <Header.NavItem name="talks">
+              <Link href="/talks">Talks</Link>
             </Header.NavItem>
           </Header.Nav>
         </Header.Root>
