@@ -12,7 +12,7 @@ const talks = [
     event: "Frontend Bahia",
     link: "https://www.meetup.com/pt-BR/frontendba/events/260539460/",
     slides:
-      "https://docs.google.com/presentation/d/1zcFl346Vj3eAXx8sCnGiwVGjh1-FWrx2HjKHN_nZyAU/edit#slide=id.p",
+      "https://www.slideshare.net/CristianoGonalves13/introduo-ao-vue-jspptx",
   },
   {
     title: "A revolução do client side",
@@ -20,7 +20,7 @@ const talks = [
     event: "SICBA",
     link: "https://www.youtube.com/watch?v=CLHgv0TVJRk",
     slides:
-      "https://docs.google.com/presentation/d/1WRQsKTX36h283pyewVQLJpoYO3sjEM0VTjZ5nRnOR0k/edit#slide=id.p",
+      "https://www.slideshare.net/CristianoGonalves13/a-revoluo-do-client-side",
   },
   {
     title: "Criando aplicações interativas sem complicações com React JS",
@@ -28,7 +28,7 @@ const talks = [
     event: "Meetup Dev Alagoinhas",
     link: "https://www.sympla.com.br/evento/meetup-dev-alagoinhas/548428",
     slides:
-      "https://docs.google.com/presentation/d/12NzWuEBKLUcNK9YEKUlE6XbBklt0I6dRui3mVyWrc2o/edit#slide=id.p",
+      "https://www.slideshare.net/CristianoGonalves13/criando-aplicaes-interativas-sem-complicaes-com-react-js",
   },
   {
     title: "Hypescript Typescript!! Uma breve introdução",
@@ -36,7 +36,7 @@ const talks = [
     event: "Canal LoveBits",
     link: "https://www.youtube.com/watch?v=aVgePiyNBcw",
     slides:
-      "https://docs.google.com/presentation/d/1brFlYxxWvspcSlFqv1b4EjPnPLkVFqpD9aLiafoXQM4/edit#slide=id.g8bde8ff75b_0_18",
+      "https://www.slideshare.net/CristianoGonalves13/hypescript-typescript-uma-breve-introduo",
   },
 ];
 
