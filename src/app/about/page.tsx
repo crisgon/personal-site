@@ -1,9 +1,38 @@
+import type { Metadata } from "next";
 import { CareerItem } from "@/components/career-item/career-item";
 import { career } from "@/data/about";
 import { Roboto } from "next/font/google";
 import Image from "next/image";
 
 const roboto = Roboto({ weight: "400", subsets: ["latin"] });
+
+export async function generateMetadata(): Promise<Metadata> {
+  const description =
+    "Desenvolvedor Frontend, baiano com orgulho, amante de tecnologia, música, viagens e otaku nas horas vagas.";
+  const title = "Cristiano Gonçalves | Sobre";
+  const url = "https://www.cristiano.dev/about";
+  const thumb = "/thumb.png";
+
+  return {
+    title,
+    openGraph: {
+      url,
+      images: [thumb],
+      title,
+      description,
+    },
+    category: "technology",
+    themeColor: "black",
+    twitter: {
+      site: url,
+      images: [thumb],
+      title,
+      description,
+      card: "summary_large_image",
+      creator: "Cristiano Gonçalves",
+    },
+  };
+}
 
 export default function About() {
   return (

@@ -1,11 +1,37 @@
-import { CareerItem } from "@/components/career-item/career-item";
 import { TalkItem } from "@/components/talk-item/talk-item";
-import { career } from "@/data/about";
 import { talks } from "@/data/talks";
+import { Metadata } from "next";
 import { Roboto } from "next/font/google";
-import Image from "next/image";
 
 const roboto = Roboto({ weight: "400", subsets: ["latin"] });
+
+export async function generateMetadata(): Promise<Metadata> {
+  const description =
+    "Gosto de compartilhar minhas experiências e aprendizados, pois acredito no poder da colaboração e no crescimento coletivo.";
+  const title = "Cristiano Gonçalves | Talks";
+  const url = "https://www.cristiano.dev/talks";
+  const thumb = "/thumb.png";
+
+  return {
+    title,
+    openGraph: {
+      url,
+      images: [thumb],
+      title,
+      description,
+    },
+    category: "technology",
+    themeColor: "black",
+    twitter: {
+      site: url,
+      images: [thumb],
+      title,
+      description,
+      card: "summary_large_image",
+      creator: "Cristiano Gonçalves",
+    },
+  };
+}
 
 export default function Talks() {
   const sortedTalks = talks.sort(

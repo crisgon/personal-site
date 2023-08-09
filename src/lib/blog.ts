@@ -1,10 +1,10 @@
 import fs from "fs";
 import { join } from "path";
 
-import {formatDate} from "./date";
+import { formatDate } from "./date";
 import matter from "gray-matter";
 import readingTime from "reading-time";
-import showdown from 'showdown';
+import showdown from "showdown";
 import showdownHighlight from "showdown-highlight";
 
 const postsDirectory = join(process.cwd(), "posts");
@@ -16,6 +16,8 @@ interface Post {
   content: string;
   readingTime: number;
   title: string;
+  featuredImage: string | null;
+  resume: string | null;
 }
 
 interface ShortPost {
@@ -43,6 +45,8 @@ export function getPostBySlug(slug: string): Post | null {
     content,
     readingTime: readingTime(content).minutes,
     title: data.title,
+    featuredImage: data.featuredImage ?? null,
+    resume: data.resume ?? null,
   };
 }
 
@@ -71,15 +75,16 @@ export function getAllPosts() {
 }
 
 export async function convertMarkdownToHtml(markdown: string) {
- 
   const converter = new showdown.Converter({
-    extensions: [showdownHighlight({
-        pre: true
-    ,   auto_detection: true
-    })]
+    extensions: [
+      showdownHighlight({
+        pre: true,
+        auto_detection: true,
+      }),
+    ],
   });
 
   const result = converter.makeHtml(markdown);
 
-  return result.toString()
+  return result.toString();
 }
