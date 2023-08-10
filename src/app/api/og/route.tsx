@@ -10,7 +10,7 @@ export async function GET(request: Request) {
     const date = searchParams.get("date") ?? null;
 
     const fontData = await fetch(
-      new URL("../../../public/fonts/Roboto-Regular.ttf", import.meta.url),
+      new URL("../../../../public/fonts/Roboto-Regular.ttf", import.meta.url),
     ).then(res => res.arrayBuffer());
 
     return new ImageResponse(
