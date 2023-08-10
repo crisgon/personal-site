@@ -53,6 +53,7 @@ export default async function BlogPost({ params }: BlogPostProps) {
       title={post.title}
       formatedDate={post.formattedDate}
       content={`${content}`}
+      slug={params.slug}
     />
   );
 }

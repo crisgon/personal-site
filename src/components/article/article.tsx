@@ -1,10 +1,13 @@
+import { Comments } from "../comments/comments";
+
 interface ArticleProps {
   title: string;
   formatedDate: string;
   content: string;
+  slug: string;
 }
 
-export function Article({ title, formatedDate, content }: ArticleProps) {
+export function Article({ title, formatedDate, content, slug }: ArticleProps) {
   return (
     <article className="article my-8 mb-10">
       <header className="mb-6">
@@ -15,6 +18,8 @@ export function Article({ title, formatedDate, content }: ArticleProps) {
       </header>
 
       <div dangerouslySetInnerHTML={{ __html: content }} />
+
+      <Comments slug={slug} />
     </article>
   );
 }
