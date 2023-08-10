@@ -10,16 +10,43 @@
  * @author Zeno Rocha <hi@zenorocha.com>
  */
 
-  code {
-    background: #282a36;
-    border-radius: 0.5rem;
-    padding: .25rem .5rem;
-  }
+pre {
+  position: relative;
+}
 
- .hljs {
+pre::after {
+  content: "";
+  position: absolute;
+  top: 1rem;
+  right: 30px;
+  width: 13px;
+  height: 13px;
+  background-color: #535564;
+  border-radius: 100%;
+  box-shadow: 20px 0px 0px 0px #535564;
+}
+
+pre::before {
+  content: "";
+  position: absolute;
+  top: 1rem;
+  right: 50px;
+  width: 13px;
+  height: 13px;
+  background-color: #535564;
+  border-radius: 100%;
+}
+
+code {
+  background: #282a36;
+  border-radius: 0.5rem;
+  padding: 0.25rem 0.5rem;
+}
+
+.hljs {
   display: block;
   overflow-x: auto;
-  padding: .5rem 1em;
+  padding: 0.5rem 1em;
   background: #282a36;
   border-radius: 0.5rem;
   margin: 1rem 0;
