@@ -10,7 +10,7 @@ export async function generateMetadata({
   params,
 }: BlogPostProps): Promise<Metadata> {
   const post = getPostBySlug(params.slug);
-  const featuredImage = ["/thumb.png", post?.featuredImage ?? ""];
+  const featuredImage = `https://www.cristiano.dev/api/og?title=${post?.title}&date=${post?.formattedDate}`;
   const description = post?.resume ?? "";
   const url = `https://www.cristiano.dev/blog/${params.slug}`;
   const title = `${post?.title} | Cristiano Gonçalves`;
