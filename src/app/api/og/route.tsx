@@ -25,32 +25,32 @@ export async function GET(request: Request) {
             padding: "8rem",
             color: "#fff",
             background: "#000",
+            backgroundImage: "url(https://www.cristiano.dev/bg-2.png)",
           }}
         >
-          <div style={{ opacity: "0.4" }}>{date}</div>
+          <div style={{ color: "#db2777" }}>{date}</div>
           <h1 style={{ fontSize: "3.5rem" }}>{title}</h1>
-          <div style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
-            <img
-              src="https://github.com/crisgon.png"
-              style={{
-                borderRadius: "50%",
-                height: 80,
-                width: 80,
-              }}
-            />
-            <h2>Cristiano Gonçalves</h2>
-          </div>
+          <h2>Cristiano Gonçalves</h2>
 
-          <span
+          <div
             style={{
-              opacity: "0.4",
               position: "absolute",
               bottom: "3rem",
               right: "8rem",
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
             }}
           >
-            cristiano.dev
-          </span>
+            <img
+              src="https://raw.githubusercontent.com/crisgon/crisgon/master/cristiano.png"
+              style={{
+                height: 100,
+                width: 100,
+              }}
+            />
+            <span>cristiano.dev</span>
+          </div>
         </div>
       ),
       {
