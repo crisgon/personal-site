@@ -1,5 +1,5 @@
 ---
-title: "Como eu construí meu novo site"
+title: "Nasceu!! A nova versão do meu site "
 resume:
 date: 2023-08-11 08:20:03
 image:
