@@ -65,7 +65,7 @@ export default function About() {
           <a
             href="https://docs.google.com/document/d/1USHzCGO5R0VN6gcJDwJBtP1bitgmOO9xoHMzDynNwlo/edit?usp=sharing"
             target="_blank"
-            className="flex items-center justify-center bg-zinc-700/50 bg-clip-padding backdrop-filter backdrop-blur-lg  rounded p-3 border border-white/0 hover:cursor-pointer  hover:border-white/50 transition-all"
+            className="text-white flex items-center justify-center bg-zinc-700/50 bg-clip-padding backdrop-filter backdrop-blur-lg  rounded p-3 border border-white/0 hover:cursor-pointer  hover:border-white/50 transition-all"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
