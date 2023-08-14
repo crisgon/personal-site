@@ -33,9 +33,9 @@ export function TalkItem({ date, link, event, title, slides }: TalkItemProps) {
           day: "numeric",
         }).format(new Date(date))}
       </span>
-      <h3 className="py-2 text-lg font-semibold">{title}</h3>
+      <h3 className="text-white py-2 text-lg font-semibold">{title}</h3>
 
-      <div className="flex gap-4">
+      <div className="text-white flex gap-4">
         {link && <Link title="Ver mais sobre" link={link} />}
 
         {slides && <Link title="Slides" link={slides} />}

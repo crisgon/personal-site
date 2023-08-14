@@ -4,7 +4,7 @@ interface SocialLinkProps {
 }
 export function SocialLink({ link, name }: SocialLinkProps) {
   return (
-    <li className={"hover:primary-gradient-text"}>
+    <li className={"text-white hover:primary-gradient-text"}>
       <a href={link} target="_blank">
         {name}
       </a>

@@ -36,7 +36,7 @@ export async function generateMetadata(): Promise<Metadata> {
 
 export default function About() {
   return (
-    <main className="mb-10">
+    <main className="mb-10 ">
       <header className={`${roboto.className} pt-6 `}>
         <h2
           className={
@@ -89,9 +89,9 @@ export default function About() {
           </a>
         </div>
 
-        <div className="flex-1">
+        <div className="flex-1 text-white ">
           <div>
-            <h2 className="text-white py-4 mt-4 text-2xl font-normal">Bio</h2>
+            <h2 className="py-4 mt-4 text-2xl font-normal">Bio</h2>
             <p className="leading-8">
               Como você já deve ter notado, me chamo Cristiano Gonçalves!
               Desenvolvedor frontend nascido em Alagoinhas-BA.
@@ -113,9 +113,7 @@ export default function About() {
             pois acredito no poder da colaboração e no crescimento coletivo.
           </p>
 
-          <h2 className="text-white py-4 mt-4 text-2xl font-normal">
-            Carreira
-          </h2>
+          <h2 className="py-4 mt-4 text-2xl font-normal">Carreira</h2>
 
           {career.map((c, index) => (
             <CareerItem

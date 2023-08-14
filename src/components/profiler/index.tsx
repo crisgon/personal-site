@@ -8,7 +8,7 @@ export function Profiler() {
   return (
     <div className={`${roboto.className} `}>
       <div className="grid grid-cols-[1fr_auto] items-center lg:gap-4 w-full max-w-lg">
-        <h1 className={"text-4xl lg:text-5xl lg:w-full"}>
+        <h1 className={"text-white text-4xl lg:text-5xl lg:w-full"}>
           Cristiano Gonçalves
         </h1>
         <ProfileImage />
