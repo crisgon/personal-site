@@ -28,9 +28,9 @@ export async function GET(request: Request) {
             backgroundImage: "url(https://www.cristiano.dev/bg-2.png)",
           }}
         >
-          <div style={{ color: "#db2777" }}>{date}</div>
+          <div style={{ color: "#db2777", fontSize: "1.7rem" }}>{date}</div>
           <h1 style={{ fontSize: "3.5rem" }}>{title}</h1>
-          <h2>Cristiano Gonçalves</h2>
+          <h2 style={{ fontSize: "2.2rem" }}>Cristiano Gonçalves</h2>
 
           <div
             style={{
@@ -49,7 +49,6 @@ export async function GET(request: Request) {
                 width: 100,
               }}
             />
-            <span>cristiano.dev</span>
           </div>
         </div>
       ),
