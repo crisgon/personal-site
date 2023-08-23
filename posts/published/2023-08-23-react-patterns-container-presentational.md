@@ -1,5 +1,5 @@
 ---
-title: "Padrões React: Container & Presentational"
+title: "Padrões React: Container/Presentational"
 resume:
 date: 2023-08-23 08:20:03
 image:
