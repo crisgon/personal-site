@@ -7,7 +7,7 @@ import readingTime from "reading-time";
 import showdown from "showdown";
 import showdownHighlight from "showdown-highlight";
 
-const postsDirectory = join(process.cwd(), "posts");
+const postsDirectory = join(process.cwd(), "posts/published");
 
 interface Post {
   slug: string;
