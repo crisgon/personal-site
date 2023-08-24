@@ -88,3 +88,13 @@ export async function convertMarkdownToHtml(markdown: string) {
 
   return result.toString();
 }
+
+export function replaceCharForAScapeCode(
+  text: string | null,
+  char: string,
+  scapeCode: string,
+) {
+  if (!text) return text;
+
+  return text.replaceAll(char, scapeCode);
+}

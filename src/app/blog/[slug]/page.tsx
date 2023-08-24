@@ -1,6 +1,10 @@
 import type { Metadata } from "next";
 import { Article } from "@/components/article/article";
-import { convertMarkdownToHtml, getPostBySlug } from "@/lib/blog";
+import {
+  convertMarkdownToHtml,
+  getPostBySlug,
+  replaceCharForAScapeCode,
+} from "@/lib/blog";
 
 interface BlogPostProps {
   params: { slug: string };
@@ -10,7 +14,13 @@ export async function generateMetadata({
   params,
 }: BlogPostProps): Promise<Metadata> {
   const post = getPostBySlug(params.slug);
-  const featuredImage = `https://www.cristiano.dev/api/og?title=${post?.title}&date=${post?.formattedDate}`;
+  const normalizedPostTitle = replaceCharForAScapeCode(
+    post?.title ?? null,
+    "&",
+    "%26",
+  );
+
+  const featuredImage = `https://www.cristiano.dev/api/og?title=${normalizedPostTitle}&date=${post?.formattedDate}`;
   const description = post?.resume ?? "";
   const url = `https://www.cristiano.dev/blog/${params.slug}`;
   const title = `${post?.title} | Cristiano Gonçalves`;
