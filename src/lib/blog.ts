@@ -1,6 +1,6 @@
 import fs from "fs";
 import { join } from "path";
-
+import RSS from "rss";
 import { formatDate } from "./date";
 import matter from "gray-matter";
 import readingTime from "reading-time";
@@ -18,14 +18,6 @@ interface Post {
   title: string;
   featuredImage: string | null;
   resume: string | null;
-}
-
-interface ShortPost {
-  slug: string;
-  date: string;
-  formattedDate: string;
-  readingTime: number;
-  title: string;
 }
 
 export function getPostBySlug(slug: string): Post | null {
@@ -53,7 +45,7 @@ export function getPostBySlug(slug: string): Post | null {
 export function getAllPosts() {
   const slugs: string[] = fs.readdirSync(postsDirectory);
 
-  const posts: ShortPost[] = slugs
+  const posts: Post[] = slugs
     .reduce((allPosts, slug) => {
       const post = getPostBySlug(slug);
       if (!post) return allPosts;
@@ -66,9 +58,12 @@ export function getAllPosts() {
           formattedDate: post?.formattedDate,
           readingTime: post?.readingTime,
           slug: post?.slug,
+          featuredImage: null,
+          resume: null,
+          content: post?.content,
         },
       ];
-    }, [] as ShortPost[])
+    }, [] as Post[])
     .sort((a, b) => (new Date(a.date) > new Date(b.date) ? -1 : 1));
 
   return posts;
@@ -97,4 +92,32 @@ export function replaceCharForAScapeCode(
   if (!text) return text;
 
   return text.replaceAll(char, scapeCode);
+}
+
+export async function generateRssFeed(allPosts: Post[]) {
+  const site_url = process.env.SITE_URL;
+
+  if (!site_url) return;
+
+  const feedOptions = {
+    title: "Blog| RSS Feed",
+    description:
+      "Aqui você encontra todos os artigos que escrevi enquanto aprendia sobre desenvolvimento web, engenharia de software, carreira e liderança.",
+    site_url: site_url,
+    feed_url: `${site_url}/rss.xml`,
+    pubDate: new Date(),
+  };
+
+  const feed = new RSS(feedOptions);
+
+  allPosts.map(post => {
+    feed.item({
+      title: post.title,
+      description: post.content.slice(0, 500),
+      url: `${site_url}/blog/${post.slug}`,
+      date: post.date,
+    });
+  });
+
+  fs.writeFileSync("./public/rss.xml", feed.xml({ indent: true }));
 }

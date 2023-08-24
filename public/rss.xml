@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[Blog| RSS Feed]]></title>
+        <description><![CDATA[Aqui você encontra todos os artigos que escrevi enquanto aprendia sobre desenvolvimento web, engenharia de software, carreira e liderança.]]></description>
+        <link>localhost:3000</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Thu, 24 Aug 2023 12:00:22 GMT</lastBuildDate>
+        <atom:link href="localhost:3000/rss.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Thu, 24 Aug 2023 12:00:22 GMT</pubDate>
+        <item>
+            <title><![CDATA[Padrões React: Container & Presentational]]></title>
+            <description><![CDATA[
+Fala, galera! Hoje vou começar uma pequena série focada em padrões.
+
+Inicialmente ela vai ser focada em padrões do React, mas futuramente pretendo expandir para padrões de projetos de modo geral.
+
+Um ponto super importante é que antes de tentar aplicar qualquer padrão de código/projeto etc é preciso entender qual problema ele vai resolver. Nunca aplique um padrão(pattern) só por capricho, pois toda escolha técnica é rodeada por prós e contras.
+
+### Qual o problema?
+
+![Linha de montagem](/assets]]></description>
+            <link>localhost:3000/blog/2023-08-23-react-patterns-container-presentational</link>
+            <guid isPermaLink="true">localhost:3000/blog/2023-08-23-react-patterns-container-presentational</guid>
+            <pubDate>Wed, 23 Aug 2023 08:20:03 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Gerando OG:Images dinâmicas com NEXT JS 13]]></title>
+            <description><![CDATA[
+Você provavelmente já deve ter compartilhado um link nas N redes sociais e percebido que algumas informações de pré-visualização são carregadas. Título, descrição e até mesmo uma imagem, exatamente como no exemplo abaixo.
+
+<img src="/assets/img/og-image-cristiano.png" alt="Og image twitter" width="550px" >
+
+Também pode ter acontecido um cenário onde o link compartilhado não carregou nada... 🥲
+
+![Og image twitter](/assets/img/without-og-image.png)
+
+O papel de carregar e exibir um preview do con]]></description>
+            <link>localhost:3000/blog/2023-08-12-gerando-og-images-com-next-js</link>
+            <guid isPermaLink="true">localhost:3000/blog/2023-08-12-gerando-og-images-com-next-js</guid>
+            <pubDate>Fri, 18 Aug 2023 08:20:03 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Nasceu!! A nova versão do meu site ]]></title>
+            <description><![CDATA[
+Após 3 anos, 7 meses e 11 dias eu decidi lançar uma nova versão do meu site e gostaria de compartilhar com vocês sobre esse processo.
+
+Sempre gostei de compartilhar conhecimento, seja ele escrito, por vídeos, palestras e etc. Então, ter um blog sempre foi uma prioridade em todas as vezes que pensei em criar uma página pessoal na web.
+
+Essa é a terceira versão do meu site e sempre o utilizei brincar com novas tecnologias e coisas diferentes do que estou utilizando no meu trabalho. Ao longo desse]]></description>
+            <link>localhost:3000/blog/2023-08-11-nasceu-a-nova-versao-do-meu-site</link>
+            <guid isPermaLink="true">localhost:3000/blog/2023-08-11-nasceu-a-nova-versao-do-meu-site</guid>
+            <pubDate>Fri, 11 Aug 2023 08:20:03 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Meus erros e aprendizados em 1 ano como Tech Lead]]></title>
+            <description><![CDATA[
+Faz um 1 ano e 3 meses que aceitei oficialmente um desafio para ocupar o cargo de Tech Lead na [Zak](https://www.zak.app/), uma posição que me preparei bastante para ocupar, ou ao menos achei ter me preparado o suficiente.... Porém, a medida que os dias iam passando, o time ia se estruturando e as situações foram aparecendo eu percebi que não estava tão preparado como imaginei.
+
+Errei bastante, questionei minha capacidade enquanto líder, tive vontade de desistir, mas também recebi feedbacks de ]]></description>
+            <link>localhost:3000/blog/2022-08-02-meus-erros-e-acertos-em-1-ano-como-tech-lead</link>
+            <guid isPermaLink="true">localhost:3000/blog/2022-08-02-meus-erros-e-acertos-em-1-ano-como-tech-lead</guid>
+            <pubDate>Tue, 02 Aug 2022 09:21:03 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Entendendo Variáveis CSS ]]></title>
+            <description><![CDATA[
+Atualmente as aplicações web tem se tornado cada vez mais robustas e consequentemente a quantidade de CSS tem crescido bastante. Isso faz com que a possibilidade de código duplicado aumente consideravelmente, em sua maioria com repetição de pequenos valores, como uma cor ou um espaçamento.
+
+Em diversos momentos você já deve ter se deparado com uma folha de estilos da seguinte forma:
+
+```css
+...
+
+.header {
+  background-color: #8e44ad;
+  padding: 10px 15px;
+  ...
+}
+
+.button {
+  border-color: #8e4]]></description>
+            <link>localhost:3000/blog/2022-07-21-entendendo-variaveis-css</link>
+            <guid isPermaLink="true">localhost:3000/blog/2022-07-21-entendendo-variaveis-css</guid>
+            <pubDate>Wed, 20 Jul 2022 10:53:47 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Iniciando com React Hooks - useReducer]]></title>
+            <description><![CDATA[
+Hey, esse artigo faz parte de uma série sobre react hooks. Se você ainda não leu os artigos passados, da uma conferida nos links abaixo:
+
+- [Iniciando com React Hooks - useState](https://www.crisgon.dev/iniciando-com-react-hooks-usestate/)
+- [iniciando com React Hooks - useEffect](https://www.crisgon.dev/iniciando-com-react-hooks-useeffect/)
+- [iniciando com React Hooks - useMemo](https://www.crisgon.dev/iniciando-com-react-hooks-usememo/)
+- [iniciando com React Hooks - useCallback](https://www]]></description>
+            <link>localhost:3000/blog/2021-06-09-iniciando-com-react-hooks-usereducer</link>
+            <guid isPermaLink="true">localhost:3000/blog/2021-06-09-iniciando-com-react-hooks-usereducer</guid>
+            <pubDate>Tue, 08 Jun 2021 10:26:23 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Iniciando com React Hooks - useCallback]]></title>
+            <description><![CDATA[
+Hey, esse artigo faz parte de uma série sobre react hooks. Se você ainda não leu os artigos passados, da uma conferida nos links abaixo:
+
+- [Iniciando com React Hooks - useState](https://www.crisgon.dev/iniciando-com-react-hooks-usestate/)
+- [iniciando com React Hooks - useEffect](https://www.crisgon.dev/iniciando-com-react-hooks-useeffect/)
+- [iniciando com React Hooks - useMemo](https://www.crisgon.dev/iniciando-com-react-hooks-usememo/)
+
+Estamos sempre procurando alternativas para deixar nos]]></description>
+            <link>localhost:3000/blog/2021-06-03-iniciando-com-react-hooks-usecallback</link>
+            <guid isPermaLink="true">localhost:3000/blog/2021-06-03-iniciando-com-react-hooks-usecallback</guid>
+            <pubDate>Wed, 02 Jun 2021 10:21:26 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Iniciando com React Hooks - useMemo]]></title>
+            <description><![CDATA[
+Hey, esse artigo faz parte de uma série sobre react hooks. Se você ainda não leu os artigos passados, da uma conferida nos links abaixo:
+
+- [Iniciando com React Hooks - useState](https://www.crisgon.dev/iniciando-com-react-hooks-usestate/)
+- [iniciando com React Hooks - useEffect](https://www.crisgon.dev/iniciando-com-react-hooks-useeffect/)
+
+Estamos sempre procurando alternativas para deixar nossas aplicações cada vez melhores e uma das formas de fazer isso é as tornando performáticas.
+
+Anos a]]></description>
+            <link>localhost:3000/blog/2021-04-14-iniciando-com-react-hooks-usememo</link>
+            <guid isPermaLink="true">localhost:3000/blog/2021-04-14-iniciando-com-react-hooks-usememo</guid>
+            <pubDate>Sun, 09 May 2021 11:57:52 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Iniciando com React Hooks - useEffect]]></title>
+            <description><![CDATA[
+Hey, esse artigo faz parte de uma série sobre react hooks. Se você ainda não leu os artigos passados, da uma conferida nos links abaixo:
+
+- [Iniciando com React Hooks - useState](https://www.crisgon.dev/iniciando-com-react-hooks-usestate/)
+
+![React JS](/assets/img/hooks-wallpaper.png)
+
+A primeira coisa que precisa ficar clara é que o hook `useEffect` não é uma versão dos ciclos de vida`constructor`, `componentDidMount`, `componentDidUpdate`, e `componentWillUnmount`.
+
+Isso mesmo, provavelmente ]]></description>
+            <link>localhost:3000/blog/2021-02-23-iniciando-com-react-hooks-useeffect</link>
+            <guid isPermaLink="true">localhost:3000/blog/2021-02-23-iniciando-com-react-hooks-useeffect</guid>
+            <pubDate>Tue, 06 Apr 2021 10:28:46 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Iniciando com React Hooks - useState]]></title>
+            <description><![CDATA[
+Se você começou a mexer com React em 2019 é bem capaz de que você não conheça, ou conheça bem pouco, do mundo sem react hooks. Antes da versão 16.8 escrever componentes funcionais era algo bem raro, já que era impossível controlar estado ou dar qualquer "inteligência" para um componente que não fosse escrito com classe.
+
+Era muito comum escrever componentes com estados utilizando classes e utilizar funções para componentes apenas de apresentação. Porém, o uso de classes apresentava alguns probl]]></description>
+            <link>localhost:3000/blog/2021-02-04-iniciando-com-react-hooks-usestate</link>
+            <guid isPermaLink="true">localhost:3000/blog/2021-02-04-iniciando-com-react-hooks-usestate</guid>
+            <pubDate>Thu, 04 Feb 2021 12:29:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Expressões Regulares - Um guia para iniciantes]]></title>
+            <description><![CDATA[
+Antes de aprender uma tecnologia é interessante entender que tipo de problema ela se propõe a resolver, então vamos lá... Imagine que você trabalha em uma aplicação que precisa receber o CPF com 11 dígitos numéricos. Qual seria sua abordagem para fazer uma validação? Acredito que caso não conheça regex, sua primeira opção seria verificar se o tamanho da string com os números digitados é 11, mas quem garante que tudo que foi passado são números?
+
+```typescript
+"12345678909".lenght === 11; // Pod]]></description>
+            <link>localhost:3000/blog/2021-01-13-expressoes-regulares-um-guia-para-iniciantes</link>
+            <guid isPermaLink="true">localhost:3000/blog/2021-01-13-expressoes-regulares-um-guia-para-iniciantes</guid>
+            <pubDate>Tue, 12 Jan 2021 08:36:24 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Typescript - Uma breve introdução -  Generics]]></title>
+            <description><![CDATA[
+Nos artigos anteriores nós vimos um pouco sobre tipos básicos, enums, type assertions , interfaces, type aliases, classes e type utilities. Recomendo dar uma conferida neles, caso não se sinta confortável com esses conceitos.
+
+- [Typescript - Uma breve introdução](https://www.crisgon.dev/typescript-uma-breve-introdu%C3%A7%C3%A3o/)
+- [Typescript - Uma breve introdução - Tuplas, Enums e Type Assertion](https://www.crisgon.dev/typescript-uma-breve-introdu%C3%A7%C3%A3o-parte-2/)
+- [Typescript - Uma]]></description>
+            <link>localhost:3000/blog/2020-12-18-typescript-uma-breve-introducao-generics</link>
+            <guid isPermaLink="true">localhost:3000/blog/2020-12-18-typescript-uma-breve-introducao-generics</guid>
+            <pubDate>Thu, 17 Dec 2020 11:24:27 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Typescript - Uma breve introdução - Type utilities - Parte 2]]></title>
+            <description><![CDATA[
+![](/assets/img/ts-js.png)
+
+Nos artigos anteriores nós vimos um pouco sobre tipos básicos, enums, type assertions , interfaces, type aliases, classes e type utilities. Recomendo dar uma conferida neles, caso não se sinta confortável com esses conceitos.
+
+- [Typescript - Uma breve introdução](https://www.crisgon.dev/typescript-uma-breve-introdu%C3%A7%C3%A3o/)
+- [Typescript - Uma breve introdução - Tuplas, Enums e Type Assertion](https://www.crisgon.dev/typescript-uma-breve-introdu%C3%A7%C3%A3o-p]]></description>
+            <link>localhost:3000/blog/2020-12-07-typescript-uma-breve-introducao-type-utilities-parte-2</link>
+            <guid isPermaLink="true">localhost:3000/blog/2020-12-07-typescript-uma-breve-introducao-type-utilities-parte-2</guid>
+            <pubDate>Sun, 06 Dec 2020 12:31:06 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Typescript - Uma breve introdução - Type utilities - Parte 1]]></title>
+            <description><![CDATA[
+![Javascript|Typescript](/assets/img/ts-js.png)
+
+Nos artigos anteriores nós vimos um pouco sobre tipos básicos, enums, type assertions , interfaces, type aliases e classes. Recomendo dar uma conferida neles, caso não se sinta confortável com esses conceitos.
+
+- [Typescript - Uma breve introdução](https://www.crisgon.dev/typescript-uma-breve-introdu%C3%A7%C3%A3o/)
+- [Typescript - Uma breve introdução - Tuplas, Enums e Type Assertion](https://www.crisgon.dev/typescript-uma-breve-introdu%C3%A7%C3%]]></description>
+            <link>localhost:3000/blog/2020-10-30-typescript-uma-breve-introducao-type-utilities</link>
+            <guid isPermaLink="true">localhost:3000/blog/2020-10-30-typescript-uma-breve-introducao-type-utilities</guid>
+            <pubDate>Thu, 29 Oct 2020 12:31:06 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Typescript - Uma breve introdução - Classes]]></title>
+            <description><![CDATA[
+Nos artigos anteriores nós vimos um pouco sobre tipos básicos, enums, type assertions , interfaces e type aliases. Recomendo dar uma conferida neles, caso não se sinta confortável com esses conceitos.
+
+- [Typescript - Uma breve introdução](https://www.crisgon.dev/typescript-uma-breve-introdu%C3%A7%C3%A3o/)
+- [Typescript - Uma breve introdução - Tuplas, Enums e Type Assertion](https://www.crisgon.dev/typescript-uma-breve-introdu%C3%A7%C3%A3o-parte-2/)
+- [Typescript - Uma breve introdução - Inter]]></description>
+            <link>localhost:3000/blog/2020-10-20-typescript-uma-breve-introducao-classes</link>
+            <guid isPermaLink="true">localhost:3000/blog/2020-10-20-typescript-uma-breve-introducao-classes</guid>
+            <pubDate>Mon, 19 Oct 2020 04:00:27 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Typescript - Uma breve introdução - Type Aliases]]></title>
+            <description><![CDATA[
+Nos artigos anteriores nós vimos um pouco sobre tipos básicos, enums, type assertions e interfaces. Recomendo dar uma conferida neles, caso não se sinta confortável com esses conceitos.
+
+- [Typescript - Uma breve introdução](https://www.crisgon.dev/typescript-uma-breve-introdu%C3%A7%C3%A3o/)
+- [Typescript - Uma breve introdução - Tuplas, Enums e Type Assertion](https://www.crisgon.dev/typescript-uma-breve-introdu%C3%A7%C3%A3o-parte-2/)
+- [Typescript - Uma breve introdução - Interfaces](https://]]></description>
+            <link>localhost:3000/blog/2020-09-05-typescript-uma-breve-introducao-type-aliases</link>
+            <guid isPermaLink="true">localhost:3000/blog/2020-09-05-typescript-uma-breve-introducao-type-aliases</guid>
+            <pubDate>Sat, 05 Sep 2020 04:10:03 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Typescript - Uma breve introdução - Interfaces]]></title>
+            <description><![CDATA[
+Nos artigos anteriores a gente viu um pouco sobre tipos básicos, enums e type assertions. Recomendo dar uma conferida neles, caso não se sinta confortável com esses conceitos.
+
+- [Typescript - Uma breve introdução](https://www.crisgon.dev/typescript-uma-breve-introdu%C3%A7%C3%A3o/)
+- [Typescript - Uma breve introdução - Tuplas, Enums e Type Assertion](https://www.crisgon.dev/typescript-uma-breve-introdu%C3%A7%C3%A3o-parte-2/)
+
+Em quase todos os cenários apenas os tipos básicos não vão ser sufic]]></description>
+            <link>localhost:3000/blog/2020-08-10-typescript-uma-breve-introducao-interfaces</link>
+            <guid isPermaLink="true">localhost:3000/blog/2020-08-10-typescript-uma-breve-introducao-interfaces</guid>
+            <pubDate>Sun, 09 Aug 2020 13:02:04 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Baby steps com webpack]]></title>
+            <description><![CDATA[
+Antes de iniciar, você pode acessar o código final desse artigo [aqui](https://github.com/crisgon/webpack-basic).
+
+Ultimamente tem se tornado cada vez menos comum configurar o webpack do zero em algum projeto, principalmente quando falamos de pessoas que estão iniciando no desenvolvimento e se deparam com uma imensidão de coisas para estudar. Ferramentas como create-react-app, vue-cli, angular-cli e outras alternativas tornam toda configuração de um projeto bastante transparente e vemos apenas ]]></description>
+            <link>localhost:3000/blog/2020-08-03-baby-steps-com-webpack</link>
+            <guid isPermaLink="true">localhost:3000/blog/2020-08-03-baby-steps-com-webpack</guid>
+            <pubDate>Sun, 02 Aug 2020 13:28:25 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Typescript - Uma breve introdução - Tuplas, Enums e Type Assertion]]></title>
+            <description><![CDATA[
+No [artigo anterior](https://www.crisgon.dev/typescript-uma-breve-introdu%C3%A7%C3%A3o/) descobrimos como tipar o básico com javascript, number, string, boolean, null, undefined, void, any e never. Dessa vez iremos prosseguir com conceitos básicos e aprender um pouco sobre tuples(tuplas), enums e type assertion.
+
+## Tuplas
+
+Tuplas são utilizadas para representar um array onde sabemos a quantidade exata de elementos, mas queremos tipos específicos para cada um desses elementos.
+
+Vamos supor que ]]></description>
+            <link>localhost:3000/blog/2020-07-23-typescript-uma-breve-introducao-parte-2</link>
+            <guid isPermaLink="true">localhost:3000/blog/2020-07-23-typescript-uma-breve-introducao-parte-2</guid>
+            <pubDate>Wed, 22 Jul 2020 13:25:50 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Typescript - Uma breve introdução]]></title>
+            <description><![CDATA[
+Um tempo atrás eu fazia cara feia só de ouvir o nome typescript... Pra mim não fazia sentido deixar de aproveitar a tipagem dinâmica nativa do javascript e usar uma tipagem estática e "engessada". Era um pensamento bem nada a ver, mas isso mudou quando a pouco mais de 1 ano aceitei o desafio de trabalhar com typescript e hoje não me sinto tão confortável em utilizar javascript puro.
+
+Javascript é uma linguagem muito permissiva e simples, ela não tem tipagem forte e isso torna seu aprendizado ma]]></description>
+            <link>localhost:3000/blog/2020-03-02-typescript-uma-breve-introducao</link>
+            <guid isPermaLink="true">localhost:3000/blog/2020-03-02-typescript-uma-breve-introducao</guid>
+            <pubDate>Mon, 02 Mar 2020 14:30:10 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Entendendo Escopo no Javascript - Parte 2]]></title>
+            <description><![CDATA[
+Se você caiu aqui de paraquedas recomendo ler a [parte 1](https://crisgon.github.io/posts/Entendendo-escopo-no-javascript/) desse artigo, lá eu expliquei o que é escopo e como acontece a sua geração. Hoje vou falar sobre escopo léxico, escopo de função e escopo de bloco. Apenas para refrescar a mente de quem já leu o artigo, escopo é um conjunto de regras que definem onde as variáveis podem ser acessadas após seu armazenamento.
+
+### Escopo léxico?
+
+É o escopo definido no local onde as funções s]]></description>
+            <link>localhost:3000/blog/2018-06-30-entendendo-escopo-no-javascript-parte-2</link>
+            <guid isPermaLink="true">localhost:3000/blog/2018-06-30-entendendo-escopo-no-javascript-parte-2</guid>
+            <pubDate>Sat, 30 Jun 2018 23:41:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Entendendo Escopo no Javascript - Parte 1]]></title>
+            <description><![CDATA[
+Desenvolver com javascript é algo aparentemente simples, mas que pode trazer muita dor de cabeça pra quem não entende o real funcionamento da linguagem, ocasionando situações onde o código apresenta problemas que podem ser difíceis de identificar, pois muitas vezes não estão ligados a sintaxe, mas sim a conceitos fundamentais da linguagem, como o **escopo**.
+
+![Escopo aninhado e analogia com um prédio](https://i.imgur.com/rOZuQfr.png)
+
+### Afinal, o que é escopo?
+
+É basicamente um conjunto de r]]></description>
+            <link>localhost:3000/blog/2018-05-28-entendendo-escopo-no-javascript-parte-1</link>
+            <guid isPermaLink="true">localhost:3000/blog/2018-05-28-entendendo-escopo-no-javascript-parte-1</guid>
+            <pubDate>Mon, 28 May 2018 23:41:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Coerção de tipos em javascript]]></title>
+            <description><![CDATA[
+Comecei a leitura do excelente livro [You Dont Know JS](https://github.com/cezaraugusto/You-Dont-Know-JS) e resolvi ir escrevendo pequenos posts sobre as coisas interessantes que for aprendendo. Hoje vou falar sobre coerção de tipos, esse é um assunto que a princípio parece ser bem simples, mas que é de extrema importância para entender como o javascript se comporta em diversas situações, evitando pequenas dores de cabeça no futuro.
+
+![Javascript - Comparação estrita entre um número e uma strin]]></description>
+            <link>localhost:3000/blog/2018-04-30-coercao-de-tipos-em-javascript</link>
+            <guid isPermaLink="true">localhost:3000/blog/2018-04-30-coercao-de-tipos-em-javascript</guid>
+            <pubDate>Mon, 30 Apr 2018 23:41:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Uma breve introdução à Template Strings]]></title>
+            <description><![CDATA[
+**Esse artigo é uma adaptação do [texto](http://wesbos.com/javascript-template-strings/) do [Wes Bos](http://wesbos.com)**
+
+No javascript, quando precisamos inserir uma variável em uma string, pensamos logo em fazer uma concatenação, mas isso pode ser uma dor de cabeça a depender do tamanho da nossa string e da quantidade de variáveis que iremos inserir. Pense bem no processo necessário para isso:
+
+1 - Abrimos nossa string.  
+2 - Fechamos nossa string.  
+3 - Concatenamos com nossa variável.  
+4]]></description>
+            <link>localhost:3000/blog/2018-03-12-uma-breve-introducao-a-template-strings</link>
+            <guid isPermaLink="true">localhost:3000/blog/2018-03-12-uma-breve-introducao-a-template-strings</guid>
+            <pubDate>Mon, 12 Mar 2018 23:41:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Criando um CSS do BEM - Parte 2]]></title>
+            <description><![CDATA[
+# Criando Um CSS Do BEM - Parte 2
+
+Na [parte 1](https://www.crisgon.dev/criando-um-css-do-bem-parte-1/) desse artigo falamos um pouco sobre como nomear uma classe significativa e reaproveitável utilizando BEM, porém existem mais alguns pontos importantes para escrever um CSS seguindo essa metodologia, como a organização de arquivos, um dos assuntos que iremos ver por aqui.
+
+![Logo do BEM](/assets/img/bemlogo.png "Logo do BEM")
+
+#### Algumas considerações importantes
+
+Não basta simplemente criar]]></description>
+            <link>localhost:3000/blog/2018-03-02-criando-um-css-do-bem-parte-2</link>
+            <guid isPermaLink="true">localhost:3000/blog/2018-03-02-criando-um-css-do-bem-parte-2</guid>
+            <pubDate>Fri, 02 Mar 2018 16:41:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Usando Arrays com JavaScript]]></title>
+            <description><![CDATA[
+Vamos supor que estou criando um programa e que preciso armazenar o nome de 10 pessoas. A primeira coisa que podemos pensar é em criar uma variável para cada nome, simples, não? **Não!!** Criar uma variável para cada nome é gastar recursos desnecessários, pois estamos alocando memória 10 vezes e ainda vamos ter um certo trabalho para manipular 10 variáves que no fim das contas servem para mesma coisa.
+
+```javascript
+// Bad Code
+var nome1 = "Cristiano";
+var nome2 = "Maria";
+var nome3 = "João";
+v]]></description>
+            <link>localhost:3000/blog/2018-03-01-usando-arrays-com-javascript</link>
+            <guid isPermaLink="true">localhost:3000/blog/2018-03-01-usando-arrays-com-javascript</guid>
+            <pubDate>Sat, 03 Feb 2018 21:41:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Consumindo uma API de pokemon com Javascript]]></title>
+            <description><![CDATA[
+Essa semana eu estava dando uma olhada em algumas vagas no [Front End Brasil](https://github.com/frontendbr/) e notei que muitas vagas pediam **experiência com o uso de API's**. Fui correndo pro fórum do Front End Brasil e perguntei: "Como saber se tenho Experiência com API's?"
+Com a contribuição do pessoal eu consegui entender um pouco mais sobre API's e resolvi compartilhar um pouco do meu aprendizado.
+Esse artigo foi inspirado em [How to connect to an api with javascript](https://www.taniara]]></description>
+            <link>localhost:3000/blog/2018-03-01-consumindo-uma-api-de-pokemon-com-javascript</link>
+            <guid isPermaLink="true">localhost:3000/blog/2018-03-01-consumindo-uma-api-de-pokemon-com-javascript</guid>
+            <pubDate>Sat, 03 Feb 2018 16:41:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Criando um CSS do BEM - Parte 1]]></title>
+            <description><![CDATA[
+Provavelmente você, assim como eu, deve passar por dificuldades ao nomear uma classe CSS e depois de muito esforço cria essa classe com um nome nada legal e com pouco significado. Com a classe criada você inicia a escrita do CSS, gera um arquivo com centenas de linhas e finaliza seu trabalho. A princípio tudo está sob controle, pois o layout ficou do exatamente do jeito que você queria. Depois disso passam-se alguns meses e surge a necessidade de fazer mudanças no seu CSS, mas você demora um ce]]></description>
+            <link>localhost:3000/blog/2018-02-22-criando-um-css-do-bem-parte-1</link>
+            <guid isPermaLink="true">localhost:3000/blog/2018-02-22-criando-um-css-do-bem-parte-1</guid>
+            <pubDate>Fri, 02 Feb 2018 16:41:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Desenhando com box shadow]]></title>
+            <description><![CDATA[
+Sempre gostei de admirar o trabalho de outras pessoas, para conseguir inspiração, saber o quanto eu sei ou simplesmente para apreciar a arte. Nesses pequenos momentos de apreciação eu sempre me deparei com uma ou outra pixel art e meus primeiros pensamentos eram que eu não conseguiria fazer, que era muito difícil e que meu conhecimento não era o suficiente. Infelizmente carreguei esse pensamento por um bom tempo e isso me prejudicava, pois eu via todo aquele código e nem tentava entender, porqu]]></description>
+            <link>localhost:3000/blog/2018-02-22-desenhando-com-box-shadow</link>
+            <guid isPermaLink="true">localhost:3000/blog/2018-02-22-desenhando-com-box-shadow</guid>
+            <pubDate>Fri, 02 Feb 2018 14:41:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Tipos de dados Javascript]]></title>
+            <description><![CDATA[
+Como já tinha comentado em outro [post](https://crisgon.github.io/posts/Todo-dia-um-blog-diferente/), esse blog foi criado para documentar e compartilhar meu estudo sobre tecnologias front end. Essa semana eu retomei os estudos sobre Javascript(JS) e decidi começar do básico, pois quero entender bem sobre os princípios da linguagem. Inicialmente eu estudei sobre os tipos primitivos da linguagem e resolvi compartilhar o “pequeno” resumo que fiz durante meus estudos, é algo bem introdutório, mas ]]></description>
+            <link>localhost:3000/blog/2018-02-25-tipos-de-dados-javascript</link>
+            <guid isPermaLink="true">localhost:3000/blog/2018-02-25-tipos-de-dados-javascript</guid>
+            <pubDate>Thu, 25 Jan 2018 13:09:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Minha jornada criando 30 sites em 30 dias]]></title>
+            <description><![CDATA[
+Quem nunca achou uma vaga maneira e pensou em enviar um currículo, mas desistiu por não ter o que mostrar? E quantas vezes alegamos que não tivemos oportunidade de trabalhar com a tecnologia X ou Y?
+
+Muitas vezes damos a desculpa de não ter um portfólio por nunca ter trabalhado, algumas pessoas até alegam que não constroem projetos fictícios por falta de ideias. Pois bem, que bom que temos uma comunidade maravilhosa que está sempre disposta a criar formas de ajudar.
+
+Nesse post eu vou contar um]]></description>
+            <link>localhost:3000/blog/2018-02-23-minha-jornada-criando-30-sites-em-30-dias</link>
+            <guid isPermaLink="true">localhost:3000/blog/2018-02-23-minha-jornada-criando-30-sites-em-30-dias</guid>
+            <pubDate>Thu, 18 Jan 2018 15:49:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Todo dia um blog diferente]]></title>
+            <description><![CDATA[
+No momento em que vivemos, não é tão difícil encontrar artigos sobre tecnologia, em especial sobre desenvolvimento. Basta dar uma pesquisada no google~~(bing, yahoo, duck duck go ou seja lá qual buscador você use)~~que vamos nos deparar com artigos dos mais diversos assuntos, sejam escritos em blogs pessoais ou até mesmo em uma plataforma como o [medium](https://medium.com/).
+
+![Notebook ao lado de um bloco de notas](/assets/img/wallpaperblog.jpg)
+
+### Mas se já existe tantos blogs, por que cri]]></description>
+            <link>localhost:3000/blog/2018-02-24-todo-dia-um-blog-diferente</link>
+            <guid isPermaLink="true">localhost:3000/blog/2018-02-24-todo-dia-um-blog-diferente</guid>
+            <pubDate>Wed, 17 Jan 2018 14:41:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>

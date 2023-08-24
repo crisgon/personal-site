@@ -1,11 +1,13 @@
 import { Roboto } from "next/font/google";
 import { BlogList } from "../../components/blog/blog-list";
-import { getAllPosts } from "@/lib/blog";
+import { generateRssFeed, getAllPosts } from "@/lib/blog";
 
 const roboto = Roboto({ weight: "400", subsets: ["latin"] });
 
 export default async function Blog() {
   const allPosts = getAllPosts();
+  await generateRssFeed(allPosts);
+
   return (
     <main className="flex flex-1 flex-col mb-10">
       <header className={`${roboto.className} pt-6`}>
