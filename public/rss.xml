@@ -4,9 +4,23 @@
         <description><![CDATA[Aqui você encontra todos os artigos que escrevi enquanto aprendia sobre desenvolvimento web, engenharia de software, carreira e liderança.]]></description>
         <link>localhost:3000</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 24 Aug 2023 12:00:22 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 29 Aug 2023 11:11:57 GMT</lastBuildDate>
         <atom:link href="localhost:3000/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 24 Aug 2023 12:00:22 GMT</pubDate>
+        <pubDate>Tue, 29 Aug 2023 11:11:57 GMT</pubDate>
+        <item>
+            <title><![CDATA[Padrões React: Higher-Order Components]]></title>
+            <description><![CDATA[
+Fala, galera! Esse é meu segundo artigo focado em padrões do React. Recomendo dar uma conferida no último post, onde falamos sobre o padrão [container & presentational](https://www.cristiano.dev/blog/2023-08-23-react-patterns-container-presentational).
+
+Hoje iremos falar sobre um padrão que segundo a própria documentação do React não é um padrão utilizado com frequência no desenvolvimento de aplicações modernas.
+
+![Print da documentação do react falando sobre hocs](/assets/img/hoc-unused.png)
+
+]]></description>
+            <link>localhost:3000/blog/2023-08-30-react-patterns-hocs-components-de-ordem-superior</link>
+            <guid isPermaLink="true">localhost:3000/blog/2023-08-30-react-patterns-hocs-components-de-ordem-superior</guid>
+            <pubDate>Wed, 30 Aug 2023 08:20:03 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Padrões React: Container & Presentational]]></title>
             <description><![CDATA[
