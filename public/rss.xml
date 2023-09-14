@@ -4,19 +4,32 @@
         <description><![CDATA[Aqui você encontra todos os artigos que escrevi enquanto aprendia sobre desenvolvimento web, engenharia de software, carreira e liderança.]]></description>
         <link>localhost:3000</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 29 Aug 2023 11:11:57 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 14 Sep 2023 11:32:04 GMT</lastBuildDate>
         <atom:link href="localhost:3000/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 29 Aug 2023 11:11:57 GMT</pubDate>
+        <pubDate>Thu, 14 Sep 2023 11:32:04 GMT</pubDate>
+        <item>
+            <title><![CDATA[Padrões React: Render Props]]></title>
+            <description><![CDATA[
+Fala, galera! Esse artigo faz parte de uma série focada em padrões do React. Recomendo dar uma conferida nos últimos posts:
+
+- [Container & presentational](https://www.cristiano.dev/blog/2023-08-23-react-patterns-container-presentational).
+- [Higher-Order Components](https://www.cristiano.dev/blog/2023-08-30-react-patterns-hocs-components-de-ordem-superior).
+
+Hoje iremos falar sobre o padrão render props, mais um padrão que faz uso das características das [funções de primeira classe do javascri]]></description>
+            <link>localhost:3000/blog/2023-09-06-react-patterns-render-props</link>
+            <guid isPermaLink="true">localhost:3000/blog/2023-09-06-react-patterns-render-props</guid>
+            <pubDate>Wed, 06 Sep 2023 08:20:03 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Padrões React: Higher-Order Components]]></title>
             <description><![CDATA[
-Fala, galera! Esse é meu segundo artigo focado em padrões do React. Recomendo dar uma conferida no último post, onde falamos sobre o padrão [container & presentational](https://www.cristiano.dev/blog/2023-08-23-react-patterns-container-presentational).
+Fala, galera! Esse artigo faz parte de uma série focada em padrões do React. Recomendo dar uma conferida no último post sobre o padrão [container & presentational](https://www.cristiano.dev/blog/2023-08-23-react-patterns-container-presentational).
 
 Hoje iremos falar sobre um padrão que segundo a própria documentação do React não é um padrão utilizado com frequência no desenvolvimento de aplicações modernas.
 
 ![Print da documentação do react falando sobre hocs](/assets/img/hoc-unused.png)
 
-]]></description>
+Porém]]></description>
             <link>localhost:3000/blog/2023-08-30-react-patterns-hocs-components-de-ordem-superior</link>
             <guid isPermaLink="true">localhost:3000/blog/2023-08-30-react-patterns-hocs-components-de-ordem-superior</guid>
             <pubDate>Wed, 30 Aug 2023 08:20:03 GMT</pubDate>
