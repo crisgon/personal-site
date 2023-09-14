@@ -1,7 +1,7 @@
 ---
 title: "Padrões React: Render Props"
 resume:
-date: 2023-09-06 08:20:03
+date: 2023-09-14 08:20:03
 image:
 category: Geral
 ---
