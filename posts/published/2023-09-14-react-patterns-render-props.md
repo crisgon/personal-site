@@ -249,7 +249,7 @@ A ideia é a mesma, pois o children também é uma prop do react. Esse estilo de
 
 Para entender mais sobre o funcionamento você pode ver e editar o código que acabamos de construir:
 
-<iframe src="https://codesandbox.io/embed/render-props-wxzlhy?fontsize=14&hidenavigation=1&theme=dark"
+<iframe src="https://stackblitz.com/edit/vitejs-vite-rctgoe?ctl=1&embed=1&file=src%2FApp.jsx&hideNavigation=1&theme=dark"
      style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
      title="render-props"
      allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
