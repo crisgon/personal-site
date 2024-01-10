@@ -4,9 +4,30 @@
         <description><![CDATA[Aqui você encontra todos os artigos que escrevi enquanto aprendia sobre desenvolvimento web, engenharia de software, carreira e liderança.]]></description>
         <link>localhost:3000</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 14 Sep 2023 11:32:04 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 10 Jan 2024 01:13:59 GMT</lastBuildDate>
         <atom:link href="localhost:3000/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 14 Sep 2023 11:32:04 GMT</pubDate>
+        <pubDate>Wed, 10 Jan 2024 01:13:59 GMT</pubDate>
+        <item>
+            <title><![CDATA[Padrões React: Hooks]]></title>
+            <description><![CDATA[
+Fala, galera! Esse artigo faz parte de uma série focada em padrões do React. Recomendo dar uma conferida nos últimos posts:
+
+- [Container & presentational](https://www.cristiano.dev/blog/2023-08-23-react-patterns-container-presentational).
+- [Higher-Order Components](https://www.cristiano.dev/blog/2023-08-30-react-patterns-hocs-components-de-ordem-superior).
+
+Hoje iremos falar sobre o padrão 
+
+
+
+
+
+### Isso é tudo, pessoal!
+
+Fico feliz que você chegou até aqui e espero que tenha aprendido algo n]]></description>
+            <link>localhost:3000/blog/2024-01-10-react-patterns-hooks</link>
+            <guid isPermaLink="true">localhost:3000/blog/2024-01-10-react-patterns-hooks</guid>
+            <pubDate>Wed, 10 Jan 2024 08:20:03 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Padrões React: Render Props]]></title>
             <description><![CDATA[
@@ -16,9 +37,9 @@ Fala, galera! Esse artigo faz parte de uma série focada em padrões do React. R
 - [Higher-Order Components](https://www.cristiano.dev/blog/2023-08-30-react-patterns-hocs-components-de-ordem-superior).
 
 Hoje iremos falar sobre o padrão render props, mais um padrão que faz uso das características das [funções de primeira classe do javascri]]></description>
-            <link>localhost:3000/blog/2023-09-06-react-patterns-render-props</link>
-            <guid isPermaLink="true">localhost:3000/blog/2023-09-06-react-patterns-render-props</guid>
-            <pubDate>Wed, 06 Sep 2023 08:20:03 GMT</pubDate>
+            <link>localhost:3000/blog/2023-09-14-react-patterns-render-props</link>
+            <guid isPermaLink="true">localhost:3000/blog/2023-09-14-react-patterns-render-props</guid>
+            <pubDate>Thu, 14 Sep 2023 08:20:03 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Padrões React: Higher-Order Components]]></title>
