@@ -29,6 +29,7 @@
     "typescript": "5.1.6"
   },
   "devDependencies": {
+    "@playwright/test": "^1.40.1",
     "@types/rss": "^0.0.30",
     "@types/showdown": "^2.0.1",
     "lint-staged": "^13.2.2",
