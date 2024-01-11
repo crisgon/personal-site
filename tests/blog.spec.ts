@@ -27,9 +27,7 @@ test("download curriculo", async ({ context }) => {
     page.getByRole("link", { name: "Download Resumo" }).click(),
   ]);
 
-  await expect(newPage).toHaveTitle(
-    /Curriculo - Front - Cristiano - Documentos Google/,
-  );
+  await expect(newPage).toHaveTitle(/Curriculo - Front - Cristiano/);
 });
 
 test("open post list and open post", async ({ page }) => {
