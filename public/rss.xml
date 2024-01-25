@@ -4,9 +4,9 @@
         <description><![CDATA[Aqui você encontra todos os artigos que escrevi enquanto aprendia sobre desenvolvimento web, engenharia de software, carreira e liderança.]]></description>
         <link>localhost:3000</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 10 Jan 2024 01:13:59 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 25 Jan 2024 02:29:55 GMT</lastBuildDate>
         <atom:link href="localhost:3000/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 10 Jan 2024 01:13:59 GMT</pubDate>
+        <pubDate>Thu, 25 Jan 2024 02:29:55 GMT</pubDate>
         <item>
             <title><![CDATA[Padrões React: Hooks]]></title>
             <description><![CDATA[
@@ -14,16 +14,9 @@ Fala, galera! Esse artigo faz parte de uma série focada em padrões do React. R
 
 - [Container & presentational](https://www.cristiano.dev/blog/2023-08-23-react-patterns-container-presentational).
 - [Higher-Order Components](https://www.cristiano.dev/blog/2023-08-30-react-patterns-hocs-components-de-ordem-superior).
+- [Render Props](https://www.cristiano.dev/blog/2023-09-14-react-patterns-render-props)
 
-Hoje iremos falar sobre o padrão 
-
-
-
-
-
-### Isso é tudo, pessoal!
-
-Fico feliz que você chegou até aqui e espero que tenha aprendido algo n]]></description>
+Nesse artigo iremos falar sobre o padrão do React]]></description>
             <link>localhost:3000/blog/2024-01-10-react-patterns-hooks</link>
             <guid isPermaLink="true">localhost:3000/blog/2024-01-10-react-patterns-hooks</guid>
             <pubDate>Wed, 10 Jan 2024 08:20:03 GMT</pubDate>
