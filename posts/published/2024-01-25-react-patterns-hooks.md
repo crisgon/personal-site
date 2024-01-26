@@ -242,13 +242,13 @@ function App() {
 }
 ```
 
-Dessa forma teremos uma separação muito clara entre lógica de negócios e camada de apresentação. Dessa forma conseguimos escrever um teste que valide apenas a regra de negócio e um teste que valide nossa UI de forma independentes.
+Dessa forma teremos uma separação muito clara entre lógica de negócios e camada de apresentação. Também conseguimos escrever um teste que valide apenas a regra de negócio e um teste que valide nossa UI de forma independentes.
 
 Algumas vantagens ao utilizar hooks patterns:
 
 ✅ Possibilidade de construir componentes com lógica e estados sem utilizar classes.
 
-✅ Simplificação dos componentes, pois é possível construir um componente que só é responsável por renderizar os componentes.
+✅ Simplificação dos componentes, pois é possível construir um componente que só é responsável por renderizar UI.
 
 ✅ Compartilhar e reutilizar lógica não visual entre componentes sem utilizar Render Props ou HOCs
 
@@ -280,7 +280,7 @@ Geralmente meus componente ficam dessa forma:
 | |-- 📄api.js
 ```
 
-Fazer esse tipo de separação me ajuda a manter o código organizado e conciso. Outro ganho que sinto ao utilizar custom hooks para extrair regras de negócio é que durante esse processo eu sempre me questiono se o meu hook faz tem muita responsabilidade ou se ele deveria se tornar N outros hooks.
+Fazer esse tipo de separação me ajuda a manter o código organizado e conciso. Outro ganho que sinto ao utilizar custom hooks para extrair regras de negócio é que durante esse processo eu sempre me questiono se o meu hook tem muita responsabilidade ou se ele deveria se tornar N outros hooks.
 
 Além disso, utilizar custom hooks me dá a possibilidade de escrever testes focados apenas em regra de negócio ou apenas focado em UI fazendo mocks dos meus custom hooks.
 
