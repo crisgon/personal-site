@@ -76,9 +76,9 @@ function App() {
 
 ### Indo além
 
-> Podemos sair do uso óbvio e ir além quando falamos de hooks. Basta você lembrar que hooks são funções e, conforme vimos no artigo [Padrões React: Render Props](https://www.cristiano.dev/blog/2023-09-14-react-patterns-render-props), funções javascript são de primeira classe. Ou seja, podemos retornar funções e receber funções como argumentos, logo, podemos compor hooks que recebem funções e/ou retornam funções.
+> Podemos sair do uso óbvio e ir além quando falamos de hooks. Basta você lembrar que hooks são funções e, conforme vimos no artigo [Padrões React: Render Props](https://www.cristiano.dev/blog/2023-09-14-react-patterns-render-props), funções javascript são de primeira classe. Ou seja, podemos retornar funções e receber funções como argumentos, logo, é possível compor hooks que recebem funções e/ou retornam funções.
 
-Você pode utilizar custom hooks para extrair lógica de negócio de nossos componentes e separar responsabilidades, mesmo que esse lógica não seja reaproveitada em N lugares.
+Você pode utilizar custom hooks para extrair lógica de negócio de seus componentes e separar responsabilidades, mesmo que esse lógica não seja reaproveitada em N lugares.
 
 Por exemplo, o código abaixo representa um todo list com as funcionalidades e adicionar, remover e completar tarefas. É uma lógica simples, mas imagine que ela é mais complexa, existem chamadas na api e tratamentos de erros para cada uma das ações.
 
@@ -101,11 +101,13 @@ function App() {
     setList(oldState => [...oldState, newTodo]);
     setTodo("");
     // chamada na api
+    // tratamentos de erros
   }
 
   function removeTodo(id) {
     setList(oldState => oldState.filter(t => t.id !== id));
     // chamada na api
+    // tratamentos de erros
   }
 
   function toggleTodo(id, checked) {
@@ -116,6 +118,7 @@ function App() {
       }),
     );
     // chamada na api
+    // tratamentos de erros
   }
 
   return (
