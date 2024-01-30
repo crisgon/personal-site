@@ -1,6 +1,7 @@
 import { Roboto_Condensed } from "next/font/google";
 import { ProfileImage } from "./profile-image";
 import { Resume } from "./resume";
+import { NowPlaying } from "../now-playing/now-playing";
 
 const roboto = Roboto_Condensed({ weight: "400", subsets: ["latin"] });
 
@@ -15,6 +16,7 @@ export function Profiler() {
       </div>
 
       <Resume />
+      <NowPlaying />
     </div>
   );
 }
