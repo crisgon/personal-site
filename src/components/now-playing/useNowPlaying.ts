@@ -5,6 +5,8 @@ interface Track {
   artist: string;
 }
 
+const TRACK_NAME_SIZE = 40;
+
 export function useNowPlaying() {
   const [track, setTrack] = useState<Track | null>(null);
 
@@ -28,7 +30,10 @@ export function useNowPlaying() {
 
     if (currentTrack) {
       setTrack({
-        name: currentTrack.name,
+        name:
+          currentTrack.name.length > TRACK_NAME_SIZE
+            ? `${currentTrack.name.slice(0, TRACK_NAME_SIZE)}...`
+            : currentTrack.name,
         artist: currentTrack.artist["#text"],
       });
     }
