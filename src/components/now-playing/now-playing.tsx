@@ -6,7 +6,7 @@ import { useNowPlaying } from "./useNowPlaying";
 export function NowPlaying() {
   const { track } = useNowPlaying();
 
-  if (!track) return <div className="h-10" />;
+  if (!track) return <div className="h-10  mt-5" />;
 
   return (
     <div className="flex gap-2 items-center h-10 mt-5" title="Escutando agora">
