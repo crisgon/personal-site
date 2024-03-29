@@ -1,5 +1,12 @@
 const talks = [
   {
+    title: "Caminhos do profissional de TI",
+    date: "03-27-2024",
+    event: "2ª semana do perfil profissional - CETEP/LNAB",
+    link: null,
+    slides: "https://pt.slideshare.net/secret/2sfPg7aF3RTayG",
+  },
+  {
     title: "Svelte, além do hype",
     date: "09-26-2019",
     event: "Frontend Bahia",
