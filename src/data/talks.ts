@@ -3,7 +3,7 @@ const talks = [
     title: "Caminhos do profissional de TI",
     date: "03-27-2024",
     event: "2ª semana do perfil profissional - CETEP/LNAB",
-    link: null,
+    link: "https://www.linkedin.com/posts/cristiano-gon%C3%A7alves_carreira-carreiraemti-programacao-activity-7179117531436097537-fnlM",
     slides: "https://pt.slideshare.net/secret/2sfPg7aF3RTayG",
   },
   {

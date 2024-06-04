@@ -4,9 +4,9 @@
         <description><![CDATA[Aqui você encontra todos os artigos que escrevi enquanto aprendia sobre desenvolvimento web, engenharia de software, carreira e liderança.]]></description>
         <link>localhost:3000</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 25 Jan 2024 02:29:55 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 29 Mar 2024 02:59:13 GMT</lastBuildDate>
         <atom:link href="localhost:3000/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 25 Jan 2024 02:29:55 GMT</pubDate>
+        <pubDate>Fri, 29 Mar 2024 02:59:13 GMT</pubDate>
         <item>
             <title><![CDATA[Padrões React: Hooks]]></title>
             <description><![CDATA[
@@ -17,9 +17,9 @@ Fala, galera! Esse artigo faz parte de uma série focada em padrões do React. R
 - [Render Props](https://www.cristiano.dev/blog/2023-09-14-react-patterns-render-props)
 
 Nesse artigo iremos falar sobre o padrão do React]]></description>
-            <link>localhost:3000/blog/2024-01-10-react-patterns-hooks</link>
-            <guid isPermaLink="true">localhost:3000/blog/2024-01-10-react-patterns-hooks</guid>
-            <pubDate>Wed, 10 Jan 2024 08:20:03 GMT</pubDate>
+            <link>localhost:3000/blog/2024-01-25-react-patterns-hooks</link>
+            <guid isPermaLink="true">localhost:3000/blog/2024-01-25-react-patterns-hooks</guid>
+            <pubDate>Thu, 25 Jan 2024 08:20:03 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Padrões React: Render Props]]></title>
