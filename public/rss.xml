@@ -4,9 +4,21 @@
         <description><![CDATA[Aqui você encontra todos os artigos que escrevi enquanto aprendia sobre desenvolvimento web, engenharia de software, carreira e liderança.]]></description>
         <link>localhost:3000</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 29 Mar 2024 02:59:13 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 06 Jul 2024 02:25:18 GMT</lastBuildDate>
         <atom:link href="localhost:3000/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 29 Mar 2024 02:59:13 GMT</pubDate>
+        <pubDate>Sat, 06 Jul 2024 02:25:18 GMT</pubDate>
+        <item>
+            <title><![CDATA[Sua vida não é só trabalho!]]></title>
+            <description><![CDATA[
+Eu não costumo postar conteúdos não técnicos nesse blog...
+
+Meu objetivo principal é escrever sobre programação e sobre a minha carreira. Porém, estava lendo o blog do [Willian Justen](https://willianjusten.com.br/) eu percebi que nem tudo que rodeia a minha carreira é sobre tecnologia. Então resolvi contar um pouco sobre o período em que fiquei desempregado e como isso me afetou.
+
+O texto é apenas um desabafo, um lembrete pra mim mesmo e com certeza um conselho que meu eu do passado gostaria d]]></description>
+            <link>localhost:3000/blog/2024-07-08-sua-vida-nao-e-so-trabalho</link>
+            <guid isPermaLink="true">localhost:3000/blog/2024-07-08-sua-vida-nao-e-so-trabalho</guid>
+            <pubDate>Mon, 08 Jul 2024 08:20:03 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Padrões React: Hooks]]></title>
             <description><![CDATA[
@@ -17,8 +29,8 @@ Fala, galera! Esse artigo faz parte de uma série focada em padrões do React. R
 - [Render Props](https://www.cristiano.dev/blog/2023-09-14-react-patterns-render-props)
 
 Nesse artigo iremos falar sobre o padrão do React]]></description>
-            <link>localhost:3000/blog/2024-01-25-react-patterns-hooks</link>
-            <guid isPermaLink="true">localhost:3000/blog/2024-01-25-react-patterns-hooks</guid>
+            <link>localhost:3000/blog/2024-01-25-react-patterns-hooks copy</link>
+            <guid isPermaLink="true">localhost:3000/blog/2024-01-25-react-patterns-hooks copy</guid>
             <pubDate>Thu, 25 Jan 2024 08:20:03 GMT</pubDate>
         </item>
         <item>
