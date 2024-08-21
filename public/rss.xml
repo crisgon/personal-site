@@ -4,20 +4,16 @@
         <description><![CDATA[Aqui você encontra todos os artigos que escrevi enquanto aprendia sobre desenvolvimento web, engenharia de software, carreira e liderança.]]></description>
         <link>localhost:3000</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 09 Aug 2024 00:28:13 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 21 Aug 2024 00:32:13 GMT</lastBuildDate>
         <atom:link href="localhost:3000/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 09 Aug 2024 00:28:13 GMT</pubDate>
+        <pubDate>Wed, 21 Aug 2024 00:32:13 GMT</pubDate>
         <item>
             <title><![CDATA[O poder da URL como state]]></title>
             <description><![CDATA[
-Eu não costumo postar conteúdos não técnicos neste blog...
-
-Meu objetivo principal é escrever sobre programação e minha carreira. Porém, ao ler o blog do [Willian Justen](https://willianjusten.com.br/), percebi que nem tudo que envolve minha carreira é sobre tecnologia. Então, decidi compartilhar um pouco sobre o período em que fiquei desempregado e como isso me afetou.
-
-O texto é apenas um desabafo, um lembrete para mim mesmo e, com certeza, um conselho que meu eu do passado gostaria de ter re]]></description>
-            <link>localhost:3000/blog/2024-08-09-url-como-estado-da-aplicacao</link>
-            <guid isPermaLink="true">localhost:3000/blog/2024-08-09-url-como-estado-da-aplicacao</guid>
-            <pubDate>Fri, 09 Aug 2024 08:20:03 GMT</pubDate>
+Com o passar dos anos, as aplicações web se tornaram cada vez mais interativas, e controlar o estado delas virou algo essencial. Frameworks como React, Vue e Angular ganharam popularidade porque facilitam a gestão de estados complexos. Um simples useState, por exemplo, já nos dá total controle sobre o estado da aplicação. Mas hoje, não vou falar sobre useState ou qualquer outra solução que venha de um framework. Quero focar em um dos principais pilares da web, que sempre esteve presente em toda]]></description>
+            <link>localhost:3000/blog/2024-08-20-url-como-estado-da-aplicacao</link>
+            <guid isPermaLink="true">localhost:3000/blog/2024-08-20-url-como-estado-da-aplicacao</guid>
+            <pubDate>Tue, 20 Aug 2024 08:20:03 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Sua vida não é só trabalho!]]></title>
@@ -41,8 +37,8 @@ Fala, galera! Esse artigo faz parte de uma série focada em padrões do React. R
 - [Render Props](https://www.cristiano.dev/blog/2023-09-14-react-patterns-render-props)
 
 Nesse artigo iremos falar sobre o padrão do React]]></description>
-            <link>localhost:3000/blog/2024-01-25-react-patterns-hooks copy</link>
-            <guid isPermaLink="true">localhost:3000/blog/2024-01-25-react-patterns-hooks copy</guid>
+            <link>localhost:3000/blog/2024-01-25-react-patterns-hooks</link>
+            <guid isPermaLink="true">localhost:3000/blog/2024-01-25-react-patterns-hooks</guid>
             <pubDate>Thu, 25 Jan 2024 08:20:03 GMT</pubDate>
         </item>
         <item>
