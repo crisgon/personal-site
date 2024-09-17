@@ -4,9 +4,9 @@
         <description><![CDATA[Aqui você encontra todos os artigos que escrevi enquanto aprendia sobre desenvolvimento web, engenharia de software, carreira e liderança.]]></description>
         <link>localhost:3000</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 30 Aug 2024 10:42:21 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 16 Sep 2024 22:37:24 GMT</lastBuildDate>
         <atom:link href="localhost:3000/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 30 Aug 2024 10:42:21 GMT</pubDate>
+        <pubDate>Mon, 16 Sep 2024 22:37:24 GMT</pubDate>
         <item>
             <title><![CDATA[Entendendo renderização no browser: Paint, layout, repaint e reflow.]]></title>
             <description><![CDATA[
@@ -17,8 +17,8 @@ como os navegadores funcionam? Pois é, isso é algo muito comum. Pouquíssimos 
 entendem o processo que o navegador segue para montar uma página. E, apesar de ser um processo simples,
 ele é muito importante e, infelizmente, ignorado.
 ]]></description>
-            <link>localhost:3000/blog/2024-08-23-renderizacao-no-browser</link>
-            <guid isPermaLink="true">localhost:3000/blog/2024-08-23-renderizacao-no-browser</guid>
+            <link>localhost:3000/blog/2024-09-17-processo-renderizacao-no-browser</link>
+            <guid isPermaLink="true">localhost:3000/blog/2024-09-17-processo-renderizacao-no-browser</guid>
             <pubDate>Fri, 23 Aug 2024 08:20:03 GMT</pubDate>
         </item>
         <item>
