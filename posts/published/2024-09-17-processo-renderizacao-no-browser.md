@@ -1,7 +1,7 @@
 ---
 title: "Entendendo renderização no browser: DOM"
 resume:
-date: 2024-08-23 08:20:03
+date: 2024-09-17 08:20:03
 image:
 category: Geral
 ---
