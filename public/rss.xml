@@ -4,11 +4,25 @@
         <description><![CDATA[Aqui você encontra todos os artigos que escrevi enquanto aprendia sobre desenvolvimento web, engenharia de software, carreira e liderança.]]></description>
         <link>localhost:3000</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 16 Sep 2024 22:37:24 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 24 Sep 2024 11:55:54 GMT</lastBuildDate>
         <atom:link href="localhost:3000/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 16 Sep 2024 22:37:24 GMT</pubDate>
+        <pubDate>Tue, 24 Sep 2024 11:55:54 GMT</pubDate>
         <item>
-            <title><![CDATA[Entendendo renderização no browser: Paint, layout, repaint e reflow.]]></title>
+            <title><![CDATA[Entendendo renderização no browser: CSSOM]]></title>
+            <description><![CDATA[
+Hey, esse artigo faz parte de uma série sobre renderização no browser. Se você ainda não leu os artigos passados, da uma conferida nos links abaixo:
+
+- [Entendendo renderização no browser: DOM](https://www.cristiano.dev/blog/2024-09-17-processo-renderizacao-no-browser)
+
+Quando falamos sobre renderizacao de páginas web, muitos desenvolvedores e desenvolvedoras estão familiarizados com o DOM, porém poucos tem conhecimento sobre o CSSOM.
+
+As folhas de estilo são parte fundamental da estruturacão d]]></description>
+            <link>localhost:3000/blog/2024-09-25-processo-renderizacao-no-browser-cssom</link>
+            <guid isPermaLink="true">localhost:3000/blog/2024-09-25-processo-renderizacao-no-browser-cssom</guid>
+            <pubDate>Wed, 25 Sep 2024 08:20:03 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Entendendo renderização no browser: DOM]]></title>
             <description><![CDATA[
 Conhecer bem a ferramenta com a qual trabalhamos é um passo importante
 para evoluir em nossa carreira. Já imaginou um eletricista que não entenda
@@ -19,7 +33,7 @@ ele é muito importante e, infelizmente, ignorado.
 ]]></description>
             <link>localhost:3000/blog/2024-09-17-processo-renderizacao-no-browser</link>
             <guid isPermaLink="true">localhost:3000/blog/2024-09-17-processo-renderizacao-no-browser</guid>
-            <pubDate>Fri, 23 Aug 2024 08:20:03 GMT</pubDate>
+            <pubDate>Tue, 17 Sep 2024 08:20:03 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[O poder da URL como state]]></title>
