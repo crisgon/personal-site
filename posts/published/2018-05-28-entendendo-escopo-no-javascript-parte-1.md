@@ -91,7 +91,7 @@ Aqui é um caso onde temos uma busca **RHS**(busca por valor), pois precisamos d
 #### Escopos aninhados
 
 Quando uma busca não é bem sucedida, uma nova busca é feita no próximo escopo superior ao atual, até chegar ao escopo global.  
-Para entender escopos aninhados podemos fazer uma alusão com um pŕedio. Onde o escopo atual é o terreo e caso não encontremos o que queremos nele, vamos para o próximo andar(escopo) até chegar no último andar(escopo global).
+Para entender escopos aninhados podemos fazer uma alusão com um prédio. Onde o escopo atual é o térreo e caso não encontremos o que queremos nele, vamos para o próximo andar(escopo) até chegar no último andar(escopo global).
 
 **Vamos ver um exemplo:**
 
@@ -118,7 +118,7 @@ Tudo isso pode parecer só abobrinha e você pode até achar que não precisa sa
 
 Na próxima parte do artigo eu vou falar sobre escopo léxico, escopo de função e escopo de bloco.
 
-[Parte 2](https://crisgon.github.io/posts/Entendendo-escopo-no-javascript-Parte-2/)
+[Parte 2](https://www.cristiano.dev/blog/2018-06-30-entendendo-escopo-no-javascript-parte-2)
 
 **Espero que tenha aprendido algo com esse pequeno post :D**
 

@@ -8,7 +8,7 @@ category: JS
 tagColor: "#f1c40f"
 ---
 
-Se você caiu aqui de paraquedas recomendo ler a [parte 1](https://crisgon.github.io/posts/Entendendo-escopo-no-javascript/) desse artigo, lá eu expliquei o que é escopo e como acontece a sua geração. Hoje vou falar sobre escopo léxico, escopo de função e escopo de bloco. Apenas para refrescar a mente de quem já leu o artigo, escopo é um conjunto de regras que definem onde as variáveis podem ser acessadas após seu armazenamento.
+Se você caiu aqui de paraquedas recomendo ler a [parte 1](https://www.cristiano.dev/blog/2018-05-28-entendendo-escopo-no-javascript-parte-1) desse artigo, lá eu expliquei o que é escopo e como acontece a sua geração. Hoje vou falar sobre escopo léxico, escopo de função e escopo de bloco. Apenas para refrescar a mente de quem já leu o artigo, escopo é um conjunto de regras que definem onde as variáveis podem ser acessadas após seu armazenamento.
 
 ### Escopo léxico?
 
@@ -49,7 +49,7 @@ Com `var` uma variável criada em um bloco não faz parte do escopo,podendo ser 
 
 ### Concluindo
 
-Até aqui vimos a importância de entender sobre escopo, o que pode nos dar um norte na resolução de alguns problemas. Escopo é um assunto relativamente simples, mas seu entendimento é indispensável para o dominio da linguagem javascript. Espero que esse material tenha sido de alguma valid. :D
+Até aqui vimos a importância de entender sobre escopo, o que pode nos dar um norte na resolução de alguns problemas. Escopo é um assunto relativamente simples, mas seu entendimento é indispensável para o domínio da linguagem javascript. Espero que esse material tenha sido de alguma valid. :D
 
 Esse artigo foi menor que o normal, pois pretendo escrever artigos menos sempre que puder.
 

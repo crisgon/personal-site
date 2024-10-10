@@ -4,9 +4,9 @@
         <description><![CDATA[Aqui você encontra todos os artigos que escrevi enquanto aprendia sobre desenvolvimento web, engenharia de software, carreira e liderança.]]></description>
         <link>localhost:3000</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 24 Sep 2024 11:55:54 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 28 Sep 2024 02:23:04 GMT</lastBuildDate>
         <atom:link href="localhost:3000/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 24 Sep 2024 11:55:54 GMT</pubDate>
+        <pubDate>Sat, 28 Sep 2024 02:23:04 GMT</pubDate>
         <item>
             <title><![CDATA[Entendendo renderização no browser: CSSOM]]></title>
             <description><![CDATA[
@@ -14,12 +14,10 @@ Hey, esse artigo faz parte de uma série sobre renderização no browser. Se voc
 
 - [Entendendo renderização no browser: DOM](https://www.cristiano.dev/blog/2024-09-17-processo-renderizacao-no-browser)
 
-Quando falamos sobre renderizacao de páginas web, muitos desenvolvedores e desenvolvedoras estão familiarizados com o DOM, porém poucos tem conhecimento sobre o CSSOM.
-
-As folhas de estilo são parte fundamental da estruturacão d]]></description>
-            <link>localhost:3000/blog/2024-09-25-processo-renderizacao-no-browser-cssom</link>
-            <guid isPermaLink="true">localhost:3000/blog/2024-09-25-processo-renderizacao-no-browser-cssom</guid>
-            <pubDate>Wed, 25 Sep 2024 08:20:03 GMT</pubDate>
+No último artigo, exploramos como o HTML é processado pelo navegador através da DOM (Document Object Model), que define a estrutura da página web. Porém, uma página web não é feita apenas de HTML e algo que muitos ainda não sabe]]></description>
+            <link>localhost:3000/blog/2024-09-26-processo-renderizacao-no-browser-cssom</link>
+            <guid isPermaLink="true">localhost:3000/blog/2024-09-26-processo-renderizacao-no-browser-cssom</guid>
+            <pubDate>Thu, 26 Sep 2024 08:20:03 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Entendendo renderização no browser: DOM]]></title>
