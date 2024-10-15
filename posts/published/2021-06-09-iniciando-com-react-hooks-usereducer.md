@@ -11,10 +11,10 @@ tagColor: "#3498db"
 
 Hey, esse artigo faz parte de uma série sobre react hooks. Se você ainda não leu os artigos passados, da uma conferida nos links abaixo:
 
-- [Iniciando com React Hooks - useState](https://www.crisgon.dev/iniciando-com-react-hooks-usestate/)
-- [iniciando com React Hooks - useEffect](https://www.crisgon.dev/iniciando-com-react-hooks-useeffect/)
-- [iniciando com React Hooks - useMemo](https://www.crisgon.dev/iniciando-com-react-hooks-usememo/)
-- [iniciando com React Hooks - useCallback](https://www.crisgon.dev/iniciando-com-react-hooks-usecallback/)
+- [Iniciando com React Hooks - useState](https://www.cristiano.dev/blog/2021-02-04-iniciando-com-react-hooks-usestate)
+- [iniciando com React Hooks - useEffect](https://www.cristiano.dev/blog/2021-04-14-iniciando-com-react-hooks-usememo)
+- [iniciando com React Hooks - useMemo](https://www.cristiano.dev/blog/2021-04-14-iniciando-com-react-hooks-usememo)
+- [iniciando com React Hooks - useCallback](https://www.cristiano.dev/blog/2021-06-03-iniciando-com-react-hooks-usecallback)
 
 Ao trabalhar com react o padrão quando falamos em gerenciar estado é utilizar o useState, porém essa não é a única forma de trabalhar com estados.
 
@@ -230,7 +230,7 @@ Depende da situação... Segundo a própria [documentação do react](https://pt
 - Toda a sua atualização de estados fica centralizada em um único lugar, ao invés de ter múltiplas funções de setters.
 - As funções redutoras são puras e mais simples de serem testadas.
 - Podemos ter um código mais organizado com estado inicial função redutora isolados do resto da nossa aplicação.
-- Aliado ao [typescript ](https://www.crisgon.dev/typescript-uma-breve-introdu%C3%A7%C3%A3o-interfaces/)o uso de um dispatch fica muito mais fácil e legivel que um simples setter. `dispatch({ type: "WIDTH", value: "200px" });`
+- Aliado ao [typescript ](https://www.cristiano.dev/blog/2020-08-10-typescript-uma-breve-introducao-interfaces)o uso de um dispatch fica muito mais fácil e legivel que um simples setter. `dispatch({ type: "WIDTH", value: "200px" });`
 
 ### Contras
 

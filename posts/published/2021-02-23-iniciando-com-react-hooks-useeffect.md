@@ -11,7 +11,7 @@ tagColor: "#3498db"
 
 Hey, esse artigo faz parte de uma série sobre react hooks. Se você ainda não leu os artigos passados, da uma conferida nos links abaixo:
 
-- [Iniciando com React Hooks - useState](https://www.crisgon.dev/iniciando-com-react-hooks-usestate/)
+- [Iniciando com React Hooks - useState](https://www.cristiano.dev/blog/2021-02-04-iniciando-com-react-hooks-usestate)
 
 ![React JS](/assets/img/hooks-wallpaper.png)
 

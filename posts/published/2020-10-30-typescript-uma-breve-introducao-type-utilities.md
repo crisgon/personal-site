@@ -13,11 +13,11 @@ tagColor: "#130f40"
 
 Nos artigos anteriores nós vimos um pouco sobre tipos básicos, enums, type assertions , interfaces, type aliases e classes. Recomendo dar uma conferida neles, caso não se sinta confortável com esses conceitos.
 
-- [Typescript - Uma breve introdução](https://www.crisgon.dev/typescript-uma-breve-introdu%C3%A7%C3%A3o/)
-- [Typescript - Uma breve introdução - Tuplas, Enums e Type Assertion](https://www.crisgon.dev/typescript-uma-breve-introdu%C3%A7%C3%A3o-parte-2/)
-- [Typescript - Uma breve introdução - Interfaces](https://www.crisgon.dev/typescript-uma-breve-introdu%C3%A7%C3%A3o-interfaces/)
-- [Typescript - Uma breve introdução - Type Aliases](https://www.crisgon.dev/typescript-uma-breve-introdu%C3%A7%C3%A3o-type-aliases/)
-- [Typescript - Uma breve introdução - Classes](https://www.crisgon.dev/typescript-uma-breve-introdu%C3%A7%C3%A3o-classes/)
+- [Typescript - Uma breve introdução](https://www.cristiano.dev/blog/2020-03-02-typescript-uma-breve-introducao)
+- [Typescript - Uma breve introdução - Tuplas, Enums e Type Assertion](https://www.cristiano.dev/blog/2020-07-23-typescript-uma-breve-introducao-parte-2)
+- [Typescript - Uma breve introdução - Interfaces](https://www.cristiano.dev/blog/2020-08-10-typescript-uma-breve-introducao-interfaces)
+- [Typescript - Uma breve introdução - Type Aliases](https://www.cristiano.dev/blog/2020-09-05-typescript-uma-breve-introducao-type-aliases)
+- [Typescript - Uma breve introdução - Classes](https://www.cristiano.dev/blog/2020-10-20-typescript-uma-breve-introducao-classes)
 
 ### Type Utilities
 

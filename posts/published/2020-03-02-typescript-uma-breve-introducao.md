@@ -24,7 +24,7 @@ Javascript é uma linguagem muito permissiva e simples, ela não tem tipagem for
 - Linguagens tipadas: também conhecidas como fortemente tipadas, são linguagens onde você é obrigado a declarar o tipo do dado. Ex: Java, C++, C#
 - Linguagens não tipadas: também conhecidas como fracamente tipadas ou de tipagem dinâmica, são linguagens onde a conversão é feita durante a execução do programa e sem a necessidade do programador forçar a conversão. Ex: PHP, Javascript, Ruby, Python.
 
-Trabalhar com a tipagem dinâmica do javascript é como andar no escuro em um labirinto... Você não sabe onde está e quando pensa que sabe tudo pode mudar muito rápido e acabar te deixando confuso. Recomendo dar uma olhada [nesse](https://www.crisgon.dev/coercao-de-tipos-em-javascript/) artigo que escrevi em outro momento sobre coerção de tipos.
+Trabalhar com a tipagem dinâmica do javascript é como andar no escuro em um labirinto... Você não sabe onde está e quando pensa que sabe tudo pode mudar muito rápido e acabar te deixando confuso. Recomendo dar uma olhada [nesse](https://www.cristiano.dev/blog/2018-04-30-coercao-de-tipos-em-javascript) artigo que escrevi em outro momento sobre coerção de tipos.
 
 É com a premissa de resolver esses problemas que o Typescript surgiu, mas o que é exatamente Typescript?
 

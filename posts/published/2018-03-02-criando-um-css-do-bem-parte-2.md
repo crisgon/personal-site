@@ -10,7 +10,7 @@ tagColor: "#8e44ad"
 
 # Criando Um CSS Do BEM - Parte 2
 
-Na [parte 1](https://www.crisgon.dev/criando-um-css-do-bem-parte-1/) desse artigo falamos um pouco sobre como nomear uma classe significativa e reaproveitável utilizando BEM, porém existem mais alguns pontos importantes para escrever um CSS seguindo essa metodologia, como a organização de arquivos, um dos assuntos que iremos ver por aqui.
+Na [parte 1](https://www.cristiano.dev/blog/2018-02-22-criando-um-css-do-bem-parte-1) desse artigo falamos um pouco sobre como nomear uma classe significativa e reaproveitável utilizando BEM, porém existem mais alguns pontos importantes para escrever um CSS seguindo essa metodologia, como a organização de arquivos, um dos assuntos que iremos ver por aqui.
 
 ![Logo do BEM](/assets/img/bemlogo.png "Logo do BEM")
 

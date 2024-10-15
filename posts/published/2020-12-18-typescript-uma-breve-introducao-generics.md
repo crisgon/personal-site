@@ -13,13 +13,13 @@ tagColor: "#130f40"
 
 Nos artigos anteriores nós vimos um pouco sobre tipos básicos, enums, type assertions , interfaces, type aliases, classes e type utilities. Recomendo dar uma conferida neles, caso não se sinta confortável com esses conceitos.
 
-- [Typescript - Uma breve introdução](https://www.crisgon.dev/typescript-uma-breve-introdu%C3%A7%C3%A3o/)
-- [Typescript - Uma breve introdução - Tuplas, Enums e Type Assertion](https://www.crisgon.dev/typescript-uma-breve-introdu%C3%A7%C3%A3o-parte-2/)
-- [Typescript - Uma breve introdução - Interfaces](https://www.crisgon.dev/typescript-uma-breve-introdu%C3%A7%C3%A3o-interfaces/)
-- [Typescript - Uma breve introdução - Type Aliases](https://www.crisgon.dev/typescript-uma-breve-introdu%C3%A7%C3%A3o-type-aliases/)
-- [Typescript - Uma breve introdução - Classes](https://www.crisgon.dev/typescript-uma-breve-introdu%C3%A7%C3%A3o-classes/)
-- [Typescript - Uma breve introdução - Type utilities - Parte 1](https://www.crisgon.dev/typescript-uma-breve-introdu%C3%A7%C3%A3o-type-utilities/)
-- [Typescript - Uma breve introdução - Type utilities - Parte 2](https://www.crisgon.dev/typescript-uma-breve-introdu%C3%A7%C3%A3o-type-utilities-parte-2/)
+- [Typescript - Uma breve introdução](https://www.cristiano.dev/blog/2020-03-02-typescript-uma-breve-introducao)
+- [Typescript - Uma breve introdução - Tuplas, Enums e Type Assertion](https://www.cristiano.dev/blog/2020-07-23-typescript-uma-breve-introducao-parte-2)
+- [Typescript - Uma breve introdução - Interfaces](https://www.cristiano.dev/blog/2020-08-10-typescript-uma-breve-introducao-interfaces)
+- [Typescript - Uma breve introdução - Type Aliases](https://www.cristiano.dev/blog/2020-09-05-typescript-uma-breve-introducao-type-aliases)
+- [Typescript - Uma breve introdução - Classes](https://www.cristiano.dev/blog/2020-10-20-typescript-uma-breve-introducao-classes)
+- [Typescript - Uma breve introdução - Type utilities - Parte 1](https://www.cristiano.dev/blog/2020-10-30-typescript-uma-breve-introducao-type-utilities)
+- [Typescript - Uma breve introdução - Type utilities - Parte 2](https://www.cristiano.dev/blog/2020-12-07-typescript-uma-breve-introducao-type-utilities-parte-2)
 
 Nos últimos artigos nós aprendemos a criar tipos e logo em seguida a utilizar esses tipos nas nossas funções, classes ou variáveis, mas até aqui só usamos tipos "estáticos". O que eu quero dizer com "estáticos" é que se criarmos uma interface, ao longo do nosso código ela vai permanecer a mesma em todos os lugares que a gente utilizar(a não ser que a gente reescreva essa interface, mas isso não vem ao caso). Porém, uma das nossas atribuições como programadores e programadoras é escrever códigos que possam ser reaproveitados na maior parte dos casos. O ideal seria que um trecho de código feito para um dado X pudesse ser facilmente adaptado ou reutilizado para um dado Y no futuro. Existem muitas formas de alcançar esse feito e uma delas é utilizando generics.
 
@@ -65,7 +65,7 @@ const umaPessoa: Person = {
 showInfo<Person>(umaPessoa);
 ```
 
-Os generics são "argumentos" passados entre `<>` igualzinho ao que vimos com [type utilities](https://www.crisgon.dev/typescript-uma-breve-introdu%C3%A7%C3%A3o-type-utilities/). No exemplo acima dizemos que a função `showInfo` vai receber um generic chamado `MeuTipo` e esse generic vai ser usado como tipo para o argumento `value` da minha função. É como se após invocar a função ela ficasse assim:
+Os generics são "argumentos" passados entre `<>` igualzinho ao que vimos com [type utilities](https://www.cristiano.dev/blog/2020-10-30-typescript-uma-breve-introducao-type-utilities). No exemplo acima dizemos que a função `showInfo` vai receber um generic chamado `MeuTipo` e esse generic vai ser usado como tipo para o argumento `value` da minha função. É como se após invocar a função ela ficasse assim:
 
 ```typescript
 showInfo<Person>(umaPessoa);

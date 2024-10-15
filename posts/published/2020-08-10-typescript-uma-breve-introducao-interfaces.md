@@ -12,8 +12,8 @@ tagColor: "#130f40"
 
 Nos artigos anteriores a gente viu um pouco sobre tipos básicos, enums e type assertions. Recomendo dar uma conferida neles, caso não se sinta confortável com esses conceitos.
 
-- [Typescript - Uma breve introdução](https://www.crisgon.dev/typescript-uma-breve-introdu%C3%A7%C3%A3o/)
-- [Typescript - Uma breve introdução - Tuplas, Enums e Type Assertion](https://www.crisgon.dev/typescript-uma-breve-introdu%C3%A7%C3%A3o-parte-2/)
+- [Typescript - Uma breve introdução](https://www.cristiano.dev/blog/2020-03-02-typescript-uma-breve-introducao)
+- [Typescript - Uma breve introdução - Tuplas, Enums e Type Assertion](https://www.cristiano.dev/blog/2020-07-23-typescript-uma-breve-introducao-parte-2)
 
 Em quase todos os cenários apenas os tipos básicos não vão ser suficientes para que consigamos escrever uma aplicação robusta usando typescript, pois a medida que os nossos dados ficam mais complexos as tipagem tendem a seguir o mesmo caminho. É pensando nesse cenário que o typescript nos oferece as interfaces para a criação de tipos customizados.
 

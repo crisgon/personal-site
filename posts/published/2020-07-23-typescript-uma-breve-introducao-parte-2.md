@@ -10,7 +10,7 @@ category: Typescript
 tagColor: "#130f40"
 ---
 
-No [artigo anterior](https://www.crisgon.dev/typescript-uma-breve-introdu%C3%A7%C3%A3o/) descobrimos como tipar o básico com javascript, number, string, boolean, null, undefined, void, any e never. Dessa vez iremos prosseguir com conceitos básicos e aprender um pouco sobre tuples(tuplas), enums e type assertion.
+No [artigo anterior](https://www.cristiano.dev/blog/2020-03-02-typescript-uma-breve-introducao) descobrimos como tipar o básico com javascript, number, string, boolean, null, undefined, void, any e never. Dessa vez iremos prosseguir com conceitos básicos e aprender um pouco sobre tuples(tuplas), enums e type assertion.
 
 ## Tuplas
 

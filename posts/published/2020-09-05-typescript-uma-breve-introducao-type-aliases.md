@@ -12,9 +12,9 @@ tagColor: "#130f40"
 
 Nos artigos anteriores nós vimos um pouco sobre tipos básicos, enums, type assertions e interfaces. Recomendo dar uma conferida neles, caso não se sinta confortável com esses conceitos.
 
-- [Typescript - Uma breve introdução](https://www.crisgon.dev/typescript-uma-breve-introdu%C3%A7%C3%A3o/)
-- [Typescript - Uma breve introdução - Tuplas, Enums e Type Assertion](https://www.crisgon.dev/typescript-uma-breve-introdu%C3%A7%C3%A3o-parte-2/)
-- [Typescript - Uma breve introdução - Interfaces](https://www.crisgon.dev/typescript-uma-breve-introdu%C3%A7%C3%A3o-interfaces/)
+- [Typescript - Uma breve introdução](https://www.cristiano.dev/blog/2020-03-02-typescript-uma-breve-introducao)
+- [Typescript - Uma breve introdução - Tuplas, Enums e Type Assertion](https://www.cristiano.dev/blog/2020-07-23-typescript-uma-breve-introducao-parte-2)
+- [Typescript - Uma breve introdução - Interfaces](https://www.cristiano.dev/blog/2020-08-10-typescript-uma-breve-introducao-interfaces)
 
 Hoje vamos aprender um pouco sobre `type aliases`(type alias), mais uma forma oferecida pelo typescript para criar tipos reutilizáveis de maneira bastante simples.
 

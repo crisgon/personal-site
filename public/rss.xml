@@ -175,9 +175,9 @@ Em diversos momentos você já deve ter se deparado com uma folha de estilos da 
             <description><![CDATA[
 Hey, esse artigo faz parte de uma série sobre react hooks. Se você ainda não leu os artigos passados, da uma conferida nos links abaixo:
 
-- [Iniciando com React Hooks - useState](https://www.crisgon.dev/iniciando-com-react-hooks-usestate/)
-- [iniciando com React Hooks - useEffect](https://www.crisgon.dev/iniciando-com-react-hooks-useeffect/)
-- [iniciando com React Hooks - useMemo](https://www.crisgon.dev/iniciando-com-react-hooks-usememo/)
+- [Iniciando com React Hooks - useState](https://www.cristiano.dev/blog/2021-02-04-iniciando-com-react-hooks-usestate)
+- [iniciando com React Hooks - useEffect](https://www.cristiano.dev/blog/2021-04-14-iniciando-com-react-hooks-usememo)
+- [iniciando com React Hooks - useMemo](https://www.cristiano.dev/blog/2021-04-14-iniciando-com-react-hooks-usememo)
 - [iniciando com React Hooks - useCallback](https://www]]></description>
             <link>localhost:3000/blog/2021-06-09-iniciando-com-react-hooks-usereducer</link>
             <guid isPermaLink="true">localhost:3000/blog/2021-06-09-iniciando-com-react-hooks-usereducer</guid>
@@ -188,9 +188,9 @@ Hey, esse artigo faz parte de uma série sobre react hooks. Se você ainda não 
             <description><![CDATA[
 Hey, esse artigo faz parte de uma série sobre react hooks. Se você ainda não leu os artigos passados, da uma conferida nos links abaixo:
 
-- [Iniciando com React Hooks - useState](https://www.crisgon.dev/iniciando-com-react-hooks-usestate/)
-- [iniciando com React Hooks - useEffect](https://www.crisgon.dev/iniciando-com-react-hooks-useeffect/)
-- [iniciando com React Hooks - useMemo](https://www.crisgon.dev/iniciando-com-react-hooks-usememo/)
+- [Iniciando com React Hooks - useState](https://www.cristiano.dev/blog/2021-02-04-iniciando-com-react-hooks-usestate)
+- [iniciando com React Hooks - useEffect](https://www.cristiano.dev/blog/2021-04-14-iniciando-com-react-hooks-usememo)
+- [iniciando com React Hooks - useMemo](https://www.cristiano.dev/blog/2021-04-14-iniciando-com-react-hooks-usememo)
 
 Estamos sempre procurando alternativas para deixar nos]]></description>
             <link>localhost:3000/blog/2021-06-03-iniciando-com-react-hooks-usecallback</link>
@@ -202,8 +202,8 @@ Estamos sempre procurando alternativas para deixar nos]]></description>
             <description><![CDATA[
 Hey, esse artigo faz parte de uma série sobre react hooks. Se você ainda não leu os artigos passados, da uma conferida nos links abaixo:
 
-- [Iniciando com React Hooks - useState](https://www.crisgon.dev/iniciando-com-react-hooks-usestate/)
-- [iniciando com React Hooks - useEffect](https://www.crisgon.dev/iniciando-com-react-hooks-useeffect/)
+- [Iniciando com React Hooks - useState](https://www.cristiano.dev/blog/2021-02-04-iniciando-com-react-hooks-usestate)
+- [iniciando com React Hooks - useEffect](https://www.cristiano.dev/blog/2021-04-14-iniciando-com-react-hooks-usememo)
 
 Estamos sempre procurando alternativas para deixar nossas aplicações cada vez melhores e uma das formas de fazer isso é as tornando performáticas.
 
@@ -217,7 +217,7 @@ Anos a]]></description>
             <description><![CDATA[
 Hey, esse artigo faz parte de uma série sobre react hooks. Se você ainda não leu os artigos passados, da uma conferida nos links abaixo:
 
-- [Iniciando com React Hooks - useState](https://www.crisgon.dev/iniciando-com-react-hooks-usestate/)
+- [Iniciando com React Hooks - useState](https://www.cristiano.dev/blog/2021-02-04-iniciando-com-react-hooks-usestate)
 
 ![React JS](/assets/img/hooks-wallpaper.png)
 
@@ -254,8 +254,8 @@ Antes de aprender uma tecnologia é interessante entender que tipo de problema e
             <description><![CDATA[
 Nos artigos anteriores nós vimos um pouco sobre tipos básicos, enums, type assertions , interfaces, type aliases, classes e type utilities. Recomendo dar uma conferida neles, caso não se sinta confortável com esses conceitos.
 
-- [Typescript - Uma breve introdução](https://www.crisgon.dev/typescript-uma-breve-introdu%C3%A7%C3%A3o/)
-- [Typescript - Uma breve introdução - Tuplas, Enums e Type Assertion](https://www.crisgon.dev/typescript-uma-breve-introdu%C3%A7%C3%A3o-parte-2/)
+- [Typescript - Uma breve introdução](https://www.cristiano.dev/blog/2020-03-02-typescript-uma-breve-introducao)
+- [Typescript - Uma breve introdução - Tuplas, Enums e Type Assertion](https://www.cristiano.dev/blog/2020-07-23-typescript-uma-breve-introducao-parte-2)
 - [Typescript - Uma]]></description>
             <link>localhost:3000/blog/2020-12-18-typescript-uma-breve-introducao-generics</link>
             <guid isPermaLink="true">localhost:3000/blog/2020-12-18-typescript-uma-breve-introducao-generics</guid>
@@ -268,8 +268,8 @@ Nos artigos anteriores nós vimos um pouco sobre tipos básicos, enums, type ass
 
 Nos artigos anteriores nós vimos um pouco sobre tipos básicos, enums, type assertions , interfaces, type aliases, classes e type utilities. Recomendo dar uma conferida neles, caso não se sinta confortável com esses conceitos.
 
-- [Typescript - Uma breve introdução](https://www.crisgon.dev/typescript-uma-breve-introdu%C3%A7%C3%A3o/)
-- [Typescript - Uma breve introdução - Tuplas, Enums e Type Assertion](https://www.crisgon.dev/typescript-uma-breve-introdu%C3%A7%C3%A3o-p]]></description>
+- [Typescript - Uma breve introdução](https://www.cristiano.dev/blog/2020-03-02-typescript-uma-breve-introducao)
+- [Typescript - Uma breve introdução - Tuplas, Enums e Type Assertion](https://www.cristiano.dev/blog/2020-03-02-typescript-uma-breve-introducaoA3o-p]]></description>
             <link>localhost:3000/blog/2020-12-07-typescript-uma-breve-introducao-type-utilities-parte-2</link>
             <guid isPermaLink="true">localhost:3000/blog/2020-12-07-typescript-uma-breve-introducao-type-utilities-parte-2</guid>
             <pubDate>Sun, 06 Dec 2020 12:31:06 GMT</pubDate>
@@ -281,8 +281,8 @@ Nos artigos anteriores nós vimos um pouco sobre tipos básicos, enums, type ass
 
 Nos artigos anteriores nós vimos um pouco sobre tipos básicos, enums, type assertions , interfaces, type aliases e classes. Recomendo dar uma conferida neles, caso não se sinta confortável com esses conceitos.
 
-- [Typescript - Uma breve introdução](https://www.crisgon.dev/typescript-uma-breve-introdu%C3%A7%C3%A3o/)
-- [Typescript - Uma breve introdução - Tuplas, Enums e Type Assertion](https://www.crisgon.dev/typescript-uma-breve-introdu%C3%A7%C3%]]></description>
+- [Typescript - Uma breve introdução](https://www.cristiano.dev/blog/2020-03-02-typescript-uma-breve-introducao)
+- [Typescript - Uma breve introdução - Tuplas, Enums e Type Assertion](https://www.cristiano.dev/blog/2020-03-02-typescript-uma-breve-introducao]]></description>
             <link>localhost:3000/blog/2020-10-30-typescript-uma-breve-introducao-type-utilities</link>
             <guid isPermaLink="true">localhost:3000/blog/2020-10-30-typescript-uma-breve-introducao-type-utilities</guid>
             <pubDate>Thu, 29 Oct 2020 12:31:06 GMT</pubDate>
@@ -292,8 +292,8 @@ Nos artigos anteriores nós vimos um pouco sobre tipos básicos, enums, type ass
             <description><![CDATA[
 Nos artigos anteriores nós vimos um pouco sobre tipos básicos, enums, type assertions , interfaces e type aliases. Recomendo dar uma conferida neles, caso não se sinta confortável com esses conceitos.
 
-- [Typescript - Uma breve introdução](https://www.crisgon.dev/typescript-uma-breve-introdu%C3%A7%C3%A3o/)
-- [Typescript - Uma breve introdução - Tuplas, Enums e Type Assertion](https://www.crisgon.dev/typescript-uma-breve-introdu%C3%A7%C3%A3o-parte-2/)
+- [Typescript - Uma breve introdução](https://www.cristiano.dev/blog/2020-03-02-typescript-uma-breve-introducao)
+- [Typescript - Uma breve introdução - Tuplas, Enums e Type Assertion](https://www.cristiano.dev/blog/2020-07-23-typescript-uma-breve-introducao-parte-2)
 - [Typescript - Uma breve introdução - Inter]]></description>
             <link>localhost:3000/blog/2020-10-20-typescript-uma-breve-introducao-classes</link>
             <guid isPermaLink="true">localhost:3000/blog/2020-10-20-typescript-uma-breve-introducao-classes</guid>
@@ -304,8 +304,8 @@ Nos artigos anteriores nós vimos um pouco sobre tipos básicos, enums, type ass
             <description><![CDATA[
 Nos artigos anteriores nós vimos um pouco sobre tipos básicos, enums, type assertions e interfaces. Recomendo dar uma conferida neles, caso não se sinta confortável com esses conceitos.
 
-- [Typescript - Uma breve introdução](https://www.crisgon.dev/typescript-uma-breve-introdu%C3%A7%C3%A3o/)
-- [Typescript - Uma breve introdução - Tuplas, Enums e Type Assertion](https://www.crisgon.dev/typescript-uma-breve-introdu%C3%A7%C3%A3o-parte-2/)
+- [Typescript - Uma breve introdução](https://www.cristiano.dev/blog/2020-03-02-typescript-uma-breve-introducao)
+- [Typescript - Uma breve introdução - Tuplas, Enums e Type Assertion](https://www.cristiano.dev/blog/2020-07-23-typescript-uma-breve-introducao-parte-2)
 - [Typescript - Uma breve introdução - Interfaces](https://]]></description>
             <link>localhost:3000/blog/2020-09-05-typescript-uma-breve-introducao-type-aliases</link>
             <guid isPermaLink="true">localhost:3000/blog/2020-09-05-typescript-uma-breve-introducao-type-aliases</guid>
@@ -316,8 +316,8 @@ Nos artigos anteriores nós vimos um pouco sobre tipos básicos, enums, type ass
             <description><![CDATA[
 Nos artigos anteriores a gente viu um pouco sobre tipos básicos, enums e type assertions. Recomendo dar uma conferida neles, caso não se sinta confortável com esses conceitos.
 
-- [Typescript - Uma breve introdução](https://www.crisgon.dev/typescript-uma-breve-introdu%C3%A7%C3%A3o/)
-- [Typescript - Uma breve introdução - Tuplas, Enums e Type Assertion](https://www.crisgon.dev/typescript-uma-breve-introdu%C3%A7%C3%A3o-parte-2/)
+- [Typescript - Uma breve introdução](https://www.cristiano.dev/blog/2020-03-02-typescript-uma-breve-introducao)
+- [Typescript - Uma breve introdução - Tuplas, Enums e Type Assertion](https://www.cristiano.dev/blog/2020-07-23-typescript-uma-breve-introducao-parte-2)
 
 Em quase todos os cenários apenas os tipos básicos não vão ser sufic]]></description>
             <link>localhost:3000/blog/2020-08-10-typescript-uma-breve-introducao-interfaces</link>
@@ -337,7 +337,7 @@ Ultimamente tem se tornado cada vez menos comum configurar o webpack do zero em 
         <item>
             <title><![CDATA[Typescript - Uma breve introdução - Tuplas, Enums e Type Assertion]]></title>
             <description><![CDATA[
-No [artigo anterior](https://www.crisgon.dev/typescript-uma-breve-introdu%C3%A7%C3%A3o/) descobrimos como tipar o básico com javascript, number, string, boolean, null, undefined, void, any e never. Dessa vez iremos prosseguir com conceitos básicos e aprender um pouco sobre tuples(tuplas), enums e type assertion.
+No [artigo anterior](https://www.cristiano.dev/blog/2020-03-02-typescript-uma-breve-introducao) descobrimos como tipar o básico com javascript, number, string, boolean, null, undefined, void, any e never. Dessa vez iremos prosseguir com conceitos básicos e aprender um pouco sobre tuples(tuplas), enums e type assertion.
 
 ## Tuplas
 
@@ -414,7 +414,7 @@ No javascript, quando precisamos inserir uma variável em uma string, pensamos l
             <description><![CDATA[
 # Criando Um CSS Do BEM - Parte 2
 
-Na [parte 1](https://www.crisgon.dev/criando-um-css-do-bem-parte-1/) desse artigo falamos um pouco sobre como nomear uma classe significativa e reaproveitável utilizando BEM, porém existem mais alguns pontos importantes para escrever um CSS seguindo essa metodologia, como a organização de arquivos, um dos assuntos que iremos ver por aqui.
+Na [parte 1](https://www.cristiano.dev/blog/2018-02-22-criando-um-css-do-bem-parte-1) desse artigo falamos um pouco sobre como nomear uma classe significativa e reaproveitável utilizando BEM, porém existem mais alguns pontos importantes para escrever um CSS seguindo essa metodologia, como a organização de arquivos, um dos assuntos que iremos ver por aqui.
 
 ![Logo do BEM](/assets/img/bemlogo.png "Logo do BEM")
 
