@@ -4,9 +4,22 @@
         <description><![CDATA[Aqui você encontra todos os artigos que escrevi enquanto aprendia sobre desenvolvimento web, engenharia de software, carreira e liderança.]]></description>
         <link>localhost:3000</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 28 Sep 2024 02:23:04 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 10 Nov 2024 18:10:30 GMT</lastBuildDate>
         <atom:link href="localhost:3000/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 28 Sep 2024 02:23:04 GMT</pubDate>
+        <pubDate>Sun, 10 Nov 2024 18:10:30 GMT</pubDate>
+        <item>
+            <title><![CDATA[Entendendo renderização no browser: Como o DOM é gerado?]]></title>
+            <description><![CDATA[
+Nos artigos anteriores nós aprendemos sobre o DOM e sobre o CSSOM, se você ainda tem dúvidas sobre essas duas palavrinhas recomendo fazer a leitura dos dois posts abaixo:
+
+- [Entendendo renderização no browser: DOM](https://www.cristiano.dev/blog/2024-09-17-processo-renderizacao-no-browser)
+- [Entendendo renderização no browser: CSSOM](https://www.cristiano.dev/blog/2024-09-26-processo-renderizacao-no-browser-cssom)
+
+Recapitulando, o DOM é uma estrutura que o navegador utiliza para renderizar a]]></description>
+            <link>localhost:3000/blog/2024-09-26-processo-renderizacao-no-browser-como-o-dom-e-gerado</link>
+            <guid isPermaLink="true">localhost:3000/blog/2024-09-26-processo-renderizacao-no-browser-como-o-dom-e-gerado</guid>
+            <pubDate>Fri, 11 Oct 2024 08:20:03 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Entendendo renderização no browser: CSSOM]]></title>
             <description><![CDATA[
@@ -178,7 +191,7 @@ Hey, esse artigo faz parte de uma série sobre react hooks. Se você ainda não 
 - [Iniciando com React Hooks - useState](https://www.cristiano.dev/blog/2021-02-04-iniciando-com-react-hooks-usestate)
 - [iniciando com React Hooks - useEffect](https://www.cristiano.dev/blog/2021-04-14-iniciando-com-react-hooks-usememo)
 - [iniciando com React Hooks - useMemo](https://www.cristiano.dev/blog/2021-04-14-iniciando-com-react-hooks-usememo)
-- [iniciando com React Hooks - useCallback](https://www]]></description>
+- [ini]]></description>
             <link>localhost:3000/blog/2021-06-09-iniciando-com-react-hooks-usereducer</link>
             <guid isPermaLink="true">localhost:3000/blog/2021-06-09-iniciando-com-react-hooks-usereducer</guid>
             <pubDate>Tue, 08 Jun 2021 10:26:23 GMT</pubDate>
@@ -192,7 +205,7 @@ Hey, esse artigo faz parte de uma série sobre react hooks. Se você ainda não 
 - [iniciando com React Hooks - useEffect](https://www.cristiano.dev/blog/2021-04-14-iniciando-com-react-hooks-usememo)
 - [iniciando com React Hooks - useMemo](https://www.cristiano.dev/blog/2021-04-14-iniciando-com-react-hooks-usememo)
 
-Estamos sempre procurando alternativas para deixar nos]]></description>
+Estam]]></description>
             <link>localhost:3000/blog/2021-06-03-iniciando-com-react-hooks-usecallback</link>
             <guid isPermaLink="true">localhost:3000/blog/2021-06-03-iniciando-com-react-hooks-usecallback</guid>
             <pubDate>Wed, 02 Jun 2021 10:21:26 GMT</pubDate>
@@ -205,9 +218,7 @@ Hey, esse artigo faz parte de uma série sobre react hooks. Se você ainda não 
 - [Iniciando com React Hooks - useState](https://www.cristiano.dev/blog/2021-02-04-iniciando-com-react-hooks-usestate)
 - [iniciando com React Hooks - useEffect](https://www.cristiano.dev/blog/2021-04-14-iniciando-com-react-hooks-usememo)
 
-Estamos sempre procurando alternativas para deixar nossas aplicações cada vez melhores e uma das formas de fazer isso é as tornando performáticas.
-
-Anos a]]></description>
+Estamos sempre procurando alternativas para deixar nossas aplicações cada vez melhores e uma das formas de fazer isso é as]]></description>
             <link>localhost:3000/blog/2021-04-14-iniciando-com-react-hooks-usememo</link>
             <guid isPermaLink="true">localhost:3000/blog/2021-04-14-iniciando-com-react-hooks-usememo</guid>
             <pubDate>Sun, 09 May 2021 11:57:52 GMT</pubDate>
@@ -223,7 +234,7 @@ Hey, esse artigo faz parte de uma série sobre react hooks. Se você ainda não 
 
 A primeira coisa que precisa ficar clara é que o hook `useEffect` não é uma versão dos ciclos de vida`constructor`, `componentDidMount`, `componentDidUpdate`, e `componentWillUnmount`.
 
-Isso mesmo, provavelmente ]]></description>
+Isso mesm]]></description>
             <link>localhost:3000/blog/2021-02-23-iniciando-com-react-hooks-useeffect</link>
             <guid isPermaLink="true">localhost:3000/blog/2021-02-23-iniciando-com-react-hooks-useeffect</guid>
             <pubDate>Tue, 06 Apr 2021 10:28:46 GMT</pubDate>
@@ -256,7 +267,7 @@ Nos artigos anteriores nós vimos um pouco sobre tipos básicos, enums, type ass
 
 - [Typescript - Uma breve introdução](https://www.cristiano.dev/blog/2020-03-02-typescript-uma-breve-introducao)
 - [Typescript - Uma breve introdução - Tuplas, Enums e Type Assertion](https://www.cristiano.dev/blog/2020-07-23-typescript-uma-breve-introducao-parte-2)
-- [Typescript - Uma]]></description>
+- [Ty]]></description>
             <link>localhost:3000/blog/2020-12-18-typescript-uma-breve-introducao-generics</link>
             <guid isPermaLink="true">localhost:3000/blog/2020-12-18-typescript-uma-breve-introducao-generics</guid>
             <pubDate>Thu, 17 Dec 2020 11:24:27 GMT</pubDate>
@@ -269,7 +280,7 @@ Nos artigos anteriores nós vimos um pouco sobre tipos básicos, enums, type ass
 Nos artigos anteriores nós vimos um pouco sobre tipos básicos, enums, type assertions , interfaces, type aliases, classes e type utilities. Recomendo dar uma conferida neles, caso não se sinta confortável com esses conceitos.
 
 - [Typescript - Uma breve introdução](https://www.cristiano.dev/blog/2020-03-02-typescript-uma-breve-introducao)
-- [Typescript - Uma breve introdução - Tuplas, Enums e Type Assertion](https://www.cristiano.dev/blog/2020-03-02-typescript-uma-breve-introducaoA3o-p]]></description>
+- [Typescript - Uma breve introdução - Tuplas, Enums e Type Assertion](https://www.cristiano.dev/blog/2020-07-23-typescript-uma-bre]]></description>
             <link>localhost:3000/blog/2020-12-07-typescript-uma-breve-introducao-type-utilities-parte-2</link>
             <guid isPermaLink="true">localhost:3000/blog/2020-12-07-typescript-uma-breve-introducao-type-utilities-parte-2</guid>
             <pubDate>Sun, 06 Dec 2020 12:31:06 GMT</pubDate>
@@ -282,7 +293,7 @@ Nos artigos anteriores nós vimos um pouco sobre tipos básicos, enums, type ass
 Nos artigos anteriores nós vimos um pouco sobre tipos básicos, enums, type assertions , interfaces, type aliases e classes. Recomendo dar uma conferida neles, caso não se sinta confortável com esses conceitos.
 
 - [Typescript - Uma breve introdução](https://www.cristiano.dev/blog/2020-03-02-typescript-uma-breve-introducao)
-- [Typescript - Uma breve introdução - Tuplas, Enums e Type Assertion](https://www.cristiano.dev/blog/2020-03-02-typescript-uma-breve-introducao]]></description>
+- [Typescript - Uma breve introdução - Tuplas, Enums e Type Assertion](https://www.cristiano.dev/blog/2020-07-23-typescript-um]]></description>
             <link>localhost:3000/blog/2020-10-30-typescript-uma-breve-introducao-type-utilities</link>
             <guid isPermaLink="true">localhost:3000/blog/2020-10-30-typescript-uma-breve-introducao-type-utilities</guid>
             <pubDate>Thu, 29 Oct 2020 12:31:06 GMT</pubDate>
@@ -294,7 +305,7 @@ Nos artigos anteriores nós vimos um pouco sobre tipos básicos, enums, type ass
 
 - [Typescript - Uma breve introdução](https://www.cristiano.dev/blog/2020-03-02-typescript-uma-breve-introducao)
 - [Typescript - Uma breve introdução - Tuplas, Enums e Type Assertion](https://www.cristiano.dev/blog/2020-07-23-typescript-uma-breve-introducao-parte-2)
-- [Typescript - Uma breve introdução - Inter]]></description>
+- [Typescript - Uma breve intr]]></description>
             <link>localhost:3000/blog/2020-10-20-typescript-uma-breve-introducao-classes</link>
             <guid isPermaLink="true">localhost:3000/blog/2020-10-20-typescript-uma-breve-introducao-classes</guid>
             <pubDate>Mon, 19 Oct 2020 04:00:27 GMT</pubDate>
@@ -306,7 +317,7 @@ Nos artigos anteriores nós vimos um pouco sobre tipos básicos, enums, type ass
 
 - [Typescript - Uma breve introdução](https://www.cristiano.dev/blog/2020-03-02-typescript-uma-breve-introducao)
 - [Typescript - Uma breve introdução - Tuplas, Enums e Type Assertion](https://www.cristiano.dev/blog/2020-07-23-typescript-uma-breve-introducao-parte-2)
-- [Typescript - Uma breve introdução - Interfaces](https://]]></description>
+- [Typescript - Uma breve introdução - Interf]]></description>
             <link>localhost:3000/blog/2020-09-05-typescript-uma-breve-introducao-type-aliases</link>
             <guid isPermaLink="true">localhost:3000/blog/2020-09-05-typescript-uma-breve-introducao-type-aliases</guid>
             <pubDate>Sat, 05 Sep 2020 04:10:03 GMT</pubDate>
@@ -319,7 +330,7 @@ Nos artigos anteriores a gente viu um pouco sobre tipos básicos, enums e type a
 - [Typescript - Uma breve introdução](https://www.cristiano.dev/blog/2020-03-02-typescript-uma-breve-introducao)
 - [Typescript - Uma breve introdução - Tuplas, Enums e Type Assertion](https://www.cristiano.dev/blog/2020-07-23-typescript-uma-breve-introducao-parte-2)
 
-Em quase todos os cenários apenas os tipos básicos não vão ser sufic]]></description>
+Em quase todos os cenários apenas os tipos básicos não]]></description>
             <link>localhost:3000/blog/2020-08-10-typescript-uma-breve-introducao-interfaces</link>
             <guid isPermaLink="true">localhost:3000/blog/2020-08-10-typescript-uma-breve-introducao-interfaces</guid>
             <pubDate>Sun, 09 Aug 2020 13:02:04 GMT</pubDate>
@@ -343,7 +354,7 @@ No [artigo anterior](https://www.cristiano.dev/blog/2020-03-02-typescript-uma-br
 
 Tuplas são utilizadas para representar um array onde sabemos a quantidade exata de elementos, mas queremos tipos específicos para cada um desses elementos.
 
-Vamos supor que ]]></description>
+Vamos sup]]></description>
             <link>localhost:3000/blog/2020-07-23-typescript-uma-breve-introducao-parte-2</link>
             <guid isPermaLink="true">localhost:3000/blog/2020-07-23-typescript-uma-breve-introducao-parte-2</guid>
             <pubDate>Wed, 22 Jul 2020 13:25:50 GMT</pubDate>
@@ -361,11 +372,11 @@ Javascript é uma linguagem muito permissiva e simples, ela não tem tipagem for
         <item>
             <title><![CDATA[Entendendo Escopo no Javascript - Parte 2]]></title>
             <description><![CDATA[
-Se você caiu aqui de paraquedas recomendo ler a [parte 1](https://crisgon.github.io/posts/Entendendo-escopo-no-javascript/) desse artigo, lá eu expliquei o que é escopo e como acontece a sua geração. Hoje vou falar sobre escopo léxico, escopo de função e escopo de bloco. Apenas para refrescar a mente de quem já leu o artigo, escopo é um conjunto de regras que definem onde as variáveis podem ser acessadas após seu armazenamento.
+Se você caiu aqui de paraquedas recomendo ler a [parte 1](https://www.cristiano.dev/blog/2018-05-28-entendendo-escopo-no-javascript-parte-1) desse artigo, lá eu expliquei o que é escopo e como acontece a sua geração. Hoje vou falar sobre escopo léxico, escopo de função e escopo de bloco. Apenas para refrescar a mente de quem já leu o artigo, escopo é um conjunto de regras que definem onde as variáveis podem ser acessadas após seu armazenamento.
 
 ### Escopo léxico?
 
-É o escopo definido no local onde as funções s]]></description>
+É o escopo definido no local ]]></description>
             <link>localhost:3000/blog/2018-06-30-entendendo-escopo-no-javascript-parte-2</link>
             <guid isPermaLink="true">localhost:3000/blog/2018-06-30-entendendo-escopo-no-javascript-parte-2</guid>
             <pubDate>Sat, 30 Jun 2018 23:41:00 GMT</pubDate>
@@ -420,7 +431,7 @@ Na [parte 1](https://www.cristiano.dev/blog/2018-02-22-criando-um-css-do-bem-par
 
 #### Algumas considerações importantes
 
-Não basta simplemente criar]]></description>
+Não basta ]]></description>
             <link>localhost:3000/blog/2018-03-02-criando-um-css-do-bem-parte-2</link>
             <guid isPermaLink="true">localhost:3000/blog/2018-03-02-criando-um-css-do-bem-parte-2</guid>
             <pubDate>Fri, 02 Mar 2018 16:41:00 GMT</pubDate>
