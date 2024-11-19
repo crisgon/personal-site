@@ -16,6 +16,8 @@ Muitas vezes damos a desculpa de não ter um portfólio por nunca ter trabalhado
 
 Nesse post eu vou contar um pouco sobre minha jornada com o desafio [30 Days 30 Sites](https://www.subscribepage.com/30days30sites).
 
+> Infelizmente o projeto que enviava os temas por email foi descontinuado, mas você pode conferir a lista com os temas [aqui](https://gist.github.com/crisgon/99b22f349944dc6b4b3c330d185b9ef1).
+
 ![30 dias 30 sites](/assets/img/30days30sites.png "30 dias 30 sites")
 
 ### Aceitando o desafio
@@ -24,8 +26,8 @@ Tudo começou quando descobri a hashtag #100DaysOfCode no twitter, fui navegando
 
 ### [](https://crisgon.github.io/posts/Minha-jornada-criando-30-sites-em-30-dias/#Novas-tecnologias "Novas tecnologias")Novas tecnologias
 
-Um dos pontos fortes desse desafio é a liberdade que é dada para o participante, pois ele nos entrega apenas um tema e deixa todo o resto a nosso critério, essa é uma boa forma de experimentar diversas tecnologias e isso vai nos permitir adquirir um conhecimento prático, coisa que não conseguimos apenas lendo um livro ou fazendo um curso.\
-Durante a minha trajetória eu pude trabalhar na prática durante grande parte do desafio com PUG, SASS, GULP e Mobile First. A possibilidade de trabalhar com Mobile First em mais de 20 projetos me deu uma bagagem considerável sobre desenvolvimento responsivo, coisa que antes eu não tinha segurança para desenvolver e sempre ficava buscando algum framework para todas as ocasiões.\
+Um dos pontos fortes desse desafio é a liberdade que é dada para o participante, pois ele nos entrega apenas um tema e deixa todo o resto a nosso critério, essa é uma boa forma de experimentar diversas tecnologias e isso vai nos permitir adquirir um conhecimento prático, coisa que não conseguimos apenas lendo um livro ou fazendo um curso.
+Durante a minha trajetória eu pude trabalhar na prática durante grande parte do desafio com PUG, SASS, GULP e Mobile First. A possibilidade de trabalhar com Mobile First em mais de 20 projetos me deu uma bagagem considerável sobre desenvolvimento responsivo, coisa que antes eu não tinha segurança para desenvolver e sempre ficava buscando algum framework para todas as ocasiões.
 Na reta final eu ainda tive a oportunidade de usar o CSS Grid e consegui bons resultados ao utiliza-lo.
 
 ### [](https://crisgon.github.io/posts/Minha-jornada-criando-30-sites-em-30-dias/#Trabalhando-com-temas-que-gosto "Trabalhando com temas que gosto")Trabalhando com temas que gosto
@@ -36,12 +38,12 @@ Como havia dito anteriormente, o desafio nos possibilita liberdade para construi
 
 ### [](https://crisgon.github.io/posts/Minha-jornada-criando-30-sites-em-30-dias/#Nem-tudo-sao-flores%E2%80%A6 "Nem tudo são flores…")Nem tudo são flores…
 
-O desafio propõe a criação de 30 sites em 30 dias, entretanto nem sempre é possível concluir durante o prazo. Sempre aparecem complicações que acabam atrapalhando o processo, porém não desanime e siga em frente.\
+O desafio propõe a criação de 30 sites em 30 dias, entretanto nem sempre é possível concluir durante o prazo. Sempre aparecem complicações que acabam atrapalhando o processo, porém não desanime e siga em frente.
 Eu iniciei minha jornada no fim do semestre da faculdade, ou seja, fiz algo muito arriscado… Sempre precisava estudar para alguma prova ou fazer algum trabalho, e isso acabava comprometendo meu progresso com a criação dos sites. Fiquei alguns dias sem codar e teve momentos em que eu tirava 1 ou 2 horas para fazer um site, verificando todos os sites da para perceber quais foram feito nessa situação.
 
 ### [](https://crisgon.github.io/posts/Minha-jornada-criando-30-sites-em-30-dias/#Recebendo-e-dando-feedbacks "Recebendo e dando feedbacks")Recebendo e dando feedbacks
 
-~~Todo mundo precisa de um site~~Todo mundo precisa de um feedback! Essa é uma das partes mais importantes do desafio, pois é com ela que encontramos a possibilidade de melhorar e até mesmo forças para continuar. Mas esteja preparado para receber criticas construtivas sobre o seu trabalho, também esteja preparado para não se inflar de orgulho quando receber elogios. Com os feedbacks também temos a oportunidade de conhecer novas pessoas e contribuir com o crescimento delas.
+<s>Todo mundo precisa de um site</s> Todo mundo precisa de um feedback! Essa é uma das partes mais importantes do desafio, pois é com ela que encontramos a possibilidade de melhorar e até mesmo forças para continuar. Mas esteja preparado para receber criticas construtivas sobre o seu trabalho, também esteja preparado para não se inflar de orgulho quando receber elogios. Com os feedbacks também temos a oportunidade de conhecer novas pessoas e contribuir com o crescimento delas.
 
 Os feedbacks em geral são dados no Twitter ou por meio do grupo do facebook, onde você simplesmente compartilha seu trabalho e recebe opiniões sobre ele.
 
@@ -71,7 +73,7 @@ Atualmente eu estou fazendo mais um daily, o dailycssimages. Em breve vou fazer 
 
 ### [](https://crisgon.github.io/posts/Minha-jornada-criando-30-sites-em-30-dias/#Conclusao "Conclusão")Conclusão
 
-Concluir essa jornada não vai me garantir um emprego, mas me garantiu muito conhecimento e crescimento. É claro que os projetos não foram feitos da melhor forma possível e ainda tenho muito a melhorar, mas o importante do desafio é o comprometimento e a busca continua por melhorias.\
+Concluir essa jornada não vai me garantir um emprego, mas me garantiu muito conhecimento e crescimento. É claro que os projetos não foram feitos da melhor forma possível e ainda tenho muito a melhorar, mas o importante do desafio é o comprometimento e a busca continua por melhorias.
 Nessa caminhada**o que realmente importa não é o resultado final, mas sim o processo**. A conclusão desse desafio não mostra apenas que sou capaz de construir sites, ela mostra o comprometimento e a vontade de crescimento.
 
 #### [](https://crisgon.github.io/posts/Minha-jornada-criando-30-sites-em-30-dias/#E-voce-O-que-esta-esperando-para-se-desafiar "E você? O que está esperando para se desafiar?")E você? O que está esperando para se desafiar?
