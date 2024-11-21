@@ -84,6 +84,7 @@ export default function RootLayout({
           `,
         }}
         strategy="beforeInteractive"
+        async
       />
     </html>
   );
