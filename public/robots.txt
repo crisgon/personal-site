@@ -1,0 +1,11 @@
+# *
+User-agent: *
+Allow: /
+Allow: /api/og/*
+
+# Host
+Host: https://cristiano.dev/
+
+# Sitemaps
+Sitemap: https://cristiano.dev/sitemap.xml
+Sitemap: https://cristiano.dev/server-sitemap.xml

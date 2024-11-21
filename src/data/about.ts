@@ -1,9 +1,16 @@
 const career = [
   {
     imgUrl: "/aarin.jpeg",
+    title: "Front End Chapter Lead",
+    link: "https://aarin.com.br/",
+    date: "out de 2024 - atual",
+    company: "Aarin Tech-fin",
+  },
+  {
+    imgUrl: "/aarin.jpeg",
     title: "Front End Developer",
     link: "https://aarin.com.br/",
-    date: "ago de 2023 - atual",
+    date: "ago de 2023 - out de 2024",
     company: "Aarin Tech-fin",
   },
   {

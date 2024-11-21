@@ -4,9 +4,9 @@
         <description><![CDATA[Aqui você encontra todos os artigos que escrevi enquanto aprendia sobre desenvolvimento web, engenharia de software, carreira e liderança.]]></description>
         <link>localhost:3000</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 19 Nov 2024 01:57:02 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 21 Nov 2024 00:39:49 GMT</lastBuildDate>
         <atom:link href="localhost:3000/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 19 Nov 2024 01:57:02 GMT</pubDate>
+        <pubDate>Thu, 21 Nov 2024 00:39:49 GMT</pubDate>
         <item>
             <title><![CDATA[Entendendo renderização no browser: Como o DOM é gerado?]]></title>
             <description><![CDATA[

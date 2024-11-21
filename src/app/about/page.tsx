@@ -43,7 +43,7 @@ export default function About() {
             "text-transparent bg-clip-text text-5xl text-white font-normal"
           }
         >
-          <span className=" primary-gradient-text">Eu sou o </span>
+          <span className="primary-gradient-text">Eu sou o </span>
           Cristiano Gonçalves
           <span className=" primary-gradient-text">, prazer!</span>
         </h2>
@@ -60,6 +60,7 @@ export default function About() {
             alt="Foto do Cristiano, autor do site"
             width={350}
             height={252}
+            priority
             className="rounded-lg mb-4 mt-8 object-cover max-h-96 min-h-96 bg-top bg-[#1d1d20]"
           />
           <a
@@ -74,9 +75,9 @@ export default function About() {
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
               className="mr-4"
             >
               <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z" />

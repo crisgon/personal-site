@@ -9,6 +9,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 import "./globals.css";
+import { SchemaMarkup } from "@/components/schema-markup";
 
 const roboto = Roboto({ weight: "300", subsets: ["latin"] });
 
@@ -46,7 +47,6 @@ export default function RootLayout({
         </Header.Root>
 
         {children}
-
         <Footer.Root>
           <Footer.SocialLinks>
             <Footer.SocialLink
@@ -65,6 +65,7 @@ export default function RootLayout({
         </Footer.Root>
       </body>
 
+      <SchemaMarkup />
       <Script
         type="text/javascript"
         dangerouslySetInnerHTML={{
