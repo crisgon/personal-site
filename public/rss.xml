@@ -4,9 +4,18 @@
         <description><![CDATA[Aqui você encontra todos os artigos que escrevi enquanto aprendia sobre desenvolvimento web, engenharia de software, carreira e liderança.]]></description>
         <link>localhost:3000</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 21 Nov 2024 00:39:49 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 26 Dec 2024 21:35:05 GMT</lastBuildDate>
         <atom:link href="localhost:3000/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 21 Nov 2024 00:39:49 GMT</pubDate>
+        <pubDate>Thu, 26 Dec 2024 21:35:05 GMT</pubDate>
+        <item>
+            <title><![CDATA[Meu ano de 2024]]></title>
+            <description><![CDATA[
+Essa é a primeira vez que estou escrevendo um post de retrospectiva e ele tem fortes influências do [willian justen](https://willianjusten.com.br/meu-ano-de-2024)
+]]></description>
+            <link>localhost:3000/blog/2024-12-26-meu-ano-de-2024</link>
+            <guid isPermaLink="true">localhost:3000/blog/2024-12-26-meu-ano-de-2024</guid>
+            <pubDate>Thu, 26 Dec 2024 08:20:03 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Entendendo renderização no browser: Como o DOM é gerado?]]></title>
             <description><![CDATA[
