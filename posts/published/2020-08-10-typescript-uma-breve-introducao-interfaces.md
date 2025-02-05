@@ -229,11 +229,11 @@ console.log(array); // [ { "one": 1, "two": 2 }, { "three": 3 }, { "four": 4 } ]
 
 Existe a possibilidade de tipar nossos dados utilizando classes, porém quando nosso typescript é transformado em javascript a gente acaba tendo uma classe inútil, pois ela é declarada e não é usada em local nenhum. Isso acontece porque o typescript só fazia uso em tempo de execução. Veja as imagens abaixo.
 
-![Tipagem usando interfaces](/assets/img/Screenshot from 2020-08-23 19-11-31.png "Tipagem usando interfaces")
+![Tipagem usando interfaces](/assets/img/tipage-interfaces.png)
 
 A imagem acima mostra o resultado de um código javascript tipado usando interfaces, note que a interface foi descartada e não poluí o nosso código final.
 
-![Tipagem usando classes](/assets/img/Screenshot from 2020-08-23 19-22-38.png "Tipagem usando classes")
+![Tipagem usando classes](/assets/img/tipagem-classes.png")
 
 A imagem acima mostra um código javascript tipado usando classes, note que uma classe é criada, mas não é usada em momento algum no nosso código final.\
 **PS: eu precisei iniciar as propriedades com um valor, pois o typescript reclamou que elas não tinham sido inicializadas no construtor.**

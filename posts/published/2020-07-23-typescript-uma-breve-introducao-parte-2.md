@@ -174,7 +174,7 @@ enum BooleanLikeHeterogeneousEnum {
 
 Só pra matar sua curiosidade, logo abaixo tem uma imagem com o javascript que é gerado quando usamos um enum do typescript.
 
-![Resultado da transpilação de um enum para JS](/assets/img/Screenshot from 2020-07-25 02-13-45.png "Resultado da transpilação de um enum para JS")
+![Resultado da transpilação de um enum para JS](/assets/img/enums.png)
 
 ### Type Assertion
 
