@@ -3,6 +3,7 @@ import { CareerItem } from "@/components/career-item/career-item";
 import { career } from "@/data/about";
 import { Roboto } from "next/font/google";
 import Image from "next/image";
+import type { Viewport } from "next";
 
 const roboto = Roboto({ weight: "400", subsets: ["latin"] });
 
@@ -22,7 +23,6 @@ export async function generateMetadata(): Promise<Metadata> {
       description,
     },
     category: "technology",
-    themeColor: "black",
     twitter: {
       site: url,
       images: [thumb],
@@ -33,6 +33,10 @@ export async function generateMetadata(): Promise<Metadata> {
     },
   };
 }
+
+export const viewport: Viewport = {
+  themeColor: "black",
+};
 
 export default function About() {
   return (

@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import type { Viewport } from "next";
+
 import { Article } from "@/components/article/article";
 import {
   convertMarkdownToHtml,
@@ -7,12 +9,13 @@ import {
 } from "@/lib/blog";
 
 interface BlogPostProps {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }
 
-export async function generateMetadata({
-  params,
-}: BlogPostProps): Promise<Metadata> {
+export async function generateMetadata(
+  props: BlogPostProps,
+): Promise<Metadata> {
+  const params = await props.params;
   const post = getPostBySlug(params.slug);
   const normalizedPostTitle = replaceCharForAScapeCode(
     post?.title ?? null,
@@ -38,7 +41,6 @@ export async function generateMetadata({
       authors: author,
     },
     category: "technology",
-    themeColor: "black",
     twitter: {
       site: url,
       images: featuredImage,
@@ -50,7 +52,12 @@ export async function generateMetadata({
   };
 }
 
-export default async function BlogPost({ params }: BlogPostProps) {
+export const viewport: Viewport = {
+  themeColor: "black",
+};
+
+export default async function BlogPost(props: BlogPostProps) {
+  const params = await props.params;
   const post = getPostBySlug(params.slug);
 
   if (!post) {

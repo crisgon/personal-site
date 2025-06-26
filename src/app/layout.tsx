@@ -1,4 +1,6 @@
 import Script from "next/script";
+import flagsmith from "flagsmith/isomorphic";
+
 import { Header } from "@/components/header";
 import { Roboto } from "next/font/google";
 import { Footer } from "@/components/footer";
@@ -10,6 +12,8 @@ import type { Metadata } from "next";
 
 import "./globals.css";
 import { SchemaMarkup } from "@/components/schema-markup";
+import { FeatureFlagProvider } from "@/components/feature-flag-provider";
+import { Toaster } from "react-hot-toast";
 
 const roboto = Roboto({ weight: "300", subsets: ["latin"] });
 
@@ -21,55 +25,63 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
+  await flagsmith.init({
+    environmentID: "L6gsgQA9R5unHMGKGJXx2C",
+  });
+  const serverState = flagsmith.getState();
+
   return (
     <html lang="en">
       <body
         className={`${roboto.className}  max-w-4xl min-h-screen m-auto flex flex-col p-5 bg-black`}
       >
-        <Header.Root>
-          <Header.Logo />
-          <Header.Nav>
-            <Header.NavItem name="blog">
-              <Link href="/blog">Blog</Link>
-            </Header.NavItem>
-            <Header.NavItem name="about">
-              <Link href="/about">Sobre</Link>
-            </Header.NavItem>
-            <Header.NavItem name="talks">
-              <Link href="/talks">Talks</Link>
-            </Header.NavItem>
-          </Header.Nav>
-        </Header.Root>
+        <FeatureFlagProvider serverState={serverState}>
+          <>
+            <Header.Root>
+              <Header.Logo />
+              <Header.Nav>
+                <Header.NavItem name="blog">
+                  <Link href="/blog">Blog</Link>
+                </Header.NavItem>
+                <Header.NavItem name="about">
+                  <Link href="/about">Sobre</Link>
+                </Header.NavItem>
+                <Header.NavItem name="talks">
+                  <Link href="/talks">Talks</Link>
+                </Header.NavItem>
+              </Header.Nav>
+            </Header.Root>
 
-        {children}
-        <Footer.Root>
-          <Footer.SocialLinks>
-            <Footer.SocialLink
-              name="Github"
-              link="https://github.com/crisgon"
-            />
-            <Footer.SocialLink
-              name="Twitter"
-              link="https://twitter.com/Gonkristiano"
-            />
-            <Footer.SocialLink
-              name="Linkedin"
-              link="https://www.linkedin.com/in/cristiano-gon%C3%A7alves/"
-            />
-          </Footer.SocialLinks>
-        </Footer.Root>
-      </body>
+            {children}
+            <Footer.Root>
+              <Footer.SocialLinks>
+                <Footer.SocialLink
+                  name="Github"
+                  link="https://github.com/crisgon"
+                />
+                <Footer.SocialLink
+                  name="Twitter"
+                  link="https://twitter.com/Gonkristiano"
+                />
+                <Footer.SocialLink
+                  name="Linkedin"
+                  link="https://www.linkedin.com/in/cristiano-gon%C3%A7alves/"
+                />
+              </Footer.SocialLinks>
+            </Footer.Root>
 
-      <SchemaMarkup />
-      <Script
-        type="text/javascript"
-        dangerouslySetInnerHTML={{
-          __html: `(function (c, l, a, r, i, t, y) {
+            <Toaster />
+          </>
+        </FeatureFlagProvider>
+        <Script
+          type="text/javascript"
+          dangerouslySetInnerHTML={{
+            __html: `(function (c, l, a, r, i, t, y) {
             c[a] =
               c[a] ||
               function () {
@@ -82,10 +94,13 @@ export default function RootLayout({
             y.parentNode.insertBefore(t, y);
           })(window, document, "clarity", "script", "ihqq6zm106");
           `,
-        }}
-        strategy="beforeInteractive"
-        async
-      />
+          }}
+          strategy="beforeInteractive"
+          async
+        />
+      </body>
+
+      <SchemaMarkup />
     </html>
   );
 }

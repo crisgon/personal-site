@@ -1,6 +1,7 @@
 import { TalkItem } from "@/components/talk-item/talk-item";
 import { talks } from "@/data/talks";
 import { Metadata } from "next";
+import type { Viewport } from "next";
 import { Roboto } from "next/font/google";
 
 const roboto = Roboto({ weight: "400", subsets: ["latin"] });
@@ -21,7 +22,6 @@ export async function generateMetadata(): Promise<Metadata> {
       description,
     },
     category: "technology",
-    themeColor: "black",
     twitter: {
       site: url,
       images: [thumb],
@@ -32,6 +32,10 @@ export async function generateMetadata(): Promise<Metadata> {
     },
   };
 }
+
+export const viewport: Viewport = {
+  themeColor: "black",
+};
 
 export default function Talks() {
   const sortedTalks = talks.sort(

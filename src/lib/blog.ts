@@ -69,6 +69,12 @@ export function getAllPosts() {
   return posts;
 }
 
+export function getLastPost(): Post | null {
+  const posts = getAllPosts();
+
+  return posts[0] ? posts[0] : null;
+}
+
 export async function convertMarkdownToHtml(markdown: string) {
   const converter = new showdown.Converter({
     extensions: [

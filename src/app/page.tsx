@@ -1,5 +1,14 @@
+import { LastAnimeWatched } from "@/components/last-anime-watched/last-anime-watched";
+import { LastArticle } from "@/components/last-article";
+import { LastMusicPlayed } from "@/components/last-music-played/last-music-played";
+import { LastMusicPlayedSkeleton } from "@/components/last-music-played/skeleton";
 import { Profiler } from "@/components/profiler";
 import { Metadata } from "next";
+import { Roboto_Condensed } from "next/font/google";
+import { Suspense } from "react";
+import type { Viewport } from "next";
+import { LastAnimeWatchedSkeleton } from "@/components/last-anime-watched/skeleton";
+import { CelebrateDates } from "@/components/celebrate-dates";
 
 export async function generateMetadata(): Promise<Metadata> {
   const description =
@@ -17,7 +26,6 @@ export async function generateMetadata(): Promise<Metadata> {
       description,
     },
     category: "technology",
-    themeColor: "black",
     twitter: {
       site: url,
       images: [thumb],
@@ -29,10 +37,28 @@ export async function generateMetadata(): Promise<Metadata> {
   };
 }
 
-export default function Home() {
+export const viewport: Viewport = {
+  themeColor: "black",
+};
+
+const roboto = Roboto_Condensed({ weight: "400", subsets: ["latin"] });
+
+export default async function Home() {
   return (
     <main className="flex flex-1 flex-col items-center justify-center sm:items-start">
-      <Profiler />
+      <div className={`${roboto.className} flex flex-col gap-4`}>
+        <Profiler />
+
+        <LastArticle />
+
+        <Suspense fallback={<LastMusicPlayedSkeleton />}>
+          <LastMusicPlayed />
+        </Suspense>
+
+        <Suspense fallback={<LastAnimeWatchedSkeleton />}>
+          <LastAnimeWatched />
+        </Suspense>
+      </div>
     </main>
   );
 }
