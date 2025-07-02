@@ -14,7 +14,7 @@ import "./globals.css";
 import { SchemaMarkup } from "@/components/schema-markup";
 import { FeatureFlagProvider } from "@/components/feature-flag-provider";
 import { Toaster } from "react-hot-toast";
-
+import { SpeedInsights } from "@vercel/speed-insights/next";
 const roboto = Roboto({ weight: "300", subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -40,6 +40,7 @@ export default async function RootLayout({
       <body
         className={`${roboto.className}  max-w-4xl min-h-screen m-auto flex flex-col p-5 bg-black`}
       >
+        <SpeedInsights />
         <FeatureFlagProvider serverState={serverState}>
           <>
             <Header.Root>
