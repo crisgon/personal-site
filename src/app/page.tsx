@@ -8,7 +8,7 @@ import { Roboto_Condensed } from "next/font/google";
 import { Suspense } from "react";
 import type { Viewport } from "next";
 import { LastAnimeWatchedSkeleton } from "@/components/last-anime-watched/skeleton";
-import { CelebrateDates } from "@/components/celebrate-dates";
+import { LastArticleSkeleton } from "@/components/last-article/skeleton";
 
 export async function generateMetadata(): Promise<Metadata> {
   const description =
@@ -49,7 +49,9 @@ export default async function Home() {
       <div className={`${roboto.className} flex flex-col gap-4`}>
         <Profiler />
 
-        <LastArticle />
+        <Suspense fallback={<LastArticleSkeleton />}>
+          <LastArticle />
+        </Suspense>
 
         <Suspense fallback={<LastMusicPlayedSkeleton />}>
           <LastMusicPlayed />
