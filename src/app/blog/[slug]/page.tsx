@@ -4,6 +4,7 @@ import type { Viewport } from "next";
 import { Article } from "@/components/article/article";
 import {
   convertMarkdownToHtml,
+  getAllPostSlugs,
   getPostBySlug,
   replaceCharForAScapeCode,
 } from "@/lib/blog";
@@ -12,11 +13,11 @@ interface BlogPostProps {
   params: Promise<{ slug: string }>;
 }
 
-export async function generateMetadata(
-  props: BlogPostProps,
-): Promise<Metadata> {
-  const params = await props.params;
-  const post = getPostBySlug(params.slug);
+export async function generateMetadata({
+  params,
+}: BlogPostProps): Promise<Metadata> {
+  const { slug } = await params;
+  const post = getPostBySlug(slug);
   const normalizedPostTitle = replaceCharForAScapeCode(
     post?.title ?? null,
     "&",
@@ -25,7 +26,7 @@ export async function generateMetadata(
 
   const featuredImage = `https://www.cristiano.dev/api/og?title=${normalizedPostTitle}&date=${post?.formattedDate}`;
   const description = post?.resume ?? "";
-  const url = `https://www.cristiano.dev/blog/${params.slug}`;
+  const url = `https://www.cristiano.dev/blog/${slug}`;
   const title = `${post?.title} | Cristiano Gonçalves`;
   const author = "Cristiano Gonçalves";
 
@@ -55,6 +56,14 @@ export async function generateMetadata(
 export const viewport: Viewport = {
   themeColor: "black",
 };
+
+export async function generateStaticParams() {
+  const slugs = getAllPostSlugs();
+
+  return slugs.map(slug => ({
+    slug,
+  }));
+}
 
 export default async function BlogPost(props: BlogPostProps) {
   const params = await props.params;

@@ -1,6 +1,6 @@
 import { Roboto } from "next/font/google";
 import { BlogList } from "../../components/blog/blog-list";
-import { getAllPosts } from "@/lib/blog";
+import { getAllPosts, getAllPostSlugs } from "@/lib/blog";
 
 const roboto = Roboto({ weight: "400", subsets: ["latin"] });
 

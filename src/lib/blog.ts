@@ -69,6 +69,12 @@ export function getAllPosts() {
   return posts;
 }
 
+export function getAllPostSlugs() {
+  const slugs: string[] = fs.readdirSync(postsDirectory);
+
+  return slugs.map(slug => slug.replace(/\.md$/, ""));
+}
+
 export function getLastPost(): Post | null {
   const posts = getAllPosts();
 
