@@ -42,7 +42,7 @@ export async function LastAnimeWatched() {
   if (!lastAnime) return <div className="h-10  mt-5" />;
 
   return (
-    <div className="flex flex-col gap-4 mt-5">
+    <div className="flex flex-col gap-4 mt-5 text-white">
       <p className="flex gap-4 items-center">
         <FaDisplay /> Ultimo anime visto
       </p>

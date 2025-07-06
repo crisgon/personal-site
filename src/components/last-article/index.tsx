@@ -13,8 +13,8 @@ export function LastArticle() {
       className="flex items-center gap-2 bg-neutral-900 py-1 px-4 rounded-lg w-fit text-sm hover:bg-neutral-800 transition-colors duration-200"
     >
       <span className="text-pink-600">Novo artigo:</span>
-      <span className="">{lastPostData.title}</span>
-      <FaArrowRight />
+      <span className="text-white">{lastPostData.title}</span>
+      <FaArrowRight className="text-white" />
     </Link>
   );
 }
