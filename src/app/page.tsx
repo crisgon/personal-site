@@ -1,3 +1,5 @@
+export const revalidate = 3600; // REVALIDA A CADA 1 HORA
+
 import { LastAnimeWatched } from "@/components/last-anime-watched/last-anime-watched";
 import { LastArticle } from "@/components/last-article";
 import { LastMusicPlayed } from "@/components/last-music-played/last-music-played";
