@@ -6,7 +6,7 @@ export function LastAnimeWatchedSkeleton() {
         <div className="w-40 h-4 bg-neutral-900 rounded"></div>
       </div>
 
-      <div className="w-96 h-[140px] bg-neutral-900 rounded-lg"></div>
+      <div className="w-full md:w-96 h-[140px] bg-neutral-900 rounded-lg"></div>
     </div>
   );
 }

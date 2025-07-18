@@ -58,7 +58,7 @@ export async function LastMusicPlayed() {
       <p className="flex gap-4 items-center" suppressHydrationWarning>
         <FaMusic /> Ultima música tocada
       </p>
-      <div className="flex gap-2 items-center bg-neutral-900 rounded-lg overflow-hidden w-fit pr-10">
+      <div className="flex gap-2 items-center bg-neutral-900 rounded-lg overflow-hidden  w-full md:w-fit pr-10">
         <div className="relative">
           <img src={lastTrack.image} />
         </div>
