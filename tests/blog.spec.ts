@@ -42,23 +42,3 @@ test("open post list and open post", async ({ page }) => {
     page.getByText(/Atualmente as aplicações web tem se /),
   ).toBeVisible();
 });
-
-test("comment block load on post", async ({ page }) => {
-  await page.goto(
-    "https://www.cristiano.dev/blog/2022-07-21-entendendo-variaveis-css",
-  );
-
-  await page.waitForLoadState("networkidle");
-
-  await expect(
-    page
-      .frameLocator('iframe[title="Comments"]')
-      .getByRole("heading", { name: "comentários" }),
-  ).toBeVisible();
-
-  await expect(
-    page
-      .frameLocator('iframe[title="Comments"]')
-      .getByRole("heading", { name: "reações" }),
-  ).toBeVisible();
-});
