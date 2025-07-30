@@ -6,6 +6,8 @@ interface RootProps {
 
 export function Root({ children }: RootProps) {
   return (
-    <footer className="flex justify-center items-center">{children}</footer>
+    <footer className="flex justify-center items-center py-6 px-4 md:py-8 md:px-6">
+      {children}
+    </footer>
   );
 }
