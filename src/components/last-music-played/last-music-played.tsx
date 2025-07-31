@@ -1,3 +1,7 @@
+import { REVALIDATE_CONFIG } from "@/config/revalidate";
+
+export const revalidate = REVALIDATE_CONFIG.MUSIC_ANIME;
+
 import { FaMusic } from "react-icons/fa6";
 import { Track } from "./types";
 import { getDiffDate } from "@/lib/date";

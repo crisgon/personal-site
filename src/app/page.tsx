@@ -1,4 +1,6 @@
-export const revalidate = 3600; // REVALIDA A CADA 1 HORA
+import { REVALIDATE_CONFIG } from "@/config/revalidate";
+
+export const revalidate = REVALIDATE_CONFIG.HOME;
 
 import { LastAnimeWatched } from "@/components/last-anime-watched/last-anime-watched";
 import { LastArticle } from "@/components/last-article";

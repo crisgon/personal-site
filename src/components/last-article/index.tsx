@@ -1,3 +1,7 @@
+import { REVALIDATE_CONFIG } from "@/config/revalidate";
+
+export const revalidate = REVALIDATE_CONFIG.ARTICLE;
+
 import { FaArrowRight } from "react-icons/fa6";
 import Link from "next/link";
 import { getLastPost } from "@/lib/blog";
