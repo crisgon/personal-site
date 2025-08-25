@@ -5,4 +5,5 @@ export interface Track {
   album: string;
   date: string;
   isNowPlaying: boolean;
+  url: string | null;
 }

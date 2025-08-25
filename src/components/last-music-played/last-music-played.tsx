@@ -1,7 +1,7 @@
 import { REVALIDATE_CONFIG } from "@/config/revalidate";
 
 export const revalidate = REVALIDATE_CONFIG.MUSIC_ANIME;
-
+import { FiExternalLink } from "react-icons/fi";
 import { FaMusic } from "react-icons/fa6";
 import { Track } from "./types";
 import { getDiffDate } from "@/lib/date";
@@ -46,6 +46,7 @@ async function getData(): Promise<Track | null> {
       album: lastTrack.album["#text"],
       date: trackDate,
       isNowPlaying: isNowPlaying,
+      url: lastTrack.url ?? null,
     };
   } catch {
     return null;
@@ -62,7 +63,7 @@ export async function LastMusicPlayed() {
       <p className="flex gap-4 items-center" suppressHydrationWarning>
         <FaMusic /> Ultima música tocada
       </p>
-      <div className="flex gap-2 items-center bg-neutral-900 rounded-lg overflow-hidden  w-full md:w-fit pr-10">
+      <div className="flex gap-2 items-center bg-neutral-900 rounded-lg overflow-hidden  w-full md:w-fit pr-10 relative">
         <div className="relative">
           <img src={lastTrack.image} />
         </div>
@@ -88,6 +89,15 @@ export async function LastMusicPlayed() {
             )}
           </div>
         </div>
+        {lastTrack.url ? (
+          <a
+            href={lastTrack.url}
+            target="_blank"
+            className="absolute right-2 top-2"
+          >
+            <FiExternalLink />
+          </a>
+        ) : null}
       </div>
     </div>
   );
