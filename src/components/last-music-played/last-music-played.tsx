@@ -93,7 +93,7 @@ export async function LastMusicPlayed() {
           <a
             href={lastTrack.url}
             target="_blank"
-            className="absolute right-2 top-2"
+            className="absolute right-2 top-2 cursor-pointer text-xl"
           >
             <FiExternalLink />
           </a>

@@ -2,6 +2,7 @@ import { FaDisplay } from "react-icons/fa6";
 import { Anime } from "./types";
 import { getDiffDate } from "@/lib/date";
 import { REVALIDATE_CONFIG } from "@/config/revalidate";
+import { LastAnimeInfo } from "./last-anime-info";
 
 export const revalidate = REVALIDATE_CONFIG.MUSIC_ANIME;
 
@@ -27,12 +28,14 @@ async function getData(): Promise<Anime | null> {
     const anime = animeJson.data;
 
     return {
+      synopsis: anime.synopsis,
       title: anime.title,
       japaneseTitle: anime.title_japanese,
       imageUrl: anime.images.webp.image_url,
       date: lastUpdate.date,
       episodes_seen: lastUpdate.episodes_seen,
       episodes_total: lastUpdate.episodes_total,
+      score: anime.score,
     };
   } catch {
     return null;
@@ -49,7 +52,7 @@ export async function LastAnimeWatched() {
       <p className="flex gap-4 items-center">
         <FaDisplay /> Ultimo anime visto
       </p>
-      <div className="flex gap-2 items-center bg-neutral-900 rounded-lg overflow-hidden w-full md:w-fit pr-10">
+      <div className="flex gap-2 items-center bg-neutral-900 rounded-lg overflow-hidden w-full md:w-fit pr-10 relative">
         <div className="relative">
           <img width={100} src={lastAnime.imageUrl} />
         </div>
@@ -74,6 +77,15 @@ export async function LastAnimeWatched() {
               {getDiffDate(lastAnime.date)}
             </span>
           </div>
+        </div>
+        <div className="absolute top-2 right-2">
+          <LastAnimeInfo
+            synopsis={lastAnime.synopsis}
+            name={lastAnime.title}
+            japaneseName={lastAnime.japaneseTitle}
+            imageUrl={lastAnime.imageUrl}
+            score={lastAnime.score}
+          />
         </div>
       </div>
     </div>

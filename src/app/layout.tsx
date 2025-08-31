@@ -35,41 +35,43 @@ export default async function RootLayout({
       <body
         className={`${roboto.className}  max-w-4xl min-h-screen m-auto flex flex-col p-5 bg-black`}
       >
-        <SpeedInsights />
-        <Header.Root>
-          <Header.Logo />
-          <Header.Nav>
-            <Header.NavItem name="blog">
-              <Link href="/blog">Blog</Link>
-            </Header.NavItem>
-            <Header.NavItem name="about">
-              <Link href="/about">Sobre</Link>
-            </Header.NavItem>
-            <Header.NavItem name="talks">
-              <Link href="/talks">Talks</Link>
-            </Header.NavItem>
-          </Header.Nav>
-        </Header.Root>
+        <main>
+          <SpeedInsights />
+          <Header.Root>
+            <Header.Logo />
+            <Header.Nav>
+              <Header.NavItem name="blog">
+                <Link href="/blog">Blog</Link>
+              </Header.NavItem>
+              <Header.NavItem name="about">
+                <Link href="/about">Sobre</Link>
+              </Header.NavItem>
+              <Header.NavItem name="talks">
+                <Link href="/talks">Talks</Link>
+              </Header.NavItem>
+            </Header.Nav>
+          </Header.Root>
 
-        {children}
-        <Footer.Root>
-          <Footer.SocialLinks>
-            <Footer.SocialLink
-              name="Github"
-              link="https://github.com/crisgon"
-            />
-            <Footer.SocialLink
-              name="Twitter"
-              link="https://twitter.com/Gonkristiano"
-            />
-            <Footer.SocialLink
-              name="Linkedin"
-              link="https://www.linkedin.com/in/cristiano-gon%C3%A7alves/"
-            />
-          </Footer.SocialLinks>
-        </Footer.Root>
+          {children}
+          <Footer.Root>
+            <Footer.SocialLinks>
+              <Footer.SocialLink
+                name="Github"
+                link="https://github.com/crisgon"
+              />
+              <Footer.SocialLink
+                name="Twitter"
+                link="https://twitter.com/Gonkristiano"
+              />
+              <Footer.SocialLink
+                name="Linkedin"
+                link="https://www.linkedin.com/in/cristiano-gon%C3%A7alves/"
+              />
+            </Footer.SocialLinks>
+          </Footer.Root>
 
-        <Toaster />
+          <Toaster />
+        </main>
         <Script
           type="text/javascript"
           dangerouslySetInnerHTML={{

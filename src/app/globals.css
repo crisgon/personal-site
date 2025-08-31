@@ -27,6 +27,10 @@ body {
   background-color: #08070b;
 }
 
+body:has(dialog[open]) > main {
+  filter: blur(4px);
+}
+
 .article {
   @apply text-slate-300 leading-8;
 
