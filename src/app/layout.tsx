@@ -1,5 +1,4 @@
 import Script from "next/script";
-import flagsmith from "flagsmith/isomorphic";
 
 import { Header } from "@/components/header";
 import { Roboto } from "next/font/google";
@@ -12,7 +11,6 @@ import type { Metadata } from "next";
 
 import "./globals.css";
 import { SchemaMarkup } from "@/components/schema-markup";
-import { FeatureFlagProvider } from "@/components/feature-flag-provider";
 import { Toaster } from "react-hot-toast";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 const roboto = Roboto({ weight: "300", subsets: ["latin"] });

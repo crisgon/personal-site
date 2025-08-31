@@ -1,6 +1,6 @@
-import { REVALIDATE_CONFIG } from "@/config/revalidate";
-
 export const revalidate = REVALIDATE_CONFIG.ARTICLE;
+
+import { REVALIDATE_CONFIG } from "@/config/revalidate";
 
 import { FaArrowRight } from "react-icons/fa6";
 import Link from "next/link";

@@ -1,6 +1,4 @@
-import { REVALIDATE_CONFIG } from "@/config/revalidate";
-
-export const revalidate = REVALIDATE_CONFIG.HOME;
+export const revalidate = false;
 
 import { LastAnimeWatched } from "@/components/last-anime-watched/last-anime-watched";
 import { LastArticle } from "@/components/last-article";

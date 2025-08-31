@@ -1,10 +1,10 @@
+export const revalidate = REVALIDATE_CONFIG.MUSIC_ANIME;
+
 import { FaDisplay } from "react-icons/fa6";
 import { Anime } from "./types";
 import { getDiffDate } from "@/lib/date";
 import { REVALIDATE_CONFIG } from "@/config/revalidate";
 import { LastAnimeInfo } from "./last-anime-info";
-
-export const revalidate = REVALIDATE_CONFIG.MUSIC_ANIME;
 
 const USERNAME = "crisgonn";
 

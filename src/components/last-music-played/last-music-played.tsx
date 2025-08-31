@@ -1,6 +1,7 @@
+export const revalidate = REVALIDATE_CONFIG.MUSIC_ANIME;
+
 import { REVALIDATE_CONFIG } from "@/config/revalidate";
 
-export const revalidate = REVALIDATE_CONFIG.MUSIC_ANIME;
 import { FiExternalLink } from "react-icons/fi";
 import { FaMusic } from "react-icons/fa6";
 import { Track } from "./types";
