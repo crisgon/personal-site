@@ -2,7 +2,7 @@ export function Resume() {
   return (
     <>
       <h2 className="text-xl pt-3 primary-gradient-text lg:text-2xl">
-        Tech Lead & Front End Developer
+        Front End Chapter Lead
       </h2>
       <h3 className="text-xs pt-2 text-zinc-400 lg:text-lg">
         Sou baiano com orgulho, amante de tecnologias, animes/mangás, viagens e
