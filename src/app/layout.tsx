@@ -33,7 +33,7 @@ export default async function RootLayout({
       <body
         className={`${roboto.className}  max-w-4xl min-h-screen m-auto flex flex-col p-5 bg-black`}
       >
-        <main>
+        <main className="h-[100dvh] grid grid-rows-[71.98px_1fr_88px]">
           <SpeedInsights />
           <Header.Root>
             <Header.Logo />

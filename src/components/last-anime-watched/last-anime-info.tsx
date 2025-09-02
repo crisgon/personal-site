@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import { IoMdInformationCircleOutline } from "react-icons/io";
 import { IoCloseOutline } from "react-icons/io5";
@@ -21,21 +21,34 @@ export function LastAnimeInfo({
   imageUrl,
   score,
 }: LastAnimeInfoProps) {
-  const [show, setShow] = useState(false);
+  const [mounted, setMounted] = useState(false);
+
+  const dialogRef = useRef<HTMLDialogElement>(null);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  function openDialog() {
+    dialogRef.current?.showModal();
+  }
+
+  function closeDialog() {
+    dialogRef.current?.close();
+  }
 
   return (
     <>
       <IoMdInformationCircleOutline
-        onClick={() => setShow(true)}
+        onClick={openDialog}
         className="cursor-pointer text-xl"
       />
 
-      {show &&
+      {mounted &&
         createPortal(
           <dialog
-            open={show}
-            className="fixed top-1/2 
-            -translate-y-1/2 bg-neutral-900 rounded-lg border-0 z-50 shadow-2xl p-6 w-[400px] text-white"
+            ref={dialogRef}
+            className="bg-neutral-900 rounded-lg border-0 z-50 shadow-2xl p-6 max-w-[400px] w-full text-white"
           >
             <div>
               <img width={200} src={imageUrl} className="mb-4" />
@@ -48,7 +61,7 @@ export function LastAnimeInfo({
               <p className="pt-2 text-sm">{synopsis}</p>
               <button
                 className="absolute top-4 right-4 cursor-pointer text-2xl"
-                onClick={() => setShow(false)}
+                onClick={closeDialog}
               >
                 <IoCloseOutline />
               </button>

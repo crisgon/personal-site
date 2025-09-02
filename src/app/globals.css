@@ -29,6 +29,7 @@ body {
 
 body:has(dialog[open]) > main {
   filter: blur(4px);
+  overflow: hidden;
 }
 
 .article {
