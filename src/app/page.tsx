@@ -1,5 +1,3 @@
-export const revalidate = false;
-
 import { LastAnimeWatched } from "@/components/last-anime-watched/last-anime-watched";
 import { LastArticle } from "@/components/last-article";
 import { LastMusicPlayed } from "@/components/last-music-played/last-music-played";
