@@ -68,7 +68,11 @@ body:has(dialog[open]) > main {
   }
 
   img {
-    @apply rounded-lg block m-auto;
+    @apply rounded-lg block m-auto my-4 py-4;
+  }
+
+  code {
+    @apply max-w-4xl;
   }
 
   blockquote {
