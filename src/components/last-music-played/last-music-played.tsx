@@ -1,5 +1,3 @@
-export const revalidate = REVALIDATE_CONFIG.MUSIC_ANIME;
-
 import { REVALIDATE_CONFIG } from "@/config/revalidate";
 
 import { FiExternalLink } from "react-icons/fi";
@@ -23,7 +21,11 @@ function getRecentTracksURL(user: string, limit = 1) {
 
 async function getData(): Promise<Track | null> {
   try {
-    const res = await fetch(getRecentTracksURL(LAST_USER, 1));
+    const res = await fetch(getRecentTracksURL(LAST_USER, 1), {
+      next: {
+        revalidate: REVALIDATE_CONFIG.MUSIC,
+      },
+    });
     const json = await res.json();
 
     const lastTrack = json.recenttracks?.track[0];

@@ -1,5 +1,3 @@
-export const revalidate = REVALIDATE_CONFIG.MUSIC_ANIME;
-
 import { FaDisplay } from "react-icons/fa6";
 import { Anime } from "./types";
 import { getDiffDate } from "@/lib/date";
@@ -16,7 +14,11 @@ function getLastUpdatesURL(user: string) {
 
 async function getData(): Promise<Anime | null> {
   try {
-    const lastUpdateRes = await fetch(getLastUpdatesURL(USERNAME));
+    const lastUpdateRes = await fetch(getLastUpdatesURL(USERNAME), {
+      next: {
+        revalidate: REVALIDATE_CONFIG.ANIME,
+      },
+    });
     const lastUpdateJson = await lastUpdateRes.json();
 
     const lastUpdate = lastUpdateJson.data.anime[0];
