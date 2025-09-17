@@ -68,7 +68,7 @@ export async function LastMusicPlayed() {
       </p>
       <div className="flex gap-2 items-center bg-neutral-900 rounded-lg overflow-hidden  w-full md:w-fit pr-10 relative">
         <div className="relative">
-          <img src={lastTrack.image} />
+          <img src={lastTrack.image} width={64} height={64} />
         </div>
         <div className="flex flex-col">
           <div title={`${lastTrack.name} • ${lastTrack.album}`}>

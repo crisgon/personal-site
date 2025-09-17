@@ -75,6 +75,10 @@ body:has(dialog[open]) > main {
     @apply max-w-4xl;
   }
 
+  iframe {
+    @apply my-4;
+  }
+
   blockquote {
     @apply pl-6 my-4 text-white bg-zinc-700/30 bg-clip-padding backdrop-filter backdrop-blur-lg border border-gray-100/10 rounded-md border-l-4 border-l-orange-600 py-2;
   }

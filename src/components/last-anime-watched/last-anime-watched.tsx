@@ -56,7 +56,7 @@ export async function LastAnimeWatched() {
       </p>
       <div className="flex gap-2 items-center bg-neutral-900 rounded-lg overflow-hidden w-full md:w-fit pr-10 relative">
         <div className="relative">
-          <img width={100} src={lastAnime.imageUrl} />
+          <img width={100} height={141.33} src={lastAnime.imageUrl} />
         </div>
         <div className="flex flex-col gap-2">
           <p title="Último anime visto">
