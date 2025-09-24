@@ -49,12 +49,19 @@ export async function LastAnimeWatched() {
 
   if (!lastAnime) return <div className="h-10  mt-5" />;
 
+  const isCompleted = lastAnime.episodes_seen === lastAnime.episodes_total;
+
   return (
-    <div className="flex flex-col gap-4 mt-5 text-white">
+    <div className="flex flex-col gap-4 mt-5 text-white ">
       <p className="flex gap-4 items-center">
         <FaDisplay /> Ultimo anime visto
       </p>
-      <div className="flex gap-2 items-center bg-neutral-900 rounded-lg overflow-hidden w-full md:w-fit pr-10 relative">
+      <div
+        className={`flex gap-2 items-center rounded-lg overflow-hidden w-full md:w-fit md:min-w-[362px] pr-10 relative ${
+          isCompleted ? "bg-[#10ac84]" : "bg-neutral-900"
+        }`}
+        title={isCompleted ? "Anime finalizado!" : ""}
+      >
         <div className="relative">
           <img width={100} height={141.33} src={lastAnime.imageUrl} />
         </div>
@@ -80,6 +87,7 @@ export async function LastAnimeWatched() {
             </span>
           </div>
         </div>
+
         <div className="absolute top-2 right-2">
           <LastAnimeInfo
             synopsis={lastAnime.synopsis}
