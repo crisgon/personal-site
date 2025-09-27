@@ -136,6 +136,13 @@ export default function About() {
           </h2>
 
           <CareerItem
+            company="FIAP"
+            date="2024 -  2025"
+            imgUrl="/fiap.png"
+            link="https://postech.fiap.com.br/curso/front-end-engineering/"
+            title="Pós-Graduação em Front-End Engineering"
+          />
+          <CareerItem
             company="UNEB"
             date="2012 -  2018"
             imgUrl="/uneb.png"
