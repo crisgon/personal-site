@@ -57,9 +57,8 @@ export async function LastAnimeWatched() {
         <FaDisplay /> Ultimo anime visto
       </p>
       <div
-        className={`flex gap-2 items-center rounded-lg overflow-hidden w-full md:w-fit md:min-w-[362px] pr-10 relative ${
-          isCompleted ? "bg-[#10ac84]" : "bg-neutral-900"
-        }`}
+        className="flex gap-2 items-center rounded-lg overflow-hidden w-full md:w-fit md:min-w-[362px] pr-10 relative 
+        bg-neutral-900"
         title={isCompleted ? "Anime finalizado!" : ""}
       >
         <div className="relative">
