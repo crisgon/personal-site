@@ -87,6 +87,12 @@ export async function LastAnimeWatched() {
           </div>
         </div>
 
+        {isCompleted && (
+          <div className=" absolute bottom-2 right-2 rounded-md bg-green-800 py-0.5 px-2.5 border border-transparent text-sm text-white transition-all shadow-sm">
+            Finalizado
+          </div>
+        )}
+
         <div className="absolute top-2 right-2">
           <LastAnimeInfo
             synopsis={lastAnime.synopsis}
