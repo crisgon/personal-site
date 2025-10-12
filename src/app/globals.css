@@ -59,16 +59,28 @@ body:has(dialog[open]) > main {
     @apply text-white py-4 mt-4  text-xl font-normal;
   }
 
+  figure {
+    @apply my-4 py-4;
+  }
+
+  figure img {
+    @apply my-0 py-0;
+  }
+
+  figcaption {
+    @apply text-center mt-3 italic text-sm text-zinc-100;
+  }
+
+  img {
+    @apply rounded-lg block m-auto my-4 py-4;
+  }
+
   ul {
     @apply list-disc pl-8 py-2;
   }
 
   li {
     @apply py-2;
-  }
-
-  img {
-    @apply rounded-lg block m-auto my-4 py-4;
   }
 
   code {
