@@ -1,4 +1,11 @@
 const talks = [
+    {
+    title: "Banca avalidadora & Mesa redonda sobre a carreira de TI",
+    date: "11-14-2025",
+    event: "1º Hackathon - Senai Alagoinhas - BA",
+    link: "https://www.linkedin.com/posts/cristiano-gon%C3%A7alves_na-%C3%BAltima-semana-recebi-o-convite-do-marcos-activity-7396177819678167040-6n9-?utm_source=share&utm_medium=member_desktop&rcm=ACoAABqTL3IBUzLHQatgBHFgCOvnzzKqXTRDc9M",
+    slides: null,
+  },
   {
     title: "Caminhos do profissional de TI",
     date: "03-27-2024",
