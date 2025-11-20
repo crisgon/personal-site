@@ -38,6 +38,7 @@ async function getData(): Promise<Anime | null> {
       episodes_seen: lastUpdate.episodes_seen,
       episodes_total: lastUpdate.episodes_total,
       score: anime.score,
+      status: anime.status,
     };
   } catch {
     return null;
@@ -49,7 +50,7 @@ export async function LastAnimeWatched() {
 
   if (!lastAnime) return <div className="h-10  mt-5" />;
 
-  const isCompleted = lastAnime.episodes_seen === lastAnime.episodes_total;
+  const isCompleted = lastAnime.status === "Completed";
 
   return (
     <div className="flex flex-col gap-4 mt-5 text-white ">

@@ -7,4 +7,5 @@ export interface Anime {
   episodes_seen: number;
   episodes_total: number;
   score: string;
+  status: string;
 }
