@@ -1,4 +1,5 @@
 import { BlogItem } from "./blog-item";
+import { BackToTop } from "../back-to-top/back-to-top";
 
 interface Post {
   slug: string;
@@ -23,6 +24,7 @@ export function BlogList({ posts }: BlogListProps) {
           link={`blog/${post.slug}`}
         />
       ))}
+      <BackToTop />
     </div>
   );
 }

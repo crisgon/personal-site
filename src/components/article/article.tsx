@@ -1,4 +1,5 @@
 import { Comments } from "../comments/comments";
+import { BackToTop } from "../back-to-top/back-to-top";
 
 interface ArticleProps {
   title: string;
@@ -20,6 +21,7 @@ export function Article({ title, formatedDate, content, slug }: ArticleProps) {
       <div dangerouslySetInnerHTML={{ __html: content }} />
 
       <Comments slug={slug} />
+      <BackToTop />
     </article>
   );
 }
