@@ -44,7 +44,7 @@ export default async function RootLayout({
               <Header.NavItem name="about">
                 <Link href="/about">Sobre</Link>
               </Header.NavItem>
-              <Header.NavItem name="talks">
+              <Header.NavItem name="events">
                 <Link href="/events">Eventos</Link>
               </Header.NavItem>
             </Header.Nav>
