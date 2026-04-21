@@ -1,6 +1,13 @@
 const career = [
   {
     imgUrl: "/aarin.jpeg",
+    title: "Tech Coordinator",
+    link: "https://aarin.com.br/",
+    date: "jan de 2026 - atual",
+    company: "Aarin Tech-fin",
+  },
+  {
+    imgUrl: "/aarin.jpeg",
     title: "Front End Chapter Lead",
     link: "https://aarin.com.br/",
     date: "out de 2024 - atual",
