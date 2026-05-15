@@ -1,7 +1,7 @@
 const career = [
   {
     imgUrl: "/aarin.jpeg",
-    title: "Tech Coordinator",
+    title: "Tech Manager",
     link: "https://aarin.com.br/",
     date: "jan de 2026 - atual",
     company: "Aarin Tech-fin",

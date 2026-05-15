@@ -2,7 +2,7 @@ export function Resume() {
   return (
     <>
       <h2 className="text-xl pt-3 primary-gradient-text lg:text-2xl">
-        Tech Coordinator
+        Tech Manager
       </h2>
       <h3 className="text-lg pt-2 text-zinc-400">
         Sou baiano com orgulho, amante de tecnologias, animes/mangás, viagens e
